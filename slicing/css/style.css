@@ -1,0 +1,324 @@
+
+
+body {
+    overflow-x: hidden;
+
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/gent_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    text-shadow: 0px 0px 28px rgba(0, 0, 0, 1); 
+}
+
+header .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*header img {
+    display: block;
+    margin: 0 auto 20px;
+}*/
+
+
+header h1 a{
+     border: 2px solid #3DB4D6;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     color: #3DB4D6;
+     text-shadow: 0px 0px 28px rgba(0, 0, 0, 1);
+     display: block;
+     width: 25%;
+     float: left;
+    /*-webkit-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
+    -moz-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
+    box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);*/
+}
+
+nav{
+    height: 70px;
+    background-color: #162431;
+}
+
+nav a{
+    color: white;
+}
+
+#zoekbalk{
+    height: 35px;
+    width: 270px;
+    display: block;
+    float: right;
+    margin-top: -36px;
+    padding-left: 5px;
+    background-color: #D8D8D8;
+    border-radius: 3px;
+}
+
+.logo{
+    margin-top: 19px;
+    height: 30px;
+    width: 100px;
+}
+
+
+
+header h1{
+    margin-bottom: 40px;
+}
+header #headerRond{
+    float: left;
+    margin-left: 20%;
+}
+header #headerof{
+    float: left;
+    width: 10%;
+    text-align: center;
+    margin-top: 10px !important;
+}
+header #headerGids{
+    float: right;
+    margin-right: 20%;
+}
+header a:hover{
+     border: 2px solid #FC9D50;
+     text-decoration: none;
+     color: #FC9D50;
+     background-color: #FC9D50;
+     background: rgb(252, 157, 80); /* Fall-back for browsers that don't                              support rgba */
+     background: rgba(252, 157, 80, .3);
+}
+/*header .logo{
+    text-align: left;
+    margin-top: -500px;
+    margin: 0px;
+    background-color: #2F4F4F;
+    background: rgb(49, 79, 79);                
+    background: rgba(49, 79, 79, .3);
+    width: 100%;
+}
+header .logo #logo{
+
+    width: 10%;
+    text-align: left !important;
+}*/
+
+
+#intro{
+    background-color: #EFEFEF;
+    padding-bottom: 50px;
+}
+
+#intro h3{
+    margin-top: 50px;
+    font-size: 39px;
+    line-height: 45px;
+}
+
+#intro p{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+#intro strong{
+    color: #FC9D50;
+    
+}
+
+#rondleiding{
+    padding-bottom: 60px;
+}
+
+#fotos{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#fotos strong{
+
+    color: blue;
+    font-weight: bold;
+}
+#rondleidingen{
+    background-color: #d4d4d4;
+    padding-bottom: 40px;
+}
+
+#hoeregistreren{
+    background-color: #d4d4d4;
+    padding-bottom: 60px;
+
+
+}
+
+#hoeaccountaanmaken{
+    background-color: #d4d4d4;
+    padding-bottom: 60px;
+
+}
+
+#stappen{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+#stappenKlant{
+     width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+
+}
+
+#stappenKlant h1{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: -115px;
+}
+
+#stappen h1{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#formulier{
+    background-color: white;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formulier h2{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#formulier form{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+#rondleidingen h3{
+    padding: 20px 0;
+    font-size: 34px;
+    padding-left: 12px;
+}
+#iconenrondleidingen h5{
+    color: #3DB4D6;
+    width: 300px;
+    font-weight: bold;
+    font-size: 26px;
+}
+#rondleidingWit{
+    background-color: #EFEFEF;
+    width: 300px;
+    height: 140px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#leesmeer{
+    color: white;
+    background-color: #FC9D50;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#iconen{
+    padding-top: 40px;
+    
+}
+
+
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/* FOOTER */
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #162431;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1em;
+    float: left;
+}
+
+footer p{
+    float: left;
+}
+
+.footer{
+    background-color: red;
+}
+
+#EmailInvoer{
+    background-color: #4d4d4d;
+    color: white;
+    height: 50px;
+
+}
+
+#invoer{
+    height: 30px;
+    width: 1450px;
+    text-align: center;
+}
+
+@media (min-width: 1500px) {
+    header{
+        background-position: 0px -200px;
+    }
+
+    }
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
+
