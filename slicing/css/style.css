@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    text-align: center;
     color: #fff;
     background-image: url(../img/gent_1.jpg);
     background-repeat: no-repeat;
@@ -18,6 +17,32 @@ header {
 header .container {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+header h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+header p{
+    color: #fff;
+    font-size: 30px;
+}
+
+header strong{
+    color: #4DBEF0;
+}
+
+#zoeken{
+    background-color: #FF4D27;
+    color: #fff;ee
+    margin-top: 50px;
+    padding: 18px 30px 18px 30px;
+    border-radius: 5px;
+}
+
+#zoekKnop{
+    margin-top: 50px;
 }
 
 /*header img {
@@ -60,6 +85,8 @@ nav a{
     padding-left: 5px;
     background-color: #D8D8D8;
     border-radius: 3px;
+    color: #162431;
+    font-style: italic;
 }
 
 .logo{
@@ -80,7 +107,6 @@ header #headerRond{
 header #headerof{
     float: left;
     width: 10%;
-    text-align: center;
     margin-top: 10px !important;
 }
 header #headerGids{
@@ -133,10 +159,6 @@ header .logo #logo{
     
 }
 
-#rondleiding{
-    padding-bottom: 60px;
-}
-
 #fotos{
     width: 90%;
     margin-left: auto;
@@ -150,8 +172,8 @@ header .logo #logo{
     font-weight: bold;
 }
 #rondleidingen{
-    background-color: #d4d4d4;
-    padding-bottom: 40px;
+    background-color: #fff;
+    padding-bottom: 60px;
 }
 
 #hoeregistreren{
@@ -225,6 +247,7 @@ header .logo #logo{
     font-size: 34px;
     padding-left: 12px;
 }
+
 #iconenrondleidingen h5{
     color: #3DB4D6;
     width: 300px;
@@ -232,17 +255,34 @@ header .logo #logo{
     font-size: 26px;
 }
 #rondleidingWit{
-    background-color: #EFEFEF;
+    background-color: #F5F6F7;
     width: 300px;
-    height: 140px;
-    padding-top: 10px;
-    padding-left: 5px;
+    height: 180px;
+    padding-top: 5px;
+    padding-left: 15px;
 }
+
+#rondleidingen h5{
+    color: #3DB4D6;
+    font-size: 18px;
+    font-weight: bold;
+}
+#rondleidingen h5 strong{
+    color: #3DB4D6;
+    font-size: 14px;
+}
+
+#overzicht{
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
 #leesmeer{
     color: white;
     background-color: #FC9D50;
-    padding: 5px;
-    border-radius: 3px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin-left: 50px;
 }
 
 #iconen{
@@ -265,6 +305,73 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+/* INFO */
+
+#info{
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F6F7;
+}
+
+#info h2{
+    font-size: 34px;
+}
+
+#info p{
+    font-size: 15px;
+}
+
+#filmpje{
+    padding-top: 30px;
+}
+
+#waarom{
+    margin-top: 30px;
+}
+
+
+
+
+/* LID WORDEN */
+
+#lid{
+   background-image: url("../img/brouwer_blauw.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   text-align: center;
+   color: white;
+}
+
+#lid h2{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#lid p{
+    font-size: 20px;
+}
+#lidworden{
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+#bezoekerworden {
+    color: #fff;
+
+}
+#gidsworden {
+    color: #fff;
+}
+
+
+
+
+
 /* FOOTER */
 
 footer{
@@ -283,21 +390,16 @@ footer p{
     float: left;
 }
 
-.footer{
-    background-color: red;
-}
-
-#EmailInvoer{
-    background-color: #4d4d4d;
+#newsletter{
+    background-color: #4D4D4D;
     color: white;
-    height: 50px;
-
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-#invoer{
-    height: 30px;
-    width: 1450px;
-    text-align: center;
+#newsletterInvoer{
+    background-color: #F5F6F7;
+    color: white;
 }
 
 @media (min-width: 1500px) {
