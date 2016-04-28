@@ -64,6 +64,23 @@ header strong{
 
 }
 
+/* CONTACT PAGE */
+#about{
+  margin-bottom: 40px;
+}
+
+
+#about h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+#about h2{
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 
 
