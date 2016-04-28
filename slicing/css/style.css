@@ -1,8 +1,6 @@
-
-
+/* HOME */
 body {
     overflow-x: hidden;
-
 }
 
 header {
@@ -33,13 +31,42 @@ header strong{
     color: #4DBEF0;
 }
 
+
 #zoeken{
     background-color: #FF4D27;
-    color: #fff;ee
+    color: #fff;
     margin-top: 50px;
     padding: 18px 30px 18px 30px;
     border-radius: 5px;
 }
+#sub {
+    background-color: #FF4D27;
+    color: #fff;
+    margin-top: 50px;
+    padding: 18px 30px 18px 30px;
+    border-radius: 5px;
+
+}
+.footer {
+  clear: both;
+  background-color: #4D4D4D;
+}
+.newsletter {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px 0;
+}
+.newsletter label {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+
+}
+
+
+
+
 
 #zoekKnop{
     margin-top: 50px;
@@ -48,6 +75,14 @@ header strong{
 #stappen .col-xs-6 {
     text-align: center;
 
+}
+
+#stappen h5{
+    padding-top: 20px;
+}
+
+#stappenKlant .col-xs-6{
+  text-align: center;
 }
 
 /*header img {
@@ -171,11 +206,27 @@ header .logo #logo{
     margin-top: 40px;
 }
 
+#fotos h1{
+    margin-bottom: 8px;
+    color: #4DBEF0;
+    font-size: 2rem;
+
+}
+
 #fotos strong{
 
     color: blue;
     font-weight: bold;
 }
+
+#hoofdFoto{
+    margin-bottom: 20px;
+}
+
+#rating{
+    margin-bottom: 20px;
+}
+
 #rondleidingen{
     background-color: #fff;
     padding-bottom: 60px;
@@ -226,23 +277,33 @@ header .logo #logo{
     margin-top: 20px;
 }
 
-#formulierGids{
+
+#registreer{
     background-color: white;
     width: 75%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
+#registreerformgids{
+    border-top: 2px;
+}
 
-#formulierGids h2{
+#registreer p{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+#registreer h2{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2rem;
     padding-top: 30px;
     padding-left: 30px;
 }
 
-#formulierGids input{
+#registreer input{
     width: 85%;
     height: 40px;
     margin-bottom: 5px;
@@ -250,7 +311,7 @@ header .logo #logo{
     color: #000;
 }
 
-#formulierGids form{
+#registreer form{
     padding-top: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
@@ -367,6 +428,55 @@ header .intro-text .skills {
 }
 
 
+/* NIUEWSBRIEF */
+#nieuwsbrief{
+    background-color: #4D4D4D;
+    padding: 20px;
+}
+#subscribe{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+
+}
+
+#subscribe label {
+  color: #F5F6F7;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 10px;
+  padding-left: 60px;
+}
+
+#subscribe input[type="text"] {
+  height: 55px;
+  width: 75%;
+  font-family: 'allerbold';
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 20px 40px;
+  float: left;
+  color: #F5F6F7;
+  background-color: #4D4D4D;
+  border: 0.5px solid white;
+  border-radius: 4px;
+}
+#subscribe input[type="submit"] {
+  height: 55px;
+  width: 25%;
+  font-family: 'allerbold';
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 20px 40px;
+  float: left;
+  color: #4D4D4D;
+  background-color: #F5F6F7;
+  border: none;
+  border-radius: 4px;
+
+}
 
 
 /* LID WORDEN */
@@ -426,15 +536,28 @@ footer p{
 
 #newsletter{
     background-color: #4D4D4D;
-    color: white;
+    color: #F5F6F7;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-#newsletterInvoer{
-    background-color: #F5F6F7;
-    color: white;
+#newsletter form{
+    margin-right: auto;
+    margin-left: auto;
+    color: #F5F6F7;
+    width: 380px;
+
 }
+
+#newsletterInvoer{
+    background-color: #4D4D4D;
+    padding: 5px;
+    border-radius: 3px;
+    color: #F5F6F7;
+    margin-left: 10px;
+}
+
+
 
 @media (min-width: 1500px) {
     header{
