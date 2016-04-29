@@ -80,8 +80,12 @@ header strong{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-
+#about p{
+  padding-right: 50px;
+}
+#about strong{
+  color: #4DBEF0;
+}
 
 
 
