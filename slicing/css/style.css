@@ -7,6 +7,7 @@ header {
     color: #fff;
     background-image: url(../img/gent_1.jpg);
     background-repeat: no-repeat;
+    background-position: 0 -90px;
     background-size: 100% auto;
     text-shadow: 0px 0px 28px rgba(0, 0, 0, 1); 
 }
@@ -38,7 +39,7 @@ header strong{
     background-color: #FF4D27;
     color: #fff;
     margin-top: 50px;
-    padding: 18px 30px 18px 30px;
+    padding: 13px 20px 13px 20px;
     border-radius: 5px;
 
 }
@@ -482,6 +483,21 @@ header .intro-text .skills {
 
 #waarom{
     margin-top: 30px;
+}
+.clearfix{
+  clear: both;
+}
+#waarom ul li{
+  margin-top: 20px;
+}
+#waarom ul li img{
+  float: left;
+  margin: 2px 0 0 10px;
+}
+#waarom ul li p{
+  margin: 0px 0 0 15px;
+  display: inline-block;
+  line-height: 20px;
 }
 
 
