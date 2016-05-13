@@ -753,6 +753,8 @@ footer p{
   #waarom ul li p{
     text-align: center;
     margin-top: 15px;
+    display: block;
+    margin: auto;
   }
   #gidsworden{
     margin-top: 5px;
