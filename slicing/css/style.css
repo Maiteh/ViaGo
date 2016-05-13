@@ -33,9 +33,39 @@ header strong{
     font-weight: bold;
 }
 
+.workflow{
+  background-color: #F1F1F1;
+}
+
+.workflow ul{
+  max-width: 900px;
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.workflow ul li{
+  width: 32.5%;
+  float: left;
+}
+.workflow ul .tussenlijn{
+  width: 1px;
+  height: 100px;
+  background-color: #888887;
+  float: left;
+}
+.workflow ul li img{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+.workflow ul li p{
+  text-align: center;
+  color: #888887;
+  margin-top: 10px;
+}
 
 #zoeken{
-  margin-top: 50px;
     background-color: #FF4D27;
     color: #fff;
     margin-top: 50px;
@@ -471,6 +501,7 @@ header .intro-text .skills {
 
 #info h2{
     font-size: 34px;
+    text-align: center;
 }
 
 #info p{
@@ -498,6 +529,7 @@ header .intro-text .skills {
   margin: 0px 0 0 15px;
   display: inline-block;
   line-height: 20px;
+  color: #454545;
 }
 
 
@@ -577,13 +609,23 @@ header .intro-text .skills {
     padding-bottom: 100px;
 }
 
-#bezoekerworden {
+.registreerlinks{
     color: #fff;
+    width: 195px;
+    display: inline-block;
+    border-style: solid;
+    border-color: #3DB4D6;
+    border-width: 1px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    background-color; #3DB4D6;
+}
+.registreerlinks:hover{ 
+  background-color; #3DB4D6;
+  color: #3DB4D6;
+  text-decoration: none;
+}
 
-}
-#gidsworden {
-    color: #fff;
-}
 
 
 
@@ -639,7 +681,12 @@ footer p{
 
     }
 
+/*      MAX WIDTH 768       */
+
 @media(min-width:768px) {
+      header{
+        background-position: 0px ;
+    }
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
@@ -654,3 +701,106 @@ footer p{
     }
 }
 
+@media(max-width:900px) {
+    header{
+    background-size: cover;
+  }
+  header .container p{
+    font-size: 24px;
+  }
+}
+
+
+/*      MAX WIDTH 600       */
+@media (max-width: 600px) {
+  header{
+    background-size: cover;
+    background-position: 0% 0%;
+  }
+  header .container{
+    max-width: 400px;
+    margin: auto;
+  }
+  header .container p{
+    text-align: center;
+    font-size: 24px;
+  }
+  #rondleidingen h3{
+    font-size: 30px;
+  }
+  #zoeken{
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+  }
+  #filmpje{
+    display: none;
+  }
+  .col-xs-6{
+    width: 100%;
+  }
+  #lid h2{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+  }
+  #waarom ul li img{
+    float: none;
+    display: block;
+    width: 45px;
+    margin: auto;
+  }
+  #waarom ul li p{
+    text-align: center;
+    margin-top: 15px;
+  }
+  #gidsworden{
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  #lidworden{
+    padding-bottom: 70px;
+  }
+  #lid{
+    background-size: cover;
+    background-position: 0% 0%;
+    padding-bottom: 0px;
+  }
+  #rondleidingen .col-md-4{
+    width: 100%;
+  }
+
+  .workflow{
+  background-color: #F1F1F1;
+}
+
+.workflow ul{
+  max-width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.workflow ul li{
+  width: 100%;
+  float: none;
+}
+.workflow ul li[name=stap2], .workflow ul li[name=stap3]{
+  margin-top: 15px;
+}
+.workflow ul .tussenlijn{
+  display: none;
+}
+.workflow ul li img{
+  display: block;
+  margin: auto;
+}
+.workflow ul li p{
+  text-align: center;
+  color: #888887;
+  margin-top: 5px;
+}
+
+#subscribe{
+  display: none;
+}
+
+}
