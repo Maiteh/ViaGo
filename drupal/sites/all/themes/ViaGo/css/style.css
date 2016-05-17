@@ -1,0 +1,808 @@
+/* HOME */
+body {
+    overflow-x: hidden;
+}
+
+header {
+    color: #fff;
+    background-image: url(../img/gent_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -90px;
+    background-size: 100% auto;
+    text-shadow: 0px 0px 28px rgba(0, 0, 0, 1); 
+}
+
+header .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+header p{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+header strong{
+    color: white;
+    font-weight: bold;
+}
+
+.workflow{
+  background-color: #F1F1F1;
+}
+
+.workflow ul{
+  max-width: 900px;
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.workflow ul li{
+  width: 32.5%;
+  float: left;
+}
+.workflow ul .tussenlijn{
+  width: 1px;
+  height: 100px;
+  background-color: #888887;
+  float: left;
+}
+.workflow ul li img{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+.workflow ul li p{
+  text-align: center;
+  color: #888887;
+  margin-top: 10px;
+}
+
+#zoeken{
+    background-color: #FF4D27;
+    color: #fff;
+    margin-top: 50px;
+    padding: 13px 20px 13px 20px;
+    border-radius: 5px;
+
+}
+#sub {
+    background-color: #FF4D27;
+    color: #fff;
+    margin-top: 50px;
+    padding: 18px 30px 18px 30px;
+    border-radius: 5px;
+
+}
+.footer {
+  clear: both;
+  background-color: #4D4D4D;
+}
+.newsletter {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px 0;
+}
+.newsletter label {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+
+}
+
+/* CONTACT PAGE */
+#about{
+  margin-bottom: 40px;
+}
+
+
+#about h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+#about h2{
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#about p{
+  padding-right: 50px;
+}
+#about strong{
+  color: #4DBEF0;
+}
+
+
+
+#zoekKnop{
+    margin-top: 50px;
+}
+
+#stappen .col-xs-6 {
+    text-align: center;
+
+}
+
+#stappen h5{
+    padding-top: 20px;
+}
+
+#stappenKlant .col-xs-6{
+  text-align: center;
+}
+
+/*header img {
+    display: block;
+    margin: 0 auto 20px;
+}*/
+
+
+header h1 a{
+     border: 2px solid #3DB4D6;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     color: #3DB4D6;
+     text-shadow: 0px 0px 28px rgba(0, 0, 0, 1);
+     display: block;
+     width: 25%;
+     float: left;
+    /*-webkit-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
+    -moz-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
+    box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);*/
+}
+
+nav{
+    height: 70px;
+    background-color: #162431;
+}
+
+nav a{
+    color: white;
+}
+
+#zoekbalk{
+    height: 35px;
+    width: 270px;
+    display: block;
+    float: right;
+    margin-top: -36px;
+    padding-left: 5px;
+    background-color: #D8D8D8;
+    border-radius: 3px;
+    color: #162431;
+    font-style: italic;
+}
+
+.logo{
+    margin-top: 19px;
+    height: 30px;
+    width: 100px;
+}
+
+
+
+header h1{
+    margin-bottom: 40px;
+}
+header #headerRond{
+    float: left;
+    margin-left: 20%;
+}
+header #headerof{
+    float: left;
+    width: 10%;
+    margin-top: 10px !important;
+}
+header #headerGids{
+    float: right;
+    margin-right: 20%;
+}
+header a:hover{
+     border: 2px solid #FC9D50;
+     text-decoration: none;
+     color: #FC9D50;
+     background-color: #FC9D50;
+     background: rgb(252, 157, 80); /* Fall-back for browsers that don't                              support rgba */
+     background: rgba(252, 157, 80, .3);
+}
+/*header .logo{
+    text-align: left;
+    margin-top: -500px;
+    margin: 0px;
+    background-color: #2F4F4F;
+    background: rgb(49, 79, 79);                
+    background: rgba(49, 79, 79, .3);
+    width: 100%;
+}
+header .logo #logo{
+
+    width: 10%;
+    text-align: left !important;
+}*/
+
+
+#intro{
+    background-color: #EFEFEF;
+    padding-bottom: 50px;
+}
+
+#intro h3{
+    margin-top: 50px;
+    font-size: 39px;
+    line-height: 45px;
+}
+
+#intro p{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+#intro strong{
+    color: #FC9D50;
+    
+}
+
+#fotos{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#fotos h1{
+    margin-bottom: 8px;
+    color: #4DBEF0;
+    font-size: 2rem;
+
+}
+
+#fotos strong{
+
+    color: blue;
+    font-weight: bold;
+}
+
+#hoofdFoto{
+    margin-bottom: 20px;
+}
+
+#rating{
+    margin-bottom: 20px;
+}
+
+#like{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#price {
+  padding-left: 150px;
+
+}
+
+#comment{
+  margin-top: 30px;
+}
+#commentaar{
+  padding-left: 120px;
+}
+#commentaar h2{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+#infoBlok{
+  background-color: #F5F6F7;
+  padding-top: 30px;
+}
+#infoBlok h2{
+  color: #3DB4D6;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+
+
+#hoeregistreren{
+    background-color: #F5F6F7;
+    padding-bottom: 60px;
+
+
+}
+
+#hoeaccountaanmaken{
+    background-color: #d4d4d4;
+    padding-bottom: 60px;
+
+}
+
+#stappen{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+#stappenKlant{
+     width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+
+}
+
+#stappenKlant h1{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: -115px;
+}
+
+#stappen h1{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+#registreer{
+    background-color: white;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#registreerformgids{
+    border-top: 2px;
+}
+
+#registreer p{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+#registreer h2{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#registreer input{
+    width: 85%;
+    height: 40px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    color: #000;
+}
+
+#registreer form{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#contact{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+#contact strong{
+    color: #3DB4D6;
+}
+
+#registreerButton{
+    background-color: #FF4D27;
+    color: #fff;
+    margin-left: 30px;
+    padding: 10px 18px 10px 18px;
+    text-decoration: none;
+
+}
+
+#rondleidingen h3{
+    padding: 35px 0;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+#iconenrondleidingen h5{
+    color: #3DB4D6;
+    width: 300px;
+    font-weight: bold;
+    font-size: 26px;
+}
+#rondleiding{
+    background-color: #F5F6F7;
+    border-right: 1px solid #4D4D4D;
+    border-left: 1px solid #4D4D4D;
+    border-bottom: 1px solid #4D4D4D;
+    width: 100%;
+    height: 250px;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+#rondleidingen h5{
+    color: #3DB4D6;
+    font-size: 18px;
+    font-weight: bold;
+}
+#rondleidingen h5 strong{
+    color: #3DB4D6;
+    font-size: 14px;
+}
+
+#overzicht{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#leesmeer{
+    color: white;
+    background-color: #FC9D50;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+#iconen{
+    padding-top: 40px;
+    
+}
+
+
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/* INFO */
+
+#info{
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F6F7;
+}
+
+#info h2{
+    font-size: 34px;
+    text-align: center;
+}
+
+#info p{
+    font-size: 15px;
+}
+
+#filmpje{
+    padding-top: 30px;
+}
+
+#waarom{
+    margin-top: 30px;
+}
+.clearfix{
+  clear: both;
+}
+#waarom ul li{
+  margin-top: 20px;
+}
+#waarom ul li img{
+  float: left;
+  margin: 2px 0 0 10px;
+}
+#waarom ul li p{
+  margin: 0px 0 0 15px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545;
+}
+
+
+/* NIUEWSBRIEF */
+#nieuwsbrief{
+    background-color: #4D4D4D;
+    padding: 20px;
+}
+#subscribe{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+
+}
+
+#subscribe label {
+  color: #F5F6F7;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 10px;
+  padding-left: 60px;
+}
+
+#subscribe input[type="text"] {
+  height: 55px;
+  width: 75%;
+  font-family: 'allerbold';
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 20px 40px;
+  float: left;
+  color: #F5F6F7;
+  background-color: #4D4D4D;
+  border: 0.5px solid white;
+  border-radius: 4px;
+}
+#subscribe input[type="submit"] {
+  height: 55px;
+  width: 25%;
+  font-family: 'allerbold';
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 20px 40px;
+  float: left;
+  color: #4D4D4D;
+  background-color: #F5F6F7;
+  border: none;
+  border-radius: 4px;
+
+}
+
+
+/* LID WORDEN */
+
+#lid{
+   background-image: url("../img/hands_guide_blauw.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   text-align: center;
+   color: white;
+}
+
+#lid h2{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#lid p{
+    font-size: 20px;
+}
+#lidworden{
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+.registreerlinks{
+    color: #fff;
+    width: 195px;
+    display: inline-block;
+    border-style: solid;
+    border-color: #3DB4D6;
+    border-width: 1px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    background-color; #3DB4D6;
+}
+.registreerlinks:hover{ 
+  background-color; #3DB4D6;
+  color: #3DB4D6;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #162431;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1em;
+    float: left;
+}
+
+footer p{
+    float: left;
+}
+
+#newsletter{
+    background-color: #4D4D4D;
+    color: #F5F6F7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#newsletter form{
+    margin-right: auto;
+    margin-left: auto;
+    color: #F5F6F7;
+    width: 380px;
+
+}
+
+#newsletterInvoer{
+    background-color: #4D4D4D;
+    padding: 5px;
+    border-radius: 3px;
+    color: #F5F6F7;
+    margin-left: 10px;
+}
+
+
+
+@media (min-width: 1500px) {
+    header{
+        background-position: 0px -200px;
+    }
+
+    }
+
+/*      MAX WIDTH 768       */
+
+@media(min-width:768px) {
+      header{
+        background-position: 0px ;
+    }
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
+
+@media(max-width:900px) {
+    header{
+    background-size: cover;
+  }
+  header .container p{
+    font-size: 24px;
+  }
+}
+
+
+/*      MAX WIDTH 600       */
+@media (max-width: 600px) {
+  header{
+    background-size: cover;
+    background-position: 0% 0%;
+  }
+  header .container{
+    max-width: 400px;
+    margin: auto;
+  }
+  header .container p{
+    text-align: center;
+    font-size: 24px;
+  }
+  #rondleidingen h3{
+    font-size: 30px;
+  }
+  #zoeken{
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+  }
+  #filmpje{
+    display: none;
+  }
+  .col-xs-6{
+    width: 100%;
+  }
+  #lid h2{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+  }
+  #waarom ul li img{
+    float: none;
+    display: block;
+    width: 45px;
+    margin: auto;
+  }
+  #waarom ul li p{
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+  }
+  #gidsworden{
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  #lidworden{
+    padding-bottom: 70px;
+  }
+  #lid{
+    background-size: cover;
+    background-position: 0% 0%;
+    padding-bottom: 0px;
+  }
+  #rondleidingen .col-md-4{
+    width: 100%;
+  }
+
+  .workflow{
+  background-color: #F1F1F1;
+}
+
+.workflow ul{
+  max-width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.workflow ul li{
+  width: 100%;
+  float: none;
+}
+.workflow ul li[name=stap2], .workflow ul li[name=stap3]{
+  margin-top: 15px;
+}
+.workflow ul .tussenlijn{
+  display: none;
+}
+.workflow ul li img{
+  display: block;
+  margin: auto;
+}
+.workflow ul li p{
+  text-align: center;
+  color: #888887;
+  margin-top: 5px;
+}
+
+#subscribe{
+  display: none;
+}
+
+}
