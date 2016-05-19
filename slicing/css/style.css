@@ -712,6 +712,12 @@ footer p{
     padding-bottom: 70px;
   }
 }
+@media(max-width:900px) {
+
+  #lid{
+    background-position: 0 -50px;
+  }
+}
 
 
 /*      MAX WIDTH 600       */
@@ -802,10 +808,6 @@ footer p{
   text-align: center;
   color: #888887;
   margin-top: 5px;
-}
-
-#subscribe{
-  display: none;
 }
 
 }
