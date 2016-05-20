@@ -1,0 +1,63 @@
+.euro-off {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px 0px;
+}
+.euro1-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px -14px;
+}
+.euro2-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px -28px;
+}
+.euro3-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px -42px;
+}
+.euro4-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px -56px;
+}
+.euro5-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px -70px;
+}
+.euro6-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px -84px;
+}
+.euro7-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px -98px;
+}
+.euro8-on {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  background: url('euro.png') no-repeat 0px -112px;
+}
