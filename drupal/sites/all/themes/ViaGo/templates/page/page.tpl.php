@@ -114,9 +114,8 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
                         <input id="zoekbalk" value="Zoek rondleiding, stad of gids" > </input>
                     </form>
                 </div>                          
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home" >login</a></li>
-                        <li><a href="#about">registreer</a></li>
+                    <ul>
+                       <?php print render($page['header']); ?>
                     </ul>
             </div>
         </div>

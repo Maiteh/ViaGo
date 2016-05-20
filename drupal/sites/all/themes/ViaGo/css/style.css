@@ -121,6 +121,24 @@ header strong{
   color: #4DBEF0;
 }
 
+ #block-system-user-menu ul {
+  float: right;
+  padding-right: 10px;
+ }
+
+#block-system-user-menu ul.menu li
+ {
+  display: inline;
+  float: left;
+  padding-top: 10px;
+  /*padding-bottom: 10px;
+  border-right: solid 0.5px #D8D8D8; */
+ }
+
+  #block-system-user-menu h2 {
+  color: #162431;
+ }
+
 
 
 #zoekKnop{
@@ -169,6 +187,21 @@ nav{
 
 nav a{
     color: white;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+
+}
+
+.flex-item {
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 
 #zoekbalk{
