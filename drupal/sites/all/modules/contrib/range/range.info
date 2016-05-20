@@ -1,0 +1,27 @@
+name = Numeric range
+description = Provides numeric range field.
+package = Fields
+core = 7.x
+dependencies[] = field
+
+test_dependencies[] = i18n_field
+
+; Tests
+files[] = tests/range.unit.test
+files[] = tests/range.base.test
+files[] = tests/range.field_ui.test
+files[] = tests/range.i18n.test
+
+; Views handlers
+files[] = views/range_handler_filter_numeric_range.inc
+files[] = views/range_handler_argument_numeric_range.inc
+
+; Migrate handlers
+files[] = migrate/destinations/range.inc
+
+; Information added by Drupal.org packaging script on 2016-04-27
+version = "7.x-1.6"
+core = "7.x"
+project = "range"
+datestamp = "1461764678"
+
