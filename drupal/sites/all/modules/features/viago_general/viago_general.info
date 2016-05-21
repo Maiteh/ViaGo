@@ -40,7 +40,6 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = token
 dependencies[] = user
-dependencies[] = viago
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = webform
