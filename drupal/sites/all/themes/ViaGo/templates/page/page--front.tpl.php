@@ -87,7 +87,6 @@
 global $base_url;
 $img_url = $base_url . '/sites/all/themes/ViaGo/img';
 
-
 ?>
 
  <nav>
@@ -110,11 +109,11 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
     <header>
 
         <div class="container">
-            <p>De <strong>professionele</strong> gidsen bij ViaGo</p>
-            <p>bieden <strong>authentieke, persoonlijke en kwaliteitsvolle</strong></p> 
-            <p>rondleidingen aan in <strong>België</strong></p>
+            <?php print t('<p>De <strong>professionele</strong> gidsen bij ViaGo</p>') ?>
+            <?php print t('<p>bieden <strong>authentieke, persoonlijke en kwaliteitsvolle</strong></p>') ?>
+            <?php print t('<p>rondleidingen aan in <strong>België</strong></p>') ?>
             <div id="zoekKnop">
-                <a href="#" id="zoeken">Zoek nu!</a>
+               <?php print t('<a href="#" id="zoeken">Zoek nu!</a>') ?>
             </div>
         </div>
     </header>
@@ -123,17 +122,17 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
         <ul>
             <li name="stap1">
                 <img src="<?php print $img_url . '/nummer1.png'?>">
-                <p>Vind rondleidingen met onze searchfunctie</p>
+                <?php print t('<p>Vind rondleidingen met onze searchfunctie</p>') ?>
             </li>
             <div class="tussenlijn"></div>
             <li name="stap2">
                 <img src="<?php print $img_url . '/nummer2.png'?>">
-                <p>Spreek met de gids af per mail</p>
+                <?php print t('<p>Spreek met de gids af per mail</p>') ?>
             </li>
             <div class="tussenlijn"></div>
             <li name="stap3">
                 <img src="<?php print $img_url . '/nummer3.png'?>">
-                <p>Geniet van je rondleiding</p>
+                <?php print t('<p>Geniet van je rondleiding</p>') ?>
             </li>
             <div class="clearfix"></div>
         </ul>
@@ -238,18 +237,18 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
         <div class="container">
         <div class="row">
             <div class="col-xs-6">
-                 <h2>Waarom ViaGo?</h2>
+                <?php print t('<h2>Waarom ViaGo?</h2>') ?>
                  <div id="waarom">
                      <ul>
                          <li class="clearfix">
                             <img src="<?php print $img_url . '/WaaromViaGo_belgie.png'?>" width="10%"/>
-                            <p>ViaGo is uniek want ze geeft gidsen in heel </br>
-                            België de kans om hun rondleidingen aan </br> te bieden.</p>
+                            <?php print t('<p>ViaGo is uniek want ze geeft gidsen in heel </br>
+                            België de kans om hun rondleidingen aan </br> te bieden.</p> ') ?>
                         </li>
                         <li class="clearfix">
                             <img src="<?php print $img_url . '/WaaromViaGo_ster.png'?>" width="10%" />
-                            <p>De zoekmachine van ViaGo is gebouwd </br>
-                            zodat elke bezoeker gemakkelijk zijn of </br> haar ideale rondleiding kan vinden.</p>
+                            <?php print t('<p>De zoekmachine van ViaGo is gebouwd </br>
+                            zodat elke bezoeker gemakkelijk zijn of </br> haar ideale rondleiding kan vinden.</p>') ?>
                         </li>
                     </ul>
                  </div>
@@ -262,11 +261,11 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
 
     <section id="lid">
         <div class="container">
-        <h2>Word lid bij ViaGo</h2>
-        <p>Ben jij een gids en wil je je rondleiding bij ons </br>aanbieden? Dat kan!</p>
+        <?php print t('<h2>Word lid bij ViaGo</h2>') ?>
+        <?php print t('<p>Ben jij een gids en wil je je rondleiding bij ons </br>aanbieden? Dat kan!</p>') ?>
         <div id="lidworden">
-            <a href="#" id="bezoekerworden" class="registreerlinks">Registreer als bezoeker</a>
-            <a href="#" id="gidsworden" class="registreerlinks">Registreer als gids</a>
+            <?php print t('<a href="#" id="bezoekerworden" class="registreerlinks">Registreer als bezoeker</a>') ?>
+            <?php print t('<a href="#" id="gidsworden" class="registreerlinks">Registreer als gids</a>') ?>
             <div class="clearfix"></div>
         </div>
         </div>
@@ -275,7 +274,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
         <div class="container">
             <div id="subscribe">
                 <div class="col-sm-4">
-                     <label for="optin-email">Blijf up to date!</label>
+                     <?php print t('<label for="optin-email">Blijf up to date!</label>') ?>
                 </div>
                 <div class="col-sm-8">
                     <input type="text" name="optin-email" id="optin-email" placeholder="Email adres">
@@ -291,23 +290,23 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Contact</h3></br></br> 
-                        <p>Lorem</p></br>
-                        <p>Ipsum</p></br>
-                        <p>Whatsoever</p>
+                        <?php print t('<h3>Contact</h3></br></br>') ?>
+                        <?php print t('<p>Lorem</p></br>') ?>
+                        <?php print t('<p>Ipsum</p></br>') ?>
+                        <?php print t('<p>Whatsoever</p>') ?>
 
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Zoek</h3></br></br>
-                        <p>Rondleiding</p></br>
-                        <p>Gidsen</p></br>
+                        <?php print t('<h3>Zoek</h3></br></br>') ?>
+                        <?php print t('<p>Rondleiding</p></br>') ?>
+                        <?php print t('<p>Gidsen</p></br>') ?>
   
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Volg ViaGo</h3></br></br>
-                        <p>Facebook</p></br>
-                        <p>Twitter</p> </br>
-                        <p>And so on.</p> </br>
+                        <?php print t('<h3>Volg ViaGo</h3></br></br>') ?>
+                        <?php print t('<p>Facebook</p></br>') ?>
+                        <?php print t('<p>Twitter</p> </br>') ?>
+                        <?php print t('<p>And so on.</p> </br>') ?>
                     </div>
                 </div>
             </div>
