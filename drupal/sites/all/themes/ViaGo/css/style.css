@@ -124,6 +124,7 @@ header strong{
  #block-system-user-menu ul {
   float: right;
   padding-right: 10px;
+  margin-left: 20px;
  }
 
 #block-system-user-menu ul.menu li
@@ -133,6 +134,19 @@ header strong{
   padding-top: 10px;
   /*padding-bottom: 10px;
   border-right: solid 0.5px #D8D8D8; */
+ }
+  #block-system-user-menu ul.menu li a:hover
+ {
+      padding-top: 27px;
+      padding-bottom: 27px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      background-color: #F1F1F1;
+      text-decoration: none;
+      color: #18bc9c;
+
+  
  }
 
   #block-system-user-menu h2 {
@@ -622,6 +636,7 @@ header .intro-text .skills {
 #lid{
    background-image: url("../img/hands_guide_blauw.jpg");
    background-repeat: no-repeat;
+   background-position: center; 
    background-size: 100%;
    text-align: center;
    color: white;
@@ -674,7 +689,7 @@ footer{
 }
 
 footer h3 {
-    font-size: 1em;
+    font-size: 1.3em;
     float: left;
 }
 
