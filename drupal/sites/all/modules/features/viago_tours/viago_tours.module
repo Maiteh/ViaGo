@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Viago: Tours feature.
+ */
+
+include_once 'viago_tours.features.inc';
