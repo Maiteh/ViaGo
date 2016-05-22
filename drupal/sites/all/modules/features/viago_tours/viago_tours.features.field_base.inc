@@ -29,6 +29,28 @@ function viago_tours_field_default_field_bases() {
     'type' => 'text_with_summary',
   );
 
+  // Exported field_base: 'field_tour_coverphoto'.
+  $field_bases['field_tour_coverphoto'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_tour_coverphoto',
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'image',
+    'settings' => array(
+      'default_image' => 0,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'image',
+  );
+
   // Exported field_base: 'field_tour_duration'.
   $field_bases['field_tour_duration'] = array(
     'active' => 1,
@@ -44,13 +66,13 @@ function viago_tours_field_default_field_bases() {
     'type' => 'hms_field',
   );
 
-  // Exported field_base: 'field_tour_included'.
-  $field_bases['field_tour_included'] = array(
+  // Exported field_base: 'field_tour_gatherpoint'.
+  $field_bases['field_tour_gatherpoint'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_tour_included',
+    'field_name' => 'field_tour_gatherpoint',
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -214,6 +236,28 @@ function viago_tours_field_default_field_bases() {
     'settings' => array(),
     'translatable' => 0,
     'type' => 'range_integer',
+  );
+
+  // Exported field_base: 'field_tour_photos'.
+  $field_bases['field_tour_photos'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_tour_photos',
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'image',
+    'settings' => array(
+      'default_image' => 0,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'image',
   );
 
   // Exported field_base: 'field_tour_pricecategory'.
