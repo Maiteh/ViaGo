@@ -81,7 +81,7 @@ function viago_tours_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_tour_coverphoto',
-    'label' => 'omslagsfoto',
+    'label' => 'Omslagsfoto',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
@@ -96,12 +96,17 @@ function viago_tours_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'image',
+      'module' => 'imagefield_crop',
       'settings' => array(
+        'collapsible' => 2,
+        'croparea' => '350x235',
+        'enforce_minimum' => 1,
+        'enforce_ratio' => 1,
         'preview_image_style' => 'thumbnail',
         'progress_indicator' => 'throbber',
+        'resolution' => '350x235',
       ),
-      'type' => 'image_image',
+      'type' => 'imagefield_crop_widget',
       'weight' => 39,
     ),
   );
@@ -160,13 +165,13 @@ function viago_tours_field_default_field_instances() {
         'module' => 'simple_gmap',
         'settings' => array(
           'iframe_height' => 200,
-          'iframe_width' => 200,
-          'include_link' => 1,
+          'iframe_width' => 400,
+          'include_link' => 0,
           'include_map' => 1,
           'include_static_map' => 0,
-          'include_text' => 1,
-          'information_bubble' => 1,
-          'langcode' => 'nl',
+          'include_text' => 0,
+          'information_bubble' => 0,
+          'langcode' => 'NL',
           'link_text' => 'View larger map',
           'map_type' => 'm',
           'zoom_level' => 14,
@@ -492,10 +497,10 @@ function viago_tours_field_default_field_instances() {
   t('Foto\'s');
   t('Inbegrepen');
   t('Locatie');
+  t('Omslagsfoto');
   t('Prijscategorie');
   t('Talen');
   t('Trefpunt');
-  t('omslagsfoto');
 
   return $field_instances;
 }
