@@ -72,8 +72,8 @@ function viago_tours_field_default_field_instances() {
         'label' => 'above',
         'module' => 'image',
         'settings' => array(
-          'image_link' => '',
-          'image_style' => '',
+          'image_link' => 'content',
+          'image_style' => 'cover_tour',
         ),
         'type' => 'image',
         'weight' => 0,
@@ -369,7 +369,7 @@ function viago_tours_field_default_field_instances() {
       'from' => array(
         'label' => 'min',
         'prefix' => '',
-        'suffix' => 'pers.',
+        'suffix' => '',
       ),
       'max' => '',
       'min' => 1,

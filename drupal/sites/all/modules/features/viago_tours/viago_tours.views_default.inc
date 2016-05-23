@@ -76,10 +76,6 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'tours' => 'tours',
   );
-  /* Filter criterion: Content: Prijscategorie (field_tour_pricecategory) */
-  $handler->display->display_options['filters']['field_tour_pricecategory_value']['id'] = 'field_tour_pricecategory_value';
-  $handler->display->display_options['filters']['field_tour_pricecategory_value']['table'] = 'field_data_field_tour_pricecategory';
-  $handler->display->display_options['filters']['field_tour_pricecategory_value']['field'] = 'field_tour_pricecategory_value';
   $handler->display->display_options['path'] = 'rondleidingen';
   $handler->display->display_options['menu']['type'] = 'normal';
   $handler->display->display_options['menu']['title'] = 'rondleidingen';
