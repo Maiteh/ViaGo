@@ -237,16 +237,16 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
         <div class="container">
         <div class="row">
             <div class="col-xs-6">
-                <?php print t('<h2>Waarom ViaGo?</h2>') ?>
+                 <h2>Waarom ViaGo?</h2>
                  <div id="waarom">
                      <ul>
                          <li class="clearfix">
-                            <img src="<?php print $img_url . '/WaaromViaGo_belgie.png'?>" width="10%"/>
+                            <img src="<?php print $img_url . '/WaaromViaGo_belgie.png' ?>" width="10%"/>
                             <?php print t('<p>ViaGo is uniek want ze geeft gidsen in heel </br>
-                            België de kans om hun rondleidingen aan </br> te bieden.</p> ') ?>
+                            België de kans om hun rondleidingen aan </br> te bieden.</p>') ?>
                         </li>
                         <li class="clearfix">
-                            <img src="<?php print $img_url . '/WaaromViaGo_ster.png'?>" width="10%" />
+                            <img src="<?php print $img_url . '/WaaromViaGo_ster.png' ?>" width="10%"/>
                             <?php print t('<p>De zoekmachine van ViaGo is gebouwd </br>
                             zodat elke bezoeker gemakkelijk zijn of </br> haar ideale rondleiding kan vinden.</p>') ?>
                         </li>
