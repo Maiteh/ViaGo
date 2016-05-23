@@ -98,6 +98,12 @@ header strong{
 
 }
 
+/* overview rondleidingen */
+
+#overzicht h5{
+  margin-left: 10px;
+}
+
 /* CONTACT PAGE */
 #about{
   margin-bottom: 40px;
@@ -610,6 +616,23 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+/*ADD TOUR*/
+.form-item-title{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.form-item-title input{
+  margin-left: 20px;
+  width: 600px;
+}
+
+.field-name-field-tour-location{
+  margin-top: 10px;
+}
+.field-name-field-tour-location input{
+  margin-left: 20px;
 }
 
 /* INFO */
