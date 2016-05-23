@@ -466,8 +466,8 @@ function viago_tours_field_default_field_instances() {
         'module' => 'starrating',
         'settings' => array(
           'fill_blank' => 1,
-          'icon_color' => 1,
-          'icon_type' => 'star',
+          'icon_color' => 8,
+          'icon_type' => 'euro',
         ),
         'type' => 'starrating_rating_formatter',
         'weight' => 3,
@@ -489,6 +489,46 @@ function viago_tours_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-tours-field_tour_theme'.
+  $field_instances['node-tours-field_tour_theme'] = array(
+    'bundle' => 'tours',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 12,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_tour_theme',
+    'label' => 'Thema',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 41,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Aantal deelnemers');
@@ -500,6 +540,7 @@ function viago_tours_field_default_field_instances() {
   t('Omslagsfoto');
   t('Prijscategorie');
   t('Talen');
+  t('Thema');
   t('Trefpunt');
 
   return $field_instances;
