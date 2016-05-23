@@ -49,8 +49,9 @@ function viago_users_user_default_permissions() {
   $permissions['access comments'] = array(
     'name' => 'access comments',
     'roles' => array(
-      'guide' => 'guide',
-      'tourist' => 'tourist',
+      'Gids' => 'Gids',
+      'Toerist' => 'Toerist',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'comment',
   );
@@ -111,8 +112,9 @@ function viago_users_user_default_permissions() {
   $permissions['access user profiles'] = array(
     'name' => 'access user profiles',
     'roles' => array(
-      'guide' => 'guide',
-      'tourist' => 'tourist',
+      'Gids' => 'Gids',
+      'Toerist' => 'Toerist',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'user',
   );
@@ -331,8 +333,8 @@ function viago_users_user_default_permissions() {
   $permissions['cancel account'] = array(
     'name' => 'cancel account',
     'roles' => array(
-      'guide' => 'guide',
-      'tourist' => 'tourist',
+      'Gids' => 'Gids',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'user',
   );
@@ -341,8 +343,8 @@ function viago_users_user_default_permissions() {
   $permissions['change own username'] = array(
     'name' => 'change own username',
     'roles' => array(
-      'guide' => 'guide',
-      'tourist' => 'tourist',
+      'Gids' => 'Gids',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'user',
   );
@@ -351,8 +353,7 @@ function viago_users_user_default_permissions() {
   $permissions['create tours content'] = array(
     'name' => 'create tours content',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
-      'guide' => 'guide',
+      'Gids' => 'Gids',
     ),
     'module' => 'node',
   );
@@ -403,8 +404,7 @@ function viago_users_user_default_permissions() {
   $permissions['delete own tours content'] = array(
     'name' => 'delete own tours content',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
-      'guide' => 'guide',
+      'Gids' => 'Gids',
     ),
     'module' => 'node',
   );
@@ -483,7 +483,7 @@ function viago_users_user_default_permissions() {
   $permissions['edit own tours content'] = array(
     'name' => 'edit own tours content',
     'roles' => array(
-      'guide' => 'guide',
+      'Gids' => 'Gids',
     ),
     'module' => 'node',
   );
@@ -541,8 +541,7 @@ function viago_users_user_default_permissions() {
   $permissions['post comments'] = array(
     'name' => 'post comments',
     'roles' => array(
-      'guide' => 'guide',
-      'tourist' => 'tourist',
+      'Toerist' => 'Toerist',
     ),
     'module' => 'comment',
   );
@@ -565,8 +564,9 @@ function viago_users_user_default_permissions() {
   $permissions['search content'] = array(
     'name' => 'search content',
     'roles' => array(
-      'guide' => 'guide',
-      'tourist' => 'tourist',
+      'Gids' => 'Gids',
+      'Toerist' => 'Toerist',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'search',
   );
@@ -596,8 +596,8 @@ function viago_users_user_default_permissions() {
   $permissions['use advanced search'] = array(
     'name' => 'use advanced search',
     'roles' => array(
-      'guide' => 'guide',
-      'tourist' => 'tourist',
+      'Gids' => 'Gids',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'search',
   );
