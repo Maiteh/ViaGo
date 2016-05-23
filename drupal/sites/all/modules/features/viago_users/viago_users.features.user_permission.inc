@@ -210,13 +210,6 @@ function viago_users_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: 'administer multiple_registration'.
-  $permissions['administer multiple_registration'] = array(
-    'name' => 'administer multiple_registration',
-    'roles' => array(),
-    'module' => 'multiple_registration',
-  );
-
   // Exported permission: 'administer nodes'.
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',

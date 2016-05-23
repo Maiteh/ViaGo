@@ -85,7 +85,7 @@ function viago_users_default_profile2_type() {
     "type" : "guide",
     "label" : "Gids",
     "weight" : "0",
-    "data" : { "registration" : false }
+    "data" : { "registration" : 0 }
   }');
   return $items;
 }
