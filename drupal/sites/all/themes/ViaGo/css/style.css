@@ -121,37 +121,40 @@ header strong{
   color: #4DBEF0;
 }
 
- #block-system-user-menu ul {
+/* User menu */
+#block-system-user-menu ul {
   float: right;
-  padding-right: 10px;
-  margin-left: 20px;
  }
 
 #block-system-user-menu ul.menu li
  {
-  display: inline;
+  display: block;
   float: left;
-  padding-top: 10px;
+  margin-top: 10px;
+
+
   /*padding-bottom: 10px;
   border-right: solid 0.5px #D8D8D8; */
  }
-  #block-system-user-menu ul.menu li a:hover
+#block-system-user-menu ul.menu li a:hover
  {
-      padding-top: 27px;
-      padding-bottom: 27px;
-      padding-left: 10px;
-      padding-right: 10px;
 
-      background-color: #F1F1F1;
+      text-decoration: none;
+      color: #18bc9c;
+
+  
+ }
+ #block-system-user-menu ul.menu li a:active
+ {
+
       text-decoration: none;
       color: #18bc9c;
 
   
  }
 
-  #block-system-user-menu h2 {
-  color: #162431;
- }
+
+
 
 
 
@@ -349,15 +352,84 @@ header .logo #logo{
   font-weight: bold;
   font-style: italic;
 }
+
+
+/* detail rondleiding */
+
 #infoBlok{
   background-color: #F5F6F7;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 #infoBlok h2{
   color: #3DB4D6;
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 15px;
+}
+#beschrijving{
+  margin-bottom: 30px;
+}
+
+#beschrijving h2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #FC9D50;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+#filmpje{
+    padding-top: 30px;
+}
+
+#waarom{
+    margin-top: 30px;
+}
+.clearfix{
+  clear: both;
+}
+
+#fotos ul li img{
+  float: left;
+
+}
+
+.info li{
+  margin-top: 7px;
+}
+
+.field-name-field-tour-location{
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545;
+}
+.field-name-field-tour-pricecategory{
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545;
+}
+.field-name-field-tour-duration{
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545;
+}
+.field-name-field-tour-participants-amount{
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545;
+}
+.field-name-field-tour-languages{
+   margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545; 
 }
 
 
@@ -535,48 +607,19 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
-/* INFO */
 
-#info{
-    padding-top: 50px;
-    padding-left: 25px;
-    padding-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #F5F6F7;
-}
 
-#info h2{
-    font-size: 34px;
-    text-align: center;
-}
 
-#info p{
-    font-size: 15px;
-}
 
-#filmpje{
-    padding-top: 30px;
-}
 
-#waarom{
-    margin-top: 30px;
-}
-.clearfix{
-  clear: both;
-}
-#waarom ul li{
-  margin-top: 20px;
-}
-#waarom ul li img{
-  float: left;
-  margin: 2px 0 0 10px;
-}
-#waarom ul li p{
-  margin: 0px 0 0 15px;
-  display: inline-block;
-  line-height: 20px;
-  color: #454545;
+
+
+/* rondleiding toevoegen */
+.node-tours-form{
+
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -589,7 +632,7 @@ header .intro-text .skills {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
+
 
 }
 
@@ -853,4 +896,4 @@ footer p{
   display: none;
 }
 
-}
+

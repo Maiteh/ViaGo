@@ -254,7 +254,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
                  </div>
             </div>
             <div class="col-xs-6" id="filmpje">
-                <img src="img/filmpje_fill.jpg" width="85%" />
+                <iframe src="https://player.vimeo.com/video/167528777?title=0&byline=0&portrait=0" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </section>
