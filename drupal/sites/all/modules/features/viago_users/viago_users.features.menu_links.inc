@@ -47,26 +47,6 @@ function viago_users_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_registreer:user/register.
-  $menu_links['user-menu_registreer:user/register'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user/register',
-    'router_path' => 'user/register',
-    'link_title' => 'Registreer',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'user-menu_registreer:user/register',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-  );
   // Exported menu link: user-menu_user-account:user.
   $menu_links['user-menu_user-account:user'] = array(
     'menu_name' => 'user-menu',
@@ -90,7 +70,6 @@ function viago_users_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('Log out');
   t('Login');
-  t('Registreer');
   t('User account');
 
   return $menu_links;
