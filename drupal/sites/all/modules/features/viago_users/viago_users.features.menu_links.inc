@@ -10,6 +10,46 @@
 function viago_users_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: menu-gidssub_mijn-account:user/4.
+  $menu_links['menu-gidssub_mijn-account:user/4'] = array(
+    'menu_name' => 'menu-gidssub',
+    'link_path' => 'user/4',
+    'router_path' => 'user/%',
+    'link_title' => 'Mijn account',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-gidssub_mijn-account:user/4',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-gidssub_rondleiding-toevoegen:node/add/tours.
+  $menu_links['menu-gidssub_rondleiding-toevoegen:node/add/tours'] = array(
+    'menu_name' => 'menu-gidssub',
+    'link_path' => 'node/add/tours',
+    'router_path' => 'node/add/tours',
+    'link_title' => 'Rondleiding toevoegen',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-gidssub_rondleiding-toevoegen:node/add/tours',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: user-menu_log-out:user/logout.
   $menu_links['user-menu_log-out:user/logout'] = array(
     'menu_name' => 'user-menu',
@@ -47,6 +87,68 @@ function viago_users_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
+  // Exported menu link: user-menu_registreer-als-gids:guide/register.
+  $menu_links['user-menu_registreer-als-gids:guide/register'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'guide/register',
+    'router_path' => 'guide/register',
+    'link_title' => 'Registreer als gids',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'user-menu_registreer-als-gids:guide/register',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'user-menu_registreer:<nolink>',
+  );
+  // Exported menu link: user-menu_registreer-als-user:user/register.
+  $menu_links['user-menu_registreer-als-user:user/register'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'user/register',
+    'router_path' => 'user/register',
+    'link_title' => 'Registreer als user',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'user-menu_registreer-als-user:user/register',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'user-menu_registreer:<nolink>',
+  );
+  // Exported menu link: user-menu_registreer:<nolink>.
+  $menu_links['user-menu_registreer:<nolink>'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => '<nolink>',
+    'router_path' => '<nolink>',
+    'link_title' => 'Registreer',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'user-menu_registreer:<nolink>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+  );
   // Exported menu link: user-menu_user-account:user.
   $menu_links['user-menu_user-account:user'] = array(
     'menu_name' => 'user-menu',
@@ -70,6 +172,11 @@ function viago_users_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('Log out');
   t('Login');
+  t('Mijn account');
+  t('Registreer');
+  t('Registreer als gids');
+  t('Registreer als user');
+  t('Rondleiding toevoegen');
   t('User account');
 
   return $menu_links;
