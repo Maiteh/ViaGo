@@ -87,5 +87,13 @@ function viago_users_default_profile2_type() {
     "weight" : "0",
     "data" : { "registration" : 0 }
   }');
+  $items['toerist'] = entity_import('profile2_type', '{
+    "userCategory" : true,
+    "userView" : true,
+    "type" : "toerist",
+    "label" : "Toerist",
+    "weight" : "0",
+    "data" : { "registration" : 1 }
+  }');
   return $items;
 }
