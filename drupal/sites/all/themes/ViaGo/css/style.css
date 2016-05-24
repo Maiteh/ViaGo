@@ -100,10 +100,16 @@ header strong{
 
 /* overview rondleidingen */
 
+
 #overzicht h5{
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
+#overzicht{
+  margin-top: 30px;
+    margin-bottom: 20px;
+}
 /* CONTACT PAGE */
 #about{
   margin-bottom: 40px;
@@ -574,6 +580,22 @@ header .logo #logo{
     padding-left: 15px;
     margin-bottom: 20px;
 }
+#rondleidingTeaser{
+    background-color: #F5F6F7;
+    border-right: 1px solid #4D4D4D;
+    border-left: 1px solid #4D4D4D;
+    border-bottom: 1px solid #4D4D4D;
+    width: 350px;
+    height: 250px;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+#tour{
+  
+
+}
 
 #rondleidingen h5{
     color: #3DB4D6;
@@ -585,16 +607,13 @@ header .logo #logo{
     font-size: 14px;
 }
 
-#overzicht{
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
+
 
 #leesmeer{
     color: white;
     background-color: #FC9D50;
     padding: 5px 15px 5px 15px;
-    border-radius: 10px;
+    border-radius: 10px;.col-xs-6 .col-sm-4over
     margin-left: 50px;
 }
 
@@ -603,7 +622,60 @@ header .logo #logo{
     
 }
 
+/* user logn/registreer pagina */
 
+#user-login{
+  width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 110px;
+  margin-bottom: 250px;
+}
+
+#user-register-form{
+  width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 110px;
+  margin-bottom: 150px;
+
+}
+#user-register-form input{
+  float: right;
+
+}
+#user-register-form input[value="Create new account"]{
+  width: 520px;
+  height: 30px;
+  background-color: #162431;
+  border: none;
+  color: white;
+
+}
+
+#user-login input[value="Log in"]{ 
+  width: 520px;
+  height: 30px;
+  background-color: #162431;
+  border: none;
+  color: white;
+
+}
+
+/* Navigation */ 
+#nice-menu-1 {
+  float: right;
+}
+
+.nice-menu  li a {
+  color: white;
+  background-color: #333;
+}
+
+.nice-menu  li a:hover {
+  color: #027ac6;
+  text-decoration: none;
+}
 
 header .intro-text .name {
     display: block;
@@ -780,13 +852,13 @@ header .intro-text .skills {
     border-width: 1px;
     padding: 8px 12px;
     border-radius: 3px;
-    background-color; #3DB4D6;
 }
 .registreerlinks:hover{ 
-  background-color; #3DB4D6;
   color: #3DB4D6;
   text-decoration: none;
 }
+
+
 
 
 
