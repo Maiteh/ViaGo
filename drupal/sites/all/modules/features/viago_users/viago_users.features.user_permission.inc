@@ -709,7 +709,9 @@ function viago_users_user_default_permissions() {
   // Exported permission: 'edit own guide profile'.
   $permissions['edit own guide profile'] = array(
     'name' => 'edit own guide profile',
-    'roles' => array(),
+    'roles' => array(
+      'Gids' => 'Gids',
+    ),
     'module' => 'profile2',
   );
 
@@ -725,7 +727,9 @@ function viago_users_user_default_permissions() {
   // Exported permission: 'edit own toerist profile'.
   $permissions['edit own toerist profile'] = array(
     'name' => 'edit own toerist profile',
-    'roles' => array(),
+    'roles' => array(
+      'Toerist' => 'Toerist',
+    ),
     'module' => 'profile2',
   );
 
@@ -878,14 +882,19 @@ function viago_users_user_default_permissions() {
   // Exported permission: 'view any guide profile'.
   $permissions['view any guide profile'] = array(
     'name' => 'view any guide profile',
-    'roles' => array(),
+    'roles' => array(
+      'Gids' => 'Gids',
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'profile2',
   );
 
   // Exported permission: 'view any toerist profile'.
   $permissions['view any toerist profile'] = array(
     'name' => 'view any toerist profile',
-    'roles' => array(),
+    'roles' => array(
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'profile2',
   );
 
@@ -914,7 +923,9 @@ function viago_users_user_default_permissions() {
   // Exported permission: 'view own guide profile'.
   $permissions['view own guide profile'] = array(
     'name' => 'view own guide profile',
-    'roles' => array(),
+    'roles' => array(
+      'Gids' => 'Gids',
+    ),
     'module' => 'profile2',
   );
 
@@ -930,7 +941,9 @@ function viago_users_user_default_permissions() {
   // Exported permission: 'view own toerist profile'.
   $permissions['view own toerist profile'] = array(
     'name' => 'view own toerist profile',
-    'roles' => array(),
+    'roles' => array(
+      'Toerist' => 'Toerist',
+    ),
     'module' => 'profile2',
   );
 
