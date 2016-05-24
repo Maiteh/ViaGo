@@ -264,8 +264,8 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
         <?php print t('<h2>Word lid bij ViaGo</h2>') ?>
         <?php print t('<p>Ben jij een gids en wil je je rondleiding bij ons </br>aanbieden? Dat kan!</p>') ?>
         <div id="lidworden">
-            <?php print t('<a href="#" id="bezoekerworden" class="registreerlinks">Registreer als bezoeker</a>') ?>
-            <?php print t('<a href="#" id="gidsworden" class="registreerlinks">Registreer als gids</a>') ?>
+            <?php print t('<a href="/user/register" id="bezoekerworden" class="registreerlinks">Registreer als bezoeker</a>') ?>
+            <?php print t('<a href="/guide/register" id="gidsworden" class="registreerlinks">Registreer als gids</a>') ?>
             <div class="clearfix"></div>
         </div>
         </div>
