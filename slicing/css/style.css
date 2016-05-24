@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Archivo;
+    src: url(../fonts/ArchivoBlack.otf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+
 /* HOME */
 body {
     overflow-x: hidden;
@@ -672,6 +682,53 @@ footer p{
     margin-left: 10px;
 }
 
+            /*  404 page  */
+
+.notfound{
+  background-color: #EDEDED;
+}
+
+.notfound .notfoundcontainer{
+  background-image: url(../img/404image.png);
+  background-size: 500px;
+  background-position: 90% bottom;
+  background-repeat: no-repeat;
+  width: 1000px;
+  min-width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+
+.notfound .notfoundcontainer h1{
+  font-family: Archivo;
+  padding-top: 80px;
+  font-size: 90px;
+  color: #4E6E83;
+}
+
+.notfound .notfoundcontainer h2, body.notfound .notfoundcontainer p{
+ color: #4E6E83;
+}
+
+.notfound .notfoundcontainer h2{
+  font-size: 50px;
+  max-width: 50%;
+  padding-top: 10px;
+}
+
+.notfound .notfoundcontainer p{
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+.notfound .notfoundcontainer p a{
+  color: #FF4D27;
+  text-decoration: none;
+}
+
+.notfound .notfoundcontainer p a:hover{
+  text-decoration: underline;
+}
 
 
 @media (min-width: 1500px) {
@@ -679,7 +736,22 @@ footer p{
         background-position: 0px -200px;
     }
 
-    }
+}
+
+@media(max-width: 1000px){
+
+.notfound .notfoundcontainer{
+  background-position: 90% bottom;
+  width: 90%;
+}
+
+.notfound .notfoundcontainer h1{
+  padding-top: 80px;
+  font-size: 90px;
+  color: #4E6E83;
+}
+
+}
 
 /*      MAX WIDTH 768       */
 
@@ -717,6 +789,7 @@ footer p{
   #lid{
     background-position: 0 -50px;
   }
+
 }
 
 
@@ -809,5 +882,24 @@ footer p{
   color: #888887;
   margin-top: 5px;
 }
+
+  .notfound .notfoundcontainer{
+    width: 90%;
+    background-position: left bottom;
+    background-size: 430px;
+  }
+
+  .notfound .notfoundcontainer h1{
+    font-size: 70px;
+  }
+
+  .notfound .notfoundcontainer h2{
+    font-size: 30px;
+    max-width: 80%;
+  }
+
+  .notfound .notfoundcontainer a{
+    padding-top: 40px;
+  }
 
 }
