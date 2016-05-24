@@ -179,7 +179,7 @@ function viago_tours_field_default_field_bases() {
   // Exported field_base: 'field_tour_photos'.
   $field_bases['field_tour_photos'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => 10,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_tour_photos',
@@ -192,6 +192,7 @@ function viago_tours_field_default_field_bases() {
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
+      'profile2_private' => FALSE,
       'uri_scheme' => 'public',
     ),
     'translatable' => 0,
