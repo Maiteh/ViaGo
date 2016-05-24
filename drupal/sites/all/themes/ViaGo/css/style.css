@@ -161,12 +161,24 @@ header strong{
   float: right;
  }
 
-#block-system-user-menu ul.menu li
- {
-  display: block;
-  float: left;
-  margin-top: 10px;
+#block-system-user-menu ul.menu li {
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+#block-nice-menus-1 {
+    padding-top: 20px;
+}
+#block-nice-menus-1 h2{
+    display: none;
+}
+#nice-menu-1 {
+    margin-right: 20%;
 
+}
+#nice-menu li a{
+    background-color: none;
+}
 
   /*padding-bottom: 10px;
   border-right: solid 0.5px #D8D8D8; */
@@ -192,10 +204,25 @@ header strong{
 
 #subnav {
     width: 100%;
-    background-color: lightcyan;
+    background-color: lightgrey;
+    padding: 10px 18%;
 
 }
 #block-menu-menu-gidssub h2 {
+    display: none;
+}
+#block-menu-menu-gidssub .content ul {
+    display: flex;
+    justify-content: flex-end;
+}
+#block-menu-menu-gidssub .content ul li{
+    list-style: none;
+}
+#block-menu-menu-gidssub .content ul li a{
+    color: #4D4D4D;
+}
+#block-menu-menu-gidssub .content ul li a:hover{
+    text-decoration: none;
 }
 
 
@@ -698,9 +725,11 @@ header .logo #logo{
   float: right;
 }
 
-.nice-menu  li a {
-  color: white;
-  background-color: #333;
+ul.nice-menu li  {
+  background: none;
+}
+ul.nice-menu li a {
+    color: white;
 }
 
 .nice-menu  li a:hover {
