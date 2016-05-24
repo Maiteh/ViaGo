@@ -293,32 +293,35 @@ function viago_tours_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'hidden',
-        'module' => 'list',
+        'label' => 'above',
+        'module' => 'taxonomy',
         'settings' => array(),
-        'type' => 'list_default',
-        'weight' => 0,
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 13,
       ),
       'teaser' => array(
-        'label' => 'hidden',
-        'module' => 'list',
+        'label' => 'above',
         'settings' => array(),
-        'type' => 'list_default',
-        'weight' => 2,
+        'type' => 'hidden',
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'node',
     'field_name' => 'field_tour_location',
     'label' => 'Locatie',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => 31,
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 42,
     ),
   );
 
