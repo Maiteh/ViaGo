@@ -15,6 +15,10 @@ function viago_menu_alter(&$items) {
   $items['user/register']['type'] = MENU_CALLBACK;
   $items['user/password']['type'] = MENU_CALLBACK;
   $items['user/login']['type']    = MENU_CALLBACK;
+  $items['guide']['type']          = MENU_CALLBACK;
+  $items['guide/register']['type'] = MENU_CALLBACK;
+  $items['guide/password']['type'] = MENU_CALLBACK;
+  $items['guide/login']['type']    = MENU_CALLBACK;
 
   return $items;
 }
