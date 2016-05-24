@@ -22,52 +22,9 @@ function viago_users_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      7 => array(
-        'name' => 'canvasactions_definecanvas',
-        'data' => array(
-          'RGB' => array(
-            'HEX' => '#fff',
-          ),
-          'under' => 1,
-          'exact' => array(
-            'width' => '',
-            'height' => '',
-            'xpos' => 'center',
-            'ypos' => 'center',
-          ),
-          'relative' => array(
-            'leftdiff' => '',
-            'rightdiff' => '',
-            'topdiff' => '',
-            'bottomdiff' => '',
-          ),
-        ),
-        'weight' => 2,
-      ),
-      8 => array(
-        'name' => 'canvasactions_roundedcorners',
-        'data' => array(
-          'radius' => 150,
-          'independent_corners_set' => array(
-            'independent_corners' => 0,
-            'radii' => array(
-              'tl' => 0,
-              'tr' => 0,
-              'bl' => 0,
-              'br' => 0,
-            ),
-          ),
-        ),
-        'weight' => 3,
-      ),
-      9 => array(
-        'name' => 'coloractions_convert',
-        'data' => array(
-          'format' => 'image/png',
-          'quality' => 100,
-        ),
-        'weight' => 4,
-      ),
+      7 => NULL,
+      8 => NULL,
+      9 => NULL,
     ),
   );
 
