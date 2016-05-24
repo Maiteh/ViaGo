@@ -1,0 +1,15 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Maiteh
+ * Date: 24/05/16
+ * Time: 01:02
+ */
+function viago_menu_alter(&$items) {
+  $items['user']['type'] = MENU_CALLBACK;
+  $items['user/register']['type'] = MENU_CALLBACK;
+  $items['user/password']['type'] = MENU_CALLBACK;
+  $items['user/login']['type'] = MENU_CALLBACK;
+
+  return $items;
+}

@@ -1,0 +1,4 @@
+name = Viago
+description = Extra configurations for viago
+package = viago
+core = 7.x
