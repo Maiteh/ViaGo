@@ -104,7 +104,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
             </div>
         </div>
     </nav>
-
+<div id="subnav"><?php print render($page['highlighted']); ?></div>
                                 
     <header>
 

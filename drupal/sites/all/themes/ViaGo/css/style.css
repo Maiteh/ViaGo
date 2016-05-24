@@ -184,7 +184,15 @@ header strong{
   
  }
 
+/* Subnavigatie voor gidsen */
 
+#subnav {
+    width: 100%;
+    background-color: lightcyan;
+
+}
+#block-menu-menu-gidssub h2 {
+}
 
 
 
@@ -294,7 +302,7 @@ header a:hover{
      text-decoration: none;
      color: #FC9D50;
      background-color: #FC9D50;
-     background: rgb(252, 157, 80); /* Fall-back for browsers that don't                              support rgba */
+     background: rgb(252, 157, 80); /* Fall-back for browsers that don't support rgba */
      background: rgba(252, 157, 80, .3);
 }
 /*header .logo{
