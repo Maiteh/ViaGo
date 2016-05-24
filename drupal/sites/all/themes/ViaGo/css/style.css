@@ -104,12 +104,31 @@ header strong{
 #overzicht h5{
   margin-left: 10px;
   margin-bottom: 20px;
+  color: #3DB4D6;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #overzicht{
   margin-top: 30px;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
+
+#tour{
+  margin-left: 120px;
+}
+
+/* filter overview */
+.views-exposed-form{
+  margin-top: 50px;
+  border: 1px solid;
+  width: 50%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 /* CONTACT PAGE */
 #about{
   margin-bottom: 40px;
