@@ -85,8 +85,11 @@
  * @see html.tpl.php
  */
 global $base_url;
-$img_url = $base_url . '/sites/all/themes/ViaGo/img';
-$location = $content['field_tour_location']['#items'][0]['value'];
+$image = $base_url . '/sites/all/themes/ViaGo/img';
+
+$img_uri = $content['field_tour_coverphoto'][0]['#item']['uri'];
+$img_url = image_style_url("Cover_tour ", $img_uri);
+
 
 ?>
 <div id="fotos">
@@ -96,32 +99,36 @@ $location = $content['field_tour_location']['#items'][0]['value'];
                 <h1> <?php print $title;?></h1>
                 <ul class="clearfix">
                     <li>
-                        <img src="<?php print $img_url . '/starts.png'?>" width="30%" id="rating" />
+                        <img src="<?php print $image . '/starts.png'?>" width="30%" id="rating" />
                     </li>
                     <li>
                         <p>(244 beoordelingen)</p>
                     </li>
                 <ul>
-                <img src="<?php print $img_url . '/rondleiding1.jpg'?>" width="100%" id="hoofdFoto" />
+                <div id="TourCover">
+                <?php print drupal_render($content['field_tour_coverphoto']); ?>
+                </div>
                 <div class="row">
-                     <div class="col-xs-6 col-sm-3"><img src="<?php print $img_url . '/gent_1.jpg'?>" width="100%" /></div>
-                     <div class="col-xs-6 col-sm-3"><img src="<?php print $img_url . '/gent_1.jpg'?>" width="100%" /></div>
-                     <div class="col-xs-6 col-sm-3"><img src="<?php print $img_url . '/gent_1.jpg'?>" width="100%" /></div>
-                     <div class="col-xs-6 col-sm-3"><img src="<?php print $img_url . '/gent_1.jpg'?>" width="100%" /></div>
+                    <div id="TourFoto">
+                     <div class="col-xs-6 col-sm-3"><img src="<?php print $image . '/gent_1.jpg'?>" width="100%" /></div> 
+                     <div class="col-xs-6 col-sm-3"><img src="<?php print $image . '/gent_1.jpg'?>" width="100%" /></div>
+                     <div class="col-xs-6 col-sm-3"><img src="<?php print $image . '/gent_1.jpg'?>" width="100%" /></div>
+                     <div class="col-xs-6 col-sm-3"><img src="<?php print $image. '/gent_1.jpg'?>" width="100%" /></div> 
+                 </div>
                 </div>
                 <div id="like">
-                     <img src="<?php print $img_url . '/hart.svg'?>" width="7%"/>Voeg toe aan je favorieten
+                     <img src="<?php print $image. '/hart.svg'?>" width="7%"/>Voeg toe aan je favorieten
                 </div>
             </div>
             <div class="col-xs-6" id="comment">
                 <div class="col-xs-6 col-md-4"></div>
                 <div class="col-xs-6 col-md-4"><p>Uw enthousiaste gids</p> <strong>Glenn Sterckx</strong></div>
-                <div class="col-xs-6 col-md-4"><img src="<?php print $img_url . '/persoon.jpg'?>" width="60%" /></div>
+                <div class="col-xs-6 col-md-4"><img src="<?php print $image . '/persoon.jpg'?>" width="60%" /></div>
                 <div id="price">
-                    <img src="<?php print $img_url . '/ticket.svg'?>" width="60%" />
+                    <img src="<?php print $image . '/ticket.svg'?>" width="60%" />
                 </div>
                 <div id="commentaar">
-                    <img src="<?php print $img_url . '/starts.png'?>" width="30%" id="rating" />
+                    <img src="<?php print $image . '/starts.png'?>" width="30%" id="rating" />
                     <h2>"Het was een ontzettend fijne </br> ervaring, de 4 uur vlogen voorbij"</h2>
                     <p>Marjolijn Dekkers, 23 april 2016</p>
                 </div>
@@ -135,15 +142,15 @@ $location = $content['field_tour_location']['#items'][0]['value'];
             <div class="col-xs-6">
                 <ul class="info">
                     <li>
-                        <img src="<?php print $img_url . '/locatie.svg'?>" width="5%"/>
+                        <img src="<?php print $image . '/locatie.svg'?>" width="5%"/>
                         <?php print drupal_render($content['field_tour_location']); ?>
                     </li>
                     <li>
-                        <img src="<?php print $img_url . '/money.svg'?>" width="5%"/>
+                        <img src="<?php print $image . '/money.svg'?>" width="5%"/>
                         <?php print drupal_render($content['field_tour_pricecategory']); ?>
                     </li>
                     <li>
-                        <img src="<?php print $img_url . '/clock.svg'?>" width="5%"/>
+                        <img src="<?php print $image . '/clock.svg'?>" width="5%"/>
                         <?php print drupal_render($content['field_tour_duration']); ?>
                     </li>
                 </ul>
@@ -151,15 +158,15 @@ $location = $content['field_tour_location']['#items'][0]['value'];
             <div class="col-xs-6">
                 <ul class="info">
                     <li>
-                        <img src="<?php print $img_url . '/multiple.svg'?>" width="5%"/>
+                        <img src="<?php print $image . '/multiple.svg'?>" width="5%"/>
                         <?php print drupal_render($content['field_tour_participants_amount']); ?>
                     </li>
                     <li>
-                        <img src="<?php print $img_url . '/chat.svg'?>" width="5%"/>
+                        <img src="<?php print $image . '/chat.svg'?>" width="5%"/>
                         <?php print drupal_render($content['field_tour_languages']); ?>
                     </li>
                     <li>
-                        <img src="<?php print $img_url . '/gids.svg'?>" width="5%"/>
+                        <img src="<?php print $image . '/gids.svg'?>" width="5%"/>
                         Glenn Sterckx
                     </li>
                 </ul>
