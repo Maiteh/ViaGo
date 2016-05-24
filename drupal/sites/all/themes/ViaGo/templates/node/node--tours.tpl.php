@@ -166,8 +166,8 @@ $img_url = image_style_url("Cover_tour ", $img_uri);
                         <?php print drupal_render($content['field_tour_languages']); ?>
                     </li>
                     <li>
-                        <img src="<?php print $image . '/gids.svg'?>" width="5%"/>
-                        Glenn Sterckx
+                        <img src="<?php print $image . '/thema.png'?>" width="5%"/>
+                        <?php print drupal_render($content['field_tour_theme']); ?>
                     </li>
                 </ul>
             </div>
