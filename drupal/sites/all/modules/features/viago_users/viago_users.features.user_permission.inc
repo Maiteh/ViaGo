@@ -154,13 +154,6 @@ function viago_users_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'administer contextual range filters'.
-  $permissions['administer contextual range filters'] = array(
-    'name' => 'administer contextual range filters',
-    'roles' => array(),
-    'module' => 'contextual_range_filter',
-  );
-
   // Exported permission: 'administer features'.
   $permissions['administer features'] = array(
     'name' => 'administer features',

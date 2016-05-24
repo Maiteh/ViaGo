@@ -27,7 +27,169 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
-  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['exposed_form']['type'] = 'better_exposed_filters';
+  $handler->display->display_options['exposed_form']['options']['submit_button'] = 'pas toe';
+  $handler->display->display_options['exposed_form']['options']['reset_button_label'] = 'Toon alles';
+  $handler->display->display_options['exposed_form']['options']['exposed_sorts_label'] = 'Sorteer op ';
+  $handler->display->display_options['exposed_form']['options']['sort_asc_label'] = 'Goedkoopste eerst';
+  $handler->display->display_options['exposed_form']['options']['sort_desc_label'] = 'Duurste eerst';
+  $handler->display->display_options['exposed_form']['options']['autosubmit'] = TRUE;
+  $handler->display->display_options['exposed_form']['options']['bef'] = array(
+    'general' => array(
+      'allow_secondary' => 0,
+      'secondary_label' => 'Advanced options',
+      'collapsible_label' => NULL,
+      'combine_rewrite' => NULL,
+      'reset_label' => NULL,
+    ),
+    'sort' => array(
+      'bef_format' => 'default',
+      'advanced' => array(
+        'collapsible' => 0,
+        'collapsible_label' => 'Sort options',
+        'combine' => 0,
+        'combine_param' => 'sort_bef_combine',
+        'combine_rewrite' => '',
+        'reset' => 0,
+        'reset_label' => '',
+        'is_secondary' => 0,
+        'secondary_label' => NULL,
+      ),
+      'secondary_label' => NULL,
+      'collapsible_label' => NULL,
+      'combine_rewrite' => NULL,
+      'reset_label' => NULL,
+    ),
+    'field_tour_languages_value' => array(
+      'bef_format' => 'bef',
+      'more_options' => array(
+        'bef_select_all_none' => 0,
+        'bef_collapsible' => 0,
+        'is_secondary' => 0,
+        'any_label' => '',
+        'bef_filter_description' => '',
+        'tokens' => array(
+          'available' => array(
+            0 => 'global_types',
+            'secondary_label' => NULL,
+            'collapsible_label' => NULL,
+            'combine_rewrite' => NULL,
+            'reset_label' => NULL,
+          ),
+          'secondary_label' => NULL,
+          'collapsible_label' => NULL,
+          'combine_rewrite' => NULL,
+          'reset_label' => NULL,
+        ),
+        'rewrite' => array(
+          'filter_rewrite_values' => '',
+          'secondary_label' => NULL,
+          'collapsible_label' => NULL,
+          'combine_rewrite' => NULL,
+          'reset_label' => NULL,
+        ),
+        'secondary_label' => NULL,
+        'collapsible_label' => NULL,
+        'combine_rewrite' => NULL,
+        'reset_label' => NULL,
+      ),
+      'secondary_label' => NULL,
+      'collapsible_label' => NULL,
+      'combine_rewrite' => NULL,
+      'reset_label' => NULL,
+    ),
+    'field_tour_location_value' => array(
+      'bef_format' => 'bef',
+      'more_options' => array(
+        'bef_select_all_none' => 0,
+        'bef_collapsible' => 1,
+        'is_secondary' => 0,
+        'any_label' => '',
+        'bef_filter_description' => '',
+        'tokens' => array(
+          'available' => array(
+            0 => 'global_types',
+            'secondary_label' => NULL,
+            'collapsible_label' => NULL,
+            'combine_rewrite' => NULL,
+            'reset_label' => NULL,
+          ),
+          'secondary_label' => NULL,
+          'collapsible_label' => NULL,
+          'combine_rewrite' => NULL,
+          'reset_label' => NULL,
+        ),
+        'rewrite' => array(
+          'filter_rewrite_values' => '',
+          'secondary_label' => NULL,
+          'collapsible_label' => NULL,
+          'combine_rewrite' => NULL,
+          'reset_label' => NULL,
+        ),
+        'secondary_label' => NULL,
+        'collapsible_label' => NULL,
+        'combine_rewrite' => NULL,
+        'reset_label' => NULL,
+      ),
+      'secondary_label' => NULL,
+      'collapsible_label' => NULL,
+      'combine_rewrite' => NULL,
+      'reset_label' => NULL,
+    ),
+    'field_tour_pricecategory_value' => array(
+      'bef_format' => 'default',
+      'slider_options' => array(
+        'bef_slider_min' => '0',
+        'bef_slider_max' => '99999',
+        'bef_slider_step' => '1',
+        'bef_slider_animate' => '',
+        'bef_slider_orientation' => 'horizontal',
+        'secondary_label' => NULL,
+        'collapsible_label' => NULL,
+        'combine_rewrite' => NULL,
+        'reset_label' => NULL,
+      ),
+      'more_options' => array(
+        'is_secondary' => 0,
+        'any_label' => '',
+        'bef_filter_description' => '',
+        'tokens' => array(
+          'available' => array(
+            0 => 'global_types',
+            'secondary_label' => NULL,
+            'collapsible_label' => NULL,
+            'combine_rewrite' => NULL,
+            'reset_label' => NULL,
+          ),
+          'secondary_label' => NULL,
+          'collapsible_label' => NULL,
+          'combine_rewrite' => NULL,
+          'reset_label' => NULL,
+        ),
+        'rewrite' => array(
+          'filter_rewrite_values' => '',
+          'secondary_label' => NULL,
+          'collapsible_label' => NULL,
+          'combine_rewrite' => NULL,
+          'reset_label' => NULL,
+        ),
+        'secondary_label' => NULL,
+        'collapsible_label' => NULL,
+        'combine_rewrite' => NULL,
+        'reset_label' => NULL,
+      ),
+      'secondary_label' => NULL,
+      'collapsible_label' => NULL,
+      'combine_rewrite' => NULL,
+      'reset_label' => NULL,
+    ),
+    'secondary_label' => NULL,
+    'collapsible_label' => NULL,
+    'combine_rewrite' => NULL,
+    'reset_label' => NULL,
+  );
+  $handler->display->display_options['exposed_form']['options']['input_required'] = 0;
+  $handler->display->display_options['exposed_form']['options']['text_input_required_format'] = 'plain_text';
   $handler->display->display_options['pager']['type'] = 'full';
   $handler->display->display_options['pager']['options']['items_per_page'] = '10';
   $handler->display->display_options['style_plugin'] = 'default';
@@ -43,6 +205,12 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['sorts']['status']['id'] = 'status';
   $handler->display->display_options['sorts']['status']['table'] = 'node';
   $handler->display->display_options['sorts']['status']['field'] = 'status';
+  /* Contextual filter: Content: Prijscategorie (field_tour_pricecategory) */
+  $handler->display->display_options['arguments']['field_tour_pricecategory_value']['id'] = 'field_tour_pricecategory_value';
+  $handler->display->display_options['arguments']['field_tour_pricecategory_value']['table'] = 'field_data_field_tour_pricecategory';
+  $handler->display->display_options['arguments']['field_tour_pricecategory_value']['field'] = 'field_tour_pricecategory_value';
+  $handler->display->display_options['arguments']['field_tour_pricecategory_value']['default_argument_type'] = 'fixed';
+  $handler->display->display_options['arguments']['field_tour_pricecategory_value']['summary']['format'] = 'default_summary';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
@@ -60,6 +228,18 @@ function viago_tours_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'view_tours_page');
+  $handler->display->display_options['defaults']['sorts'] = FALSE;
+  /* Sort criterion: Content: Published */
+  $handler->display->display_options['sorts']['status']['id'] = 'status';
+  $handler->display->display_options['sorts']['status']['table'] = 'node';
+  $handler->display->display_options['sorts']['status']['field'] = 'status';
+  /* Sort criterion: Content: Prijscategorie (field_tour_pricecategory) */
+  $handler->display->display_options['sorts']['field_tour_pricecategory_value']['id'] = 'field_tour_pricecategory_value';
+  $handler->display->display_options['sorts']['field_tour_pricecategory_value']['table'] = 'field_data_field_tour_pricecategory';
+  $handler->display->display_options['sorts']['field_tour_pricecategory_value']['field'] = 'field_tour_pricecategory_value';
+  $handler->display->display_options['sorts']['field_tour_pricecategory_value']['exposed'] = TRUE;
+  $handler->display->display_options['sorts']['field_tour_pricecategory_value']['expose']['label'] = 'Prijs ';
+  $handler->display->display_options['defaults']['arguments'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -75,6 +255,60 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
     'tours' => 'tours',
+  );
+  /* Filter criterion: Content: Talen (field_tour_languages) */
+  $handler->display->display_options['filters']['field_tour_languages_value']['id'] = 'field_tour_languages_value';
+  $handler->display->display_options['filters']['field_tour_languages_value']['table'] = 'field_data_field_tour_languages';
+  $handler->display->display_options['filters']['field_tour_languages_value']['field'] = 'field_tour_languages_value';
+  $handler->display->display_options['filters']['field_tour_languages_value']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_tour_languages_value']['expose']['operator_id'] = 'field_tour_languages_value_op';
+  $handler->display->display_options['filters']['field_tour_languages_value']['expose']['label'] = 'Talen';
+  $handler->display->display_options['filters']['field_tour_languages_value']['expose']['operator'] = 'field_tour_languages_value_op';
+  $handler->display->display_options['filters']['field_tour_languages_value']['expose']['identifier'] = 'tour_language';
+  $handler->display->display_options['filters']['field_tour_languages_value']['expose']['multiple'] = TRUE;
+  $handler->display->display_options['filters']['field_tour_languages_value']['expose']['remember_roles'] = array(
+    2 => '2',
+    4 => 0,
+    1 => 0,
+    5 => 0,
+    6 => 0,
+  );
+  $handler->display->display_options['filters']['field_tour_languages_value']['reduce_duplicates'] = TRUE;
+  /* Filter criterion: Content: Locatie (field_tour_location) */
+  $handler->display->display_options['filters']['field_tour_location_value']['id'] = 'field_tour_location_value';
+  $handler->display->display_options['filters']['field_tour_location_value']['table'] = 'field_data_field_tour_location';
+  $handler->display->display_options['filters']['field_tour_location_value']['field'] = 'field_tour_location_value';
+  $handler->display->display_options['filters']['field_tour_location_value']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_tour_location_value']['expose']['operator_id'] = 'field_tour_location_value_op';
+  $handler->display->display_options['filters']['field_tour_location_value']['expose']['label'] = 'Locatie';
+  $handler->display->display_options['filters']['field_tour_location_value']['expose']['operator'] = 'field_tour_location_value_op';
+  $handler->display->display_options['filters']['field_tour_location_value']['expose']['identifier'] = 'tour_location';
+  $handler->display->display_options['filters']['field_tour_location_value']['expose']['multiple'] = TRUE;
+  $handler->display->display_options['filters']['field_tour_location_value']['expose']['remember_roles'] = array(
+    2 => '2',
+    4 => 0,
+    1 => 0,
+    5 => 0,
+    6 => 0,
+  );
+  $handler->display->display_options['filters']['field_tour_location_value']['reduce_duplicates'] = TRUE;
+  /* Filter criterion: Content: Prijscategorie (field_tour_pricecategory) */
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['id'] = 'field_tour_pricecategory_value';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['table'] = 'field_data_field_tour_pricecategory';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['field'] = 'field_tour_pricecategory_value';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['operator'] = 'between';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['operator_id'] = 'field_tour_pricecategory_value_op';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['label'] = 'Prijscategorie';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['description'] = 'tussen 1(goedkoopste) en 4(duurste)';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['operator'] = 'field_tour_pricecategory_value_op';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['identifier'] = 'field_tour_pricecategory_value';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['remember_roles'] = array(
+    2 => '2',
+    4 => 0,
+    1 => 0,
+    5 => 0,
+    6 => 0,
   );
   $handler->display->display_options['path'] = 'rondleidingen';
   $handler->display->display_options['menu']['type'] = 'normal';
@@ -101,11 +335,14 @@ function viago_tours_views_default_views() {
     t('Master'),
     t('rondleidingen'),
     t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
+    t('pas toe'),
+    t('Toon alles'),
+    t('Sorteer op '),
+    t('Goedkoopste eerst'),
+    t('Duurste eerst'),
+    t('Advanced options'),
+    t('Sort options'),
+    t('Select any filter and click on Apply to see results'),
     t('Items per page'),
     t('- All -'),
     t('Offset'),
@@ -113,7 +350,13 @@ function viago_tours_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
+    t('All'),
     t('Page'),
+    t('Prijs '),
+    t('Talen'),
+    t('Locatie'),
+    t('Prijscategorie'),
+    t('tussen 1(goedkoopste) en 4(duurste)'),
     t('Block'),
     t('view_block_tours_newest'),
   );
