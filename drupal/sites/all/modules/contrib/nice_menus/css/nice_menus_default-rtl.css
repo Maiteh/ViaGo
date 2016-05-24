@@ -1,6 +1,5 @@
 ul.nice-menu,
 ul.nice-menu ul {
-  border-top: 1px solid #ccc;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -8,8 +7,7 @@ ul.nice-menu ul {
 
 ul.nice-menu li {
   background-color: #eee;
-  border: 1px solid #ccc;
-  border-top: 0;
+
   float: right;
 }
 
@@ -18,8 +16,6 @@ ul.nice-menu a {
 }
 
 ul.nice-menu ul {
-  border: 0;
-  border-top: 1px solid #ccc;
   margin-left: 0;
   right: -1px;
   top: 1.8em;
@@ -86,16 +82,7 @@ ul.nice-menu-left ul a {
 }
 
 ul.nice-menu-down {
-  border: 0;
   float: right;
-}
-
-ul.nice-menu-down li {
-  border-top: 1px solid #ccc;
-}
-
-ul.nice-menu-down li li {
-  border-top: 0;
 }
 
 ul.nice-menu-down ul {
@@ -145,8 +132,6 @@ ul.nice-menu li {
 }
 
 #header-region ul.nice-menu ul {
-  border: 0;
-  border-top: 1px solid #ccc;
   margin-left: 0;
   right: -1px;
   top: 1.8em;
