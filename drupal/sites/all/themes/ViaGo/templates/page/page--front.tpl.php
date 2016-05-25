@@ -155,34 +155,34 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
                                     <div id ="overzicht">
                                         <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Brugge</p>
                                         <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>John Doe</p>
-                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" />65,00</p>
+                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" /></p>
                                     </div>
                                 <a href="#" id="leesmeer">Bekijk deze tour ></a>
                             </div>
                     </div>
                     <div class="col-md-4 col-sm-2 col-xs-8">
-                         <a href="#"><img src="<?php print $img_url . '/rondleiding1.jpg'?>" height="auto" width="100%"></a>
+                         <a href="#"><img src="<?php print $img_url . '/rondleiding2.jpg'?>" height="auto" width="100%"></a>
                             <div id="rondleiding">
                                 <img src="<?php print $img_url . '/starts.png'?>" width="20%"/>
-                                <h5>Het beste van Brugge <strong>(Nl, En, Fr)</strong> </h5>
+                                <h5>Brussel op zijn mooiste <strong>(Nl, Fr)</strong> </h5>
                                     <div id ="overzicht">                          
-                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Brugge</p>
-                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>John Doe</p>
-                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" />65,00</p>
+                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Brussel</p>
+                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>Robin Van Aacken</p>
+                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" /></p>
 
                                     </div>
                                 <a href="#" id="leesmeer">Bekijk deze tour ></a>
                             </div>
                     </div>
                     <div class="col-md-4 col-sm-2 col-xs-8">
-                         <a href="#"><img src="<?php print $img_url . '/rondleiding1.jpg'?>" height="auto" width="100%"></a>
+                         <a href="#"><img src="<?php print $img_url . '/rondleiding3.jpg'?>" height="auto" width="100%"></a>
                             <div id="rondleiding">
                                 <img src="<?php print $img_url . '/starts.png'?>" width="20%"/>
-                                <h5>Het beste van Brugge <strong>(Nl, En, Fr)</strong> </h5>
+                                <h5>Tibeer fiets toer <strong>(Nl, En)</strong> </h5>
                                     <div id ="overzicht">
-                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Brugge</p>
-                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>John Doe</p>
-                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" />65,00</p>
+                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Waasland, Beveren</p>
+                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>Mirthe Rickelman</p>
+                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" /></p>
                                     </div>
                                 <a href="#" id="leesmeer">Bekijk deze tour ></a>
                             </div>
@@ -192,40 +192,40 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/img';
             <h3>Populairste rondleidingen</h3>
               
                     <div class="col-md-4 col-sm-2 col-xs-8">
-                        <a href="#"><img src="<?php print $img_url . '/rondleiding1.jpg'?>" height="auto" width="100%"></a>
+                        <a href="#"><img src="<?php print $img_url . '/rondleiding4.jpg'?>" height="auto" width="100%"></a>
                             <div id="rondleiding">
                                 <img src="<?php print $img_url . '/starts.png'?>" width="20%"/>
-                                <h5>Het beste van Brugge <strong>(Nl, En, Fr)</strong> </h5>
+                                <h5>Authentiek Antwerpen <strong>(Nl, En, Fr)</strong> </h5>
                                     <div id ="overzicht">
-                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Brugge</p>
-                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>John Doe</p>
-                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" />65,00</p>
+                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Antwerpen</p>
+                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>Sven Deridder</p>
+                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" /></p>
                                     </div>
                                 <a href="#" id="leesmeer">Bekijk deze tour ></a>
                             </div>
                     </div>
                     <div class="col-md-4 col-sm-2 col-xs-8" >
-                        <a href="#"><img src="<?php print $img_url . '/rondleiding1.jpg'?>" height="auto" width="100%"></a>
+                        <a href="#"><img src="<?php print $img_url . '/rondleiding5.jpg'?>" height="auto" width="100%"></a>
                             <div id="rondleiding">
                                 <img src="<?php print $img_url . '/starts.png'?>" width="20%"/>
-                                <h5>Het beste van Brugge <strong>(Nl, En, Fr)</strong> </h5>
+                                <h5>Scheldeland en natuur<strong>(Nl)</strong> </h5>
                                     <div id ="overzicht">
-                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Brugge</p>
-                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>John Doe</p>
-                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" />65,00</p>
+                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Antwerpen, Linkeroever</p>
+                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>Marian Tielemans</p>
+                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" /></p>
                                     </div>
                                 <a href="#" id="leesmeer">Bekijk deze tour ></a>
                             </div>
                     </div>
                     <div class="col-md-4 col-sm-2 col-xs-8" >
-                        <a href="#"><img src="<?php print $img_url . '/rondleiding1.jpg'?>" height="auto" width="100%"></a>
+                        <a href="#"><img src="<?php print $img_url . '/rondleiding6.jpg'?>" height="auto" width="100%"></a>
                             <div id="rondleiding">
                                 <img src="<?php print $img_url . '/starts.png'?>" width="20%"/>
-                                <h5>Het beste van Brugge <strong>(Nl, En, Fr)</strong> </h5>
+                                <h5>Westkust te paard <strong>(Nl, Fr)</strong> </h5>
                                     <div id ="overzicht">
-                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Brugge</p>
-                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>John Doe</p>
-                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" />65,00</p>
+                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Westkust, West-vlaanderen</p>
+                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>Christel Van der Meers</p>
+                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" /></p>
                                     </div>
                                 <a href="#" id="leesmeer">Bekijk deze tour ></a>
                             </div>
