@@ -2,7 +2,7 @@
 <?php
 
 global $base_url;
-$image = $base_url . '/sites/all/themes/ViaGo/img';
+$image = $base_url . '/sites/all/themes/ViaGo/assets/img';
 
 
 ?>

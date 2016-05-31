@@ -85,7 +85,7 @@
  * @see html.tpl.php
  */
 global $base_url;
-$image = $base_url . '/sites/all/themes/ViaGo/img';
+$image = $base_url . '/sites/all/themes/ViaGo/assets/img';
 
 $img_uri = $content['field_tour_coverphoto'][0]['#item']['uri'];
 $img_url = image_style_url("Cover_tour ", $img_uri);
