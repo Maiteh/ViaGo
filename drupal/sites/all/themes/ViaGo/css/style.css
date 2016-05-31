@@ -686,12 +686,71 @@ header .logo #logo{
 
 /* user logn/registreer pagina */
 
-#user-login{
-  width: 550px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 110px;
-  margin-bottom: 250px;
+
+#inloggen{
+  background-color: #F5F6F7;
+}
+#login{
+    background-color: white;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+#loginform{
+    border-top: 2px;
+}
+
+#login p{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+#login h2{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#login input{
+    width: 85%;
+    height: 40px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    margin-left: 30px;
+    color: #000;
+}
+
+#login a{
+  padding-left: 30px;
+}
+
+#login a:hover{
+  text-decoration: none;
+}
+
+#login label{
+    width: 85%;
+    margin-left: 30px;
+    color: #000;
+}
+
+#login .description{
+  visibility: hidden;
+}
+
+
+#user-login input[value="Log in"]{ 
+  width: 85%;
+  height: 40px;
+  background-color: #162431;
+  border: none;
+  color: white;
+
 }
 
 #user-register-form{
@@ -715,13 +774,48 @@ header .logo #logo{
 
 }
 
-#user-login input[value="Log in"]{ 
-  width: 520px;
-  height: 30px;
-  background-color: #162431;
-  border: none;
-  color: white;
+/* Mijn account */
+#acountform{
+  color: red;
+}
+#acountform strong{
+  padding-top: 30px;
+}
 
+.field-name-field-user-guide-experience{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.field-name-field-user-guide-birthdate{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.field-name-field-user-guide-address{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.field-name-field-user-guide-languages{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.field-name-field-user-name{
+  visibility: hidden;
+}
+.field-name-field-user-firstname{
+  visibility: hidden;
+}
+.field-name-field-user-phone{
+  visibility: hidden;
+}
+
+.profile h3{
+  visibility: hidden;
+}
+
+#basicInfo{
+  padding-left: 30px;
+  padding-top: 50px;
 }
 
 /* Navigation */ 
@@ -1117,4 +1211,9 @@ footer p{
   display: none;
 }
 
+/* filter rondleidingen */
+
+.form-item-edit-tour-language-nl{
+   color: red;
+}
 
