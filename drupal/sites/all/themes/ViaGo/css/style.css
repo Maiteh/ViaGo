@@ -774,8 +774,49 @@ header .logo #logo{
 
 }
 
+/* Mijn account */
+#acountform{
+  color: red;
+}
+#acountform strong{
+  padding-top: 30px;
+}
 
+.field-name-field-user-guide-experience{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.field-name-field-user-guide-birthdate{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.field-name-field-user-guide-address{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.field-name-field-user-guide-languages{
+  padding-left: 30px;
+  padding-top: 10px;
+}
 
+.field-name-field-user-name{
+  visibility: hidden;
+}
+.field-name-field-user-firstname{
+  visibility: hidden;
+}
+.field-name-field-user-phone{
+  visibility: hidden;
+}
+
+.profile h3{
+  visibility: hidden;
+}
+
+#basicInfo{
+  padding-left: 30px;
+  padding-top: 50px;
+}
 
 /* Navigation */ 
 #nice-menu-1 {
