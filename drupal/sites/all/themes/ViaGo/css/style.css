@@ -725,6 +725,14 @@ header .logo #logo{
     color: #000;
 }
 
+#login a{
+  padding-left: 30px;
+}
+
+#login a:hover{
+  text-decoration: none;
+}
+
 #login label{
     width: 85%;
     margin-left: 30px;
