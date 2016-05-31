@@ -5,3 +5,6 @@
 .idea/viago.iml
 .idea/workspace.xml
 .idea/copyright/profiles_settings.xml
+01_README.txt
+*.zip
+*.sql
