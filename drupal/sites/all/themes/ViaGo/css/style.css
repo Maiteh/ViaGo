@@ -775,28 +775,62 @@ header .logo #logo{
 }
 
 /* Mijn account */
-#acountform{
-  color: red;
-}
-#acountform strong{
-  padding-top: 30px;
+
+
+#account{
+  background-color: #F5F6F7;
 }
 
-.field-name-field-user-guide-experience{
-    padding-left: 30px;
+#accountblok{
+    background-color: white;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#accountblok h2{
+    font-weight: bold;
+    font-size: 1.2rem;
     padding-top: 50px;
+    padding-left: 30px;
+    color: #3DB4D6;
+}
+
+#accountblok p{
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+
+#gegevens{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#acountbeschrijvin h2{
+  color: red;
+}
+
+
+.field-name-field-user-guide-experience{
+  padding-top: 20px;
 }
 .field-name-field-user-guide-birthdate{
-  padding-left: 30px;
-  padding-top: 10px;
+  padding-top: 20px;
+}
+.field-name-field-user-guide-birthdate .field-label{
+  font-weight: normal;
 }
 .field-name-field-user-guide-address{
   padding-left: 30px;
   padding-top: 10px;
 }
 .field-name-field-user-guide-languages{
-  padding-left: 30px;
-  padding-top: 10px;
+  padding-top: 20px;
+}
+.field-name-field-user-guide-languages .field-label{
+  font-weight: normal;
 }
 
 .field-name-field-user-name{
