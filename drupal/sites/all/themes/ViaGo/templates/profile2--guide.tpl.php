@@ -4,7 +4,6 @@
 <?php
 
 global $base_url;
-$image = $base_url . '/sites/all/themes/ViaGo/img';
 $account = user_load($user->uid);
 
 
