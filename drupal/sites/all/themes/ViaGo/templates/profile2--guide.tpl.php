@@ -5,6 +5,7 @@
 
 global $base_url;
 $account = user_load($user->uid);
+$myprofile = profile2_load_by_user($account, 'guide');
 
 
 ?>
@@ -19,10 +20,10 @@ $account = user_load($user->uid);
                     </div>
                     <div class="col-xs-6">
                         <ul id="gegevens">
-                            <strong><?php print $account->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> <?php print $account->field_user_name[LANGUAGE_NONE][0]['value']; ?> </strong>
-                            <li><?php print render($content['field_user_guide_birthdate']); ?></li>
-                            <li><?php print render($content['field_user_guide_experience']); ?></li>
-                            <li><?php print render($content['field_user_guide_languages']); ?></li>
+                            <strong><?php print $myprofile->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> <?php print $myprofile->field_user_name[LANGUAGE_NONE][0]['value']; ?> </strong>
+                            <li><?php print render($myprofile->field_user_guide_birthdate[LANGUAGE_NONE][0]['value']);?>test</li>
+                            <li><?php print render($myprofile->field_user_guide_experience[LANGUAGE_NONE][0]['value']); ?></li>
+                            <li><?php print render($myprofile->field_user_guide_languages[LANGUAGE_NONE][0]['value']); ?></li>
                         </ul>
                         
                         
@@ -36,10 +37,10 @@ $account = user_load($user->uid);
 
         </div>
                     <div id="acountbeschrijving">
-                        <h2>Over <?php print $account->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> </h2>
-                        <p><?php print render($content['field_user_guide_description']); ?></p>
+                        <h2>Over <?php print $myprofile->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> </h2>
+                        <p><?php print render($myprofile->field_user_description[LANGUAGE_NONE][0]['value']); ?></p>
                         
-                        <h2>Waarom <?php print $account->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> Boeken?</h2>
+                        <h2>Waarom <?php print $myprofile->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> Boeken?</h2>
                     </div>
     </div>
 </body>

@@ -40,3 +40,9 @@
   line-height: 20px;
   color: #454545;
 }
+@media (max-width: 600px) {
+
+  #filmpje {
+    display: none;
+  }
+}

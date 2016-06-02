@@ -36,3 +36,24 @@
   color: #3DB4D6;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  #lid h2 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+  }
+
+  #gidsworden {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  #lidworden {
+    padding-bottom: 70px;
+  }
+  #lid {
+    background-size: cover;
+    background-position: 0% 0%;
+    padding-bottom: 0px;
+  }
+}

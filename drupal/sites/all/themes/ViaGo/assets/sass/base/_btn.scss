@@ -1,4 +1,5 @@
 /** header **/
+
 #zoeken{
   background-color: #FF4D27;
   color: #fff;
@@ -17,4 +18,11 @@
   margin-top: 50px;
   padding: 18px 30px 18px 30px;
   border-radius: 5px;
+}
+@media (max-width: 600px) {
+  #zoeken {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+  }
 }

@@ -1,3 +1,19 @@
-@import 'base/*';
-@import 'components/*';
-@import 'homepage/*';
+@import 'base/account';
+@import 'base/add_tour';
+@import 'base/basicpage';
+@import 'base/btn';
+@import 'base/contact';
+@import 'base/footer';
+@import 'base/header';
+@import 'base/join';
+@import 'base/login';
+@import 'base/newsletter';
+@import 'base/node_tours';
+@import 'base/register';
+@import 'base/user_menu';
+@import 'base/view_tour';
+
+@import 'components/guides_menu';
+@import 'components/homepage_why';
+@import 'components/homepage_workflow';
+@import 'components/typography';

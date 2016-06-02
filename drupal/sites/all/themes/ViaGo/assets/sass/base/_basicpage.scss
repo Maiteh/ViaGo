@@ -2,3 +2,9 @@
 body {
   overflow-x: hidden;
 }
+@media (max-width: 600px) {
+
+  .col-xs-6 {
+    width: 100%;
+  }
+}

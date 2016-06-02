@@ -46,3 +46,8 @@
   border-radius: 4px;
 
 }
+@media (max-width: 600px) {
+  #subscribe {
+    display: none;
+  }
+}

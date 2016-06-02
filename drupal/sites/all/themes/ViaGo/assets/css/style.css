@@ -1,808 +1,349 @@
+#acountform {
+  color: red; }
+
+#acountform strong {
+  padding-top: 30px; }
+
+.field-name-field-user-guide-experience {
+  padding-left: 30px;
+  padding-top: 50px; }
+
+.field-name-field-user-guide-birthdate {
+  padding-left: 30px;
+  padding-top: 10px; }
+
+.field-name-field-user-guide-address {
+  padding-left: 30px;
+  padding-top: 10px; }
+
+.field-name-field-user-guide-languages {
+  padding-left: 30px;
+  padding-top: 10px; }
+
+.field-name-field-user-name {
+  visibility: hidden; }
+
+.field-name-field-user-firstname {
+  visibility: hidden; }
+
+.field-name-field-user-phone {
+  visibility: hidden; }
+
+.profile h3 {
+  visibility: hidden; }
+
+#basicInfo {
+  padding-left: 30px;
+  padding-top: 50px; }
+
+.form-item-title {
+  margin-top: 50px;
+  margin-left: 10px; }
+
+.form-item-title input {
+  margin-left: 20px;
+  width: 600px; }
+
+.field-name-field-tour-location {
+  margin-top: 10px; }
+
+.field-name-field-tour-location input {
+  margin-left: 20px; }
+
+.node-tours-form {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto; }
+
 /* HOME */
 body {
-    overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
-header {
-    color: #fff;
-    background-image: url(../img/gent_1.jpg);
-    background-repeat: no-repeat;
-    background-position: 0 -90px;
-    background-size: 100% auto;
-    text-shadow: 0px 0px 28px rgba(0, 0, 0, 1);
-}
+@media (max-width: 600px) {
+  .col-xs-6 {
+    width: 100%; } }
+/** header **/
+#zoeken {
+  background-color: #FF4D27;
+  color: #fff;
+  margin-top: 50px;
+  padding: 13px 20px 13px 20px;
+  border-radius: 5px; }
 
-header .container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+#zoekKnop {
+  margin-top: 50px; }
 
-header h1{
-    font-size: 70px;
-    font-weight: bold;
-}
-
-header p{
-    color: #fff;
-    font-size: 30px;
-    padding-top: 10px;
-}
-
-header strong{
-    color: white;
-    font-weight: bold;
-}
-
-.info p {
-  color: red;
-}
-
-.workflow{
-  background-color: #F1F1F1;
-}
-
-.workflow ul{
-  max-width: 900px;
-  width: 90%;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.workflow ul li{
-  width: 32.5%;
-  float: left;
-}
-.workflow ul .tussenlijn{
-  width: 1px;
-  height: 100px;
-  background-color: #888887;
-  float: left;
-}
-.workflow ul li img{
-  display: block;
-  margin: auto;
-  margin-top: 10px;
-}
-.workflow ul li p{
-  text-align: center;
-  color: #888887;
-  margin-top: 10px;
-}
-
-#zoeken{
-    background-color: #FF4D27;
-    color: #fff;
-    margin-top: 50px;
-    padding: 13px 20px 13px 20px;
-    border-radius: 5px;
-
-}
 #sub {
-    background-color: #FF4D27;
-    color: #fff;
-    margin-top: 50px;
-    padding: 18px 30px 18px 30px;
-    border-radius: 5px;
+  background-color: #FF4D27;
+  color: #fff;
+  margin-top: 50px;
+  padding: 18px 30px 18px 30px;
+  border-radius: 5px; }
 
-}
+@media (max-width: 600px) {
+  #zoeken {
+    margin: auto;
+    display: inline-block;
+    text-align: center; } }
+/* CONTACT PAGE */
+#about {
+  margin-bottom: 40px; }
+
+#about h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 80px; }
+
+#about h2 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+#about p {
+  padding-right: 50px; }
+
+#about strong {
+  color: #4DBEF0; }
+
 .footer {
   clear: both;
-  background-color: #4D4D4D;
-}
+  background-color: #4D4D4D; }
+
 .newsletter {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 30px 0;
-}
+  padding: 30px 0; }
+
 .newsletter label {
   color: white;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: normal; }
 
-}
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #162431;
+  color: white; }
 
-/* overview rondleidingen */
+footer h3 {
+  font-size: 1.3em;
+  float: left; }
 
+footer p {
+  float: left; }
 
-#overzicht h5{
-  margin-left: 10px;
-  margin-bottom: 20px;
-  color: #3DB4D6;
-  font-size: 18px;
+header {
+  color: #fff;
+  background-image: url(../img/gent_1.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 -90px;
+  background-size: 100% auto;
+  text-shadow: 0px 0px 28px black; }
+
+header .container {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+header h1 {
+  font-size: 70px;
   font-weight: bold;
-}
+  margin-bottom: 40px; }
 
-#overzicht{
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
+header p {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 10px; }
 
-#tour {
-    margin-right: 20px;
-    margin-left: 40px;
-}
-/* filter overview */
-.views-exposed-form{
+header strong {
+  color: white;
+  font-weight: bold; }
+
+header h1 a {
+  border: 2px solid #3DB4D6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #3DB4D6;
+  text-shadow: 0px 0px 28px black;
+  display: block;
+  width: 25%;
+  float: left;
+  /*-webkit-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
+  -moz-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
+  box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);*/ }
+
+nav {
+  height: 70px;
+  background-color: #162431; }
+
+nav a {
+  color: white; }
+
+#zoekbalk {
+  height: 35px;
+  width: 270px;
+  display: block;
+  float: right;
+  margin-top: -36px;
+  padding-left: 5px;
+  background-color: #D8D8D8;
+  border-radius: 3px;
+  color: #162431;
+  font-style: italic; }
+
+.logo {
+  margin-top: 19px;
+  height: 30px;
+  width: 100px; }
+
+@media (min-width: 768px) {
+  header {
+    background-position: 0px; }
+
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px; }
+
+  header .intro-text .name {
+    font-size: 4.75em; }
+
+  header .intro-text .skills {
+    font-size: 1.75em; } }
+@media (max-width: 900px) {
+  header {
+    background-size: cover; }
+
+  header .container p {
+    font-size: 24px; } }
+@media (max-width: 600px) {
+  header {
+    background-size: cover;
+    background-position: 0% 0%; }
+
+  header .container {
+    max-width: 400px;
+    margin: auto; }
+
+  header .container p {
+    text-align: center;
+    font-size: 24px; } }
+#lid {
+  background-image: url("../img/hands_guide_blauw.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  color: white; }
+
+#lid h2 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px; }
+
+#lid p {
+  font-size: 20px; }
+
+#lidworden {
+  margin-top: 20px;
+  padding-bottom: 100px; }
+
+.registreerlinks {
+  color: #fff;
+  width: 195px;
+  display: inline-block;
+  border-style: solid;
+  border-color: #3DB4D6;
+  border-width: 1px;
+  padding: 8px 12px;
+  border-radius: 3px; }
+
+.registreerlinks:hover {
+  color: #3DB4D6;
+  text-decoration: none; }
+
+@media (max-width: 600px) {
+  #lid h2 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px; }
+
+  #gidsworden {
+    margin-top: 5px;
+    margin-bottom: 0px; }
+
+  #lidworden {
+    padding-bottom: 70px; }
+
+  #lid {
+    background-size: cover;
+    background-position: 0% 0%;
+    padding-bottom: 0px; } }
+#inloggen {
+  background-color: #F5F6F7; }
+
+#login {
+  background-color: white;
+  width: 75%;
   margin-top: 50px;
-  border: 1px solid;
-  width: 50%;
-  padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px; }
 
-}
+#loginform {
+  border-top: 2px; }
 
-/* CONTACT PAGE */
-#about{
-  margin-bottom: 40px;
-}
-
-
-#about h1{
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 80px;
-}
-#about h2{
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-#about p{
-  padding-right: 50px;
-}
-#about strong{
-  color: #4DBEF0;
-}
-
-/* User menu */
-#block-system-user-menu ul {
-  float: right;
- }
-
-#block-system-user-menu ul.menu li {
-    display: block;
-    float: left;
-    margin-top: 10px;
-}
-#block-nice-menus-1 {
-    padding-top: 20px;
-}
-#block-nice-menus-1 h2{
-    display: none;
-}
-#nice-menu-1 {
-    margin-right: 20%;
-
-}
-#nice-menu li a{
-    background-color: none;
-}
-
-  /*padding-bottom: 10px;
-  border-right: solid 0.5px #D8D8D8; */
- }
-#block-system-user-menu ul.menu li a:hover
- {
-
-      text-decoration: none;
-      color: #18bc9c;
-
-  
- }
- #block-system-user-menu ul.menu li a:active
- {
-
-      text-decoration: none;
-      color: #18bc9c;
-
-  
- }
-
-/* Subnavigatie voor gidsen */
-
-#subnav {
-    width: 100%;
-    background-color: lightgrey;
-    padding: 10px 18%;
-
-}
-#block-menu-menu-gidssub h2 {
-    display: none;
-}
-#block-menu-menu-gidssub .content ul {
-    display: flex;
-    justify-content: flex-end;
-}
-#block-menu-menu-gidssub .content ul li{
-    list-style: none;
-}
-#block-menu-menu-gidssub .content ul li a{
-    color: #4D4D4D;
-}
-#block-menu-menu-gidssub .content ul li a:hover{
-    text-decoration: none;
-}
-
-
-
-
-#zoekKnop{
-     margin-top: 50px;
- }
-
-/* *****************************************************************************
-#stappen .col-xs-6 {
-    text-align: center;
-
-}
-
-#stappen h5{
-    padding-top: 20px;
-}
-
-#stappenKlant .col-xs-6{
-    text-align: center;
-}
-*/
-
-/*header img {
-    display: block;
-    margin: 0 auto 20px;
-}*/
-
-
-header h1 a{
-     border: 2px solid #3DB4D6;
-     padding-top: 5px;
-     padding-bottom: 5px;
-     padding-left: 20px;
-     padding-right: 20px;
-     color: #3DB4D6;
-     text-shadow: 0px 0px 28px rgba(0, 0, 0, 1);
-     display: block;
-     width: 25%;
-     float: left;
-    /*-webkit-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
-    -moz-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
-    box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);*/
-}
-
-nav{
-    height: 70px;
-    background-color: #162431;
-}
-
-nav a{
-    color: white;
-}
-/* *****************************************************************************
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 400px;
-    height: 250px;
-
-}
-
-.flex-item {
-
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}
-*/
-#zoekbalk{
-    height: 35px;
-    width: 270px;
-    display: block;
-    float: right;
-    margin-top: -36px;
-    padding-left: 5px;
-    background-color: #D8D8D8;
-    border-radius: 3px;
-    color: #162431;
-    font-style: italic;
-}
-
-.logo{
-    margin-top: 19px;
-    height: 30px;
-    width: 100px;
-}
-
-
-/* *****************************************************************************
-header h1{
-    margin-bottom: 40px;
-}
-header #headerRond{
-    float: left;
-    margin-left: 20%;
-}
-header #headerof{
-    float: left;
-    width: 10%;
-    margin-top: 10px !important;
-}
-header #headerGids{
-    float: right;
-    margin-right: 20%;
-}
-header a:hover{
-     border: 2px solid #FC9D50;
-     text-decoration: none;
-     color: #FC9D50;
-     background-color: #FC9D50;
-     background: rgb(252, 157, 80);
-     background: rgba(252, 157, 80, .3);
-}
-*/
-/*header .logo{
-    text-align: left;
-    margin-top: -500px;
-    margin: 0px;
-    background-color: #2F4F4F;
-    background: rgb(49, 79, 79);                
-    background: rgba(49, 79, 79, .3);
-    width: 100%;
-}
-header .logo #logo{
-
-    width: 10%;
-    text-align: left !important;
-}*/
-
-/* *****************************************************************************
-#intro{
-    background-color: #EFEFEF;
-    padding-bottom: 50px;
-}
-
-#intro h3{
-    margin-top: 50px;
-    font-size: 39px;
-    line-height: 45px;
-}
-
-#intro p{
-    font-size: 18px;
-    padding-top: 30px;
-}
-
-
-#intro strong{
-    color: #FC9D50;
-    
-}
-*/
-
-#fotos{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-}
-
-#fotos h1{
-    margin-bottom: 8px;
-    color: #4DBEF0;
-    font-size: 2rem;
-
-}
-
-#fotos strong{
-
-    color: blue;
-    font-weight: bold;
-}
-
-
-#rating{
-    margin-bottom: 20px;
-}
-
-#like{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-#price {
-  padding-left: 150px;
-
-}
-
-#comment{
-  margin-top: 30px;
-}
-#commentaar{
-  padding-left: 120px;
-}
-#commentaar h2{
-  font-size: 25px;
-  font-weight: bold;
-  font-style: italic;
-}
-
-
-/* detail rondleiding */
-
-.field-name-field-tour-coverphoto{
-  margin-top: 40px;
-}
-
-#TourFoto{
-  margin-top: 20px;
-}
-#infoBlok{
-  background-color: #F5F6F7;
+#login p {
   padding-top: 30px;
-  padding-bottom: 30px;
-}
-#infoBlok h2{
-  color: #3DB4D6;
-  font-weight: bold;
-
-  font-size: 20px;
-  padding-bottom: 15px;
-}
-#beschrijving{
-  margin-bottom: 30px;
-}
-
-#beschrijving h2{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #FC9D50;
-  font-size: 20px;
-  font-weight: bold;
-
-}
-
-.field-name-field-tour-theme{
-  color: black;
-  margin-top: -20px;
-  margin-left: 42px;
-}
-
-
-.field-name-field-tour-location{
-  margin: 0 0 0 10px;
-  display: inline-block;
-  line-height: 20px;
-  color: #454545;
-}
-.field-name-field-tour-pricecategory{
-  margin: 0 0 0 10px;
-  display: inline-block;
-  line-height: 20px;
-  color: #454545;
-}
-.field-name-field-tour-duration{
-  margin: 0 0 0 10px;
-  display: inline-block;
-  line-height: 20px;
-  color: #454545;
-}
-.field-name-field-tour-participants-amount{
-  margin: 0 0 0 10px;
-  display: inline-block;
-  line-height: 20px;
-  color: #454545;
-}
-.field-name-field-tour-languages{
-   margin: 0 0 0 10px;
-  display: inline-block;
-  line-height: 20px;
-  color: #454545; 
-}
-
-
-#rondleidingen h3{
-    padding: 35px 0;
-    font-size: 50px;
-    font-weight: bold;
-    padding-left: 12px;
-}
-
-#iconenrondleidingen h5{
-    color: #3DB4D6;
-    width: 300px;
-    font-weight: bold;
-    font-size: 26px;
-}
-#rondleiding{
-    background-color: #F5F6F7;
-    width: 100%;
-    height: 250px;
-    padding-top: 5px;
-    padding-left: 15px;
-    margin-bottom: 20px;
-}
-#rondleidingTeaser{
-    background-color: #F5F6F7;
-    border-right: 1px solid #4D4D4D;
-    border-left: 1px solid #4D4D4D;
-    border-bottom: 1px solid #4D4D4D;
-    width: 350px;
-    height: 250px;
-    padding-top: 5px;
-    padding-left: 15px;
-    margin-bottom: 20px;
-}
-
-
-#rondleidingen h5 strong{
-    color: #3DB4D6;
-    font-size: 14px;
-}
-
-
-
-#leesmeer{
-    color: white;
-    background-color: #FC9D50;
-    padding: 5px 15px 5px 15px;
-    border-radius: 10px;.col-xs-6 .col-sm-4over
-    margin-left: 50px;
-}
-
-/* user logn/registreer pagina */
-
-
-#inloggen{
-  background-color: #F5F6F7;
-}
-#login{
-    background-color: white;
-    width: 75%;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-}
-#loginform{
-    border-top: 2px;
-}
-
-#login p{
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 25px;
-}
-
-#login h2{
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    padding-top: 50px;
-    padding-left: 30px;
-}
-
-#login input{
-    width: 85%;
-    height: 40px;
-    margin-bottom: 5px;
-    padding-left: 5px;
-    margin-left: 30px;
-    color: #000;
-}
-
-#login a{
   padding-left: 30px;
-}
+  padding-bottom: 25px; }
 
-#login a:hover{
-  text-decoration: none;
-}
+#login h2 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 50px;
+  padding-left: 30px; }
 
-#login label{
-    width: 85%;
-    margin-left: 30px;
-    color: #000;
-}
+#login input {
+  width: 85%;
+  height: 40px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  margin-left: 30px;
+  color: #000; }
 
-#login .description{
-  visibility: hidden;
-}
+#login a {
+  padding-left: 30px; }
 
+#login a:hover {
+  text-decoration: none; }
 
-#user-login input[value="Log in"]{ 
+#login label {
+  width: 85%;
+  margin-left: 30px;
+  color: #000; }
+
+#login .description {
+  visibility: hidden; }
+
+#user-login input[value="Log in"] {
   width: 85%;
   height: 40px;
   background-color: #162431;
   border: none;
-  color: white;
+  color: white; }
 
-}
+#nieuwsbrief {
+  background-color: #4D4D4D;
+  padding: 20px; }
 
-#user-register-form{
-  width: 650px;
-  margin-right: auto;
+#subscribe {
+  width: 60%;
   margin-left: auto;
-  margin-top: 110px;
-  margin-bottom: 150px;
-
-}
-#user-register-form input{
-  float: right;
-
-}
-#user-register-form input[value="Create new account"]{
-  width: 520px;
-  height: 30px;
-  background-color: #162431;
-  border: none;
-  color: white;
-
-}
-
-/* Mijn account */
-#acountform{
-  color: red;
-}
-#acountform strong{
-  padding-top: 30px;
-}
-
-.field-name-field-user-guide-experience{
-    padding-left: 30px;
-    padding-top: 50px;
-}
-.field-name-field-user-guide-birthdate{
-  padding-left: 30px;
-  padding-top: 10px;
-}
-.field-name-field-user-guide-address{
-  padding-left: 30px;
-  padding-top: 10px;
-}
-.field-name-field-user-guide-languages{
-  padding-left: 30px;
-  padding-top: 10px;
-}
-
-.field-name-field-user-name{
-  visibility: hidden;
-}
-.field-name-field-user-firstname{
-  visibility: hidden;
-}
-.field-name-field-user-phone{
-  visibility: hidden;
-}
-
-.profile h3{
-  visibility: hidden;
-}
-
-#basicInfo{
-  padding-left: 30px;
-  padding-top: 50px;
-}
-
-/* Navigation */ 
-#nice-menu-1 {
-  float: right;
-}
-
-ul.nice-menu li  {
-  background: none;
-}
-ul.nice-menu li a {
-    color: white;
-}
-
-.nice-menu  li a:hover {
-  color: #027ac6;
-  text-decoration: none;
-}
-
-ul.nice-menu-down li.menuparent {
-    background: none;
-    margin-top: 0.3em;
-    margin-left: 20px;
-}
-ul.nice-menu-down li.menuparent:hover {
-    background: none;
-    cursor: pointer;
-    color: #027ac6;
-}
-ul.nice-menu-down li.menuparent span{
-    color: white;
-}
-ul.nice-menu-down li.menuparent ul{
-    background-color: #162431;
-}
-
-
-
-
-/*ADD TOUR*/
-.form-item-title{
-  margin-top: 50px;
-  margin-left: 10px;
-}
-.form-item-title input{
-  margin-left: 20px;
-  width: 600px;
-}
-
-.field-name-field-tour-location{
-  margin-top: 10px;
-}
-.field-name-field-tour-location input{
-  margin-left: 20px;
-}
-
-/* INFO */
-
-#info{
-    padding-top: 50px;
-    padding-left: 25px;
-    padding-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #F5F6F7;
-}
-
-#info h2{
-    padding-top: 30px;
-    font-size: 34px;
-    text-align: center;
-}
-
-#info p{
-    font-size: 15px;
-}
-
-#filmpje{
-    padding-top: 30px;
-}
-
-#waarom{
-    padding-top: 10px;
-}
-.clearfix{
-  clear: both;
-}
-#waarom ul li{
-  margin-top: 20px;
-}
-#waarom ul li img{
-  float: left;
-  margin: 2px 0 0 10px;
-}
-#waarom ul li p{
-  margin: 0px 0 0 15px;
-  display: inline-block;
-  line-height: 20px;
-  color: #454545;
-}
-
-
-
-/* rondleiding toevoegen */
-.node-tours-form{
-
-  width: 800px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
-/* NIUEWSBRIEF */
-#nieuwsbrief{
-    background-color: #4D4D4D;
-    padding: 20px;
-}
-#subscribe{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-
-
-}
+  margin-right: auto; }
 
 #subscribe label {
   color: #F5F6F7;
@@ -810,8 +351,7 @@ ul.nice-menu-down li.menuparent ul{
   font-size: 20px;
   line-height: 35px;
   margin-top: 10px;
-  padding-left: 60px;
-}
+  padding-left: 60px; }
 
 #subscribe input[type="text"] {
   height: 55px;
@@ -824,8 +364,8 @@ ul.nice-menu-down li.menuparent ul{
   color: #F5F6F7;
   background-color: #4D4D4D;
   border: 0.5px solid white;
-  border-radius: 4px;
-}
+  border-radius: 4px; }
+
 #subscribe input[type="submit"] {
   height: 55px;
   width: 25%;
@@ -837,202 +377,380 @@ ul.nice-menu-down li.menuparent ul{
   color: #4D4D4D;
   background-color: #F5F6F7;
   border: none;
-  border-radius: 4px;
+  border-radius: 4px; }
 
-}
-
-
-/* LID WORDEN */
-
-#lid{
-   background-image: url("../img/hands_guide_blauw.jpg");
-   background-repeat: no-repeat;
-   background-position: center; 
-   background-size: 100%;
-   text-align: center;
-   color: white;
-}
-
-#lid h2{
-    padding-top: 100px;
-    padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-#lid p{
-    font-size: 20px;
-}
-#lidworden{
-    margin-top: 20px;
-    padding-bottom: 100px;
-}
-
-.registreerlinks{
-    color: #fff;
-    width: 195px;
-    display: inline-block;
-    border-style: solid;
-    border-color: #3DB4D6;
-    border-width: 1px;
-    padding: 8px 12px;
-    border-radius: 3px;
-}
-.registreerlinks:hover{ 
-  color: #3DB4D6;
-  text-decoration: none;
-}
-
-
-
-
-
-
-
-
-/* FOOTER */
-
-footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #162431;
-    color: white;
-}
-
-footer h3 {
-    font-size: 1.3em;
-    float: left;
-}
-
-footer p{
-    float: left;
-}
-
-
-
-
-
-
-
-/*      MAX WIDTH 768       */
-
-@media(min-width:768px) {
-      header{
-        background-position: 0px ;
-    }
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-}
-
-@media(max-width:900px) {
-    header{
-    background-size: cover;
-  }
-  header .container p{
-    font-size: 24px;
-  }
-}
-
-
-/*      MAX WIDTH 600       */
 @media (max-width: 600px) {
-  header{
-    background-size: cover;
-    background-position: 0% 0%;
-  }
-  header .container{
-    max-width: 400px;
-    margin: auto;
-  }
-  header .container p{
-    text-align: center;
-    font-size: 24px;
-  }
-  #rondleidingen h3{
-    font-size: 30px;
-  }
-  #zoeken{
-    margin: auto;
-    display: inline-block;
-    text-align: center;
-  }
-  #filmpje{
-    display: none;
-  }
-  .col-xs-6{
-    width: 100%;
-  }
-  #lid h2{
-    text-align: center;
-    padding-top: 70px;
-    font-size: 35px;
-  }
+  #subscribe {
+    display: none; } }
+#fotos {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px; }
 
-  #gidsworden{
-    margin-top: 5px;
-    margin-bottom: 0px;
-  }
-  #lidworden{
-    padding-bottom: 70px;
-  }
-  #lid{
-    background-size: cover;
-    background-position: 0% 0%;
-    padding-bottom: 0px;
-  }
-  #rondleidingen .col-md-4{
-    width: 100%;
-  }
+#fotos h1 {
+  margin-bottom: 8px;
+  color: #4DBEF0;
+  font-size: 2rem; }
 
-  .workflow{
-  background-color: #F1F1F1;
-}
+#fotos strong {
+  color: blue;
+  font-weight: bold; }
 
+#rating {
+  margin-bottom: 20px; }
 
+#like {
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
+#price {
+  padding-left: 150px; }
 
-.workflow ul{
-  max-width: 250px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.workflow ul li{
+#comment {
+  margin-top: 30px; }
+
+#commentaar {
+  padding-left: 120px; }
+
+#commentaar h2 {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic; }
+
+.field-name-field-tour-coverphoto {
+  margin-top: 40px; }
+
+#TourFoto {
+  margin-top: 20px; }
+
+#infoBlok {
+  background-color: #F5F6F7;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+#infoBlok h2 {
+  color: #3DB4D6;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 15px; }
+
+#beschrijving {
+  margin-bottom: 30px; }
+
+#beschrijving h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #FC9D50;
+  font-size: 20px;
+  font-weight: bold; }
+
+.field-name-field-tour-theme {
+  color: black;
+  margin-top: -20px;
+  margin-left: 42px; }
+
+#fotos ul li img {
+  float: left; }
+
+.field-name-field-tour-location {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545; }
+
+.field-name-field-tour-pricecategory {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545; }
+
+.field-name-field-tour-duration {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545; }
+
+.field-name-field-tour-participants-amount {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545; }
+
+.field-name-field-tour-languages {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545; }
+
+#user-register-form {
+  width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 110px;
+  margin-bottom: 150px; }
+
+#user-register-form input {
+  float: right; }
+
+#user-register-form input[value="Create new account"] {
+  width: 520px;
+  height: 30px;
+  background-color: #162431;
+  border: none;
+  color: white; }
+
+#block-system-user-menu ul {
+  float: right; }
+
+#block-system-user-menu ul.menu li {
+  display: block;
+  float: left;
+  margin-top: 10px; }
+
+#block-nice-menus-1 {
+  padding-top: 20px; }
+
+#block-nice-menus-1 h2 {
+  display: none; }
+
+#nice-menu-1 {
+  margin-right: 20%;
+  float: right; }
+
+#nice-menu li a {
+  background: none; }
+
+#block-system-user-menu ul.menu li a:hover {
+  text-decoration: none;
+  color: #18bc9c; }
+
+#block-system-user-menu ul.menu li a:active {
+  text-decoration: none;
+  color: #18bc9c; }
+
+ul.nice-menu li {
+  background: none; }
+
+ul.nice-menu li a {
+  color: white; }
+
+.nice-menu li a:hover {
+  color: #027ac6;
+  text-decoration: none; }
+
+ul.nice-menu-down li.menuparent {
+  background: none;
+  margin-top: 0.3em;
+  margin-left: 20px; }
+
+ul.nice-menu-down li.menuparent:hover {
+  background: none;
+  cursor: pointer;
+  color: #027ac6; }
+
+ul.nice-menu-down li.menuparent span {
+  color: white; }
+
+ul.nice-menu-down li.menuparent ul {
+  background-color: #162431; }
+
+#overzicht h5 {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: #3DB4D6;
+  font-size: 18px;
+  font-weight: bold; }
+
+#overzicht {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+#tour {
+  margin-right: 20px;
+  margin-left: 40px; }
+
+/* filter overview */
+.views-exposed-form {
+  margin-top: 50px;
+  border: 1px solid;
+  width: 50%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#rondleidingTeaser {
+  background-color: #F5F6F7;
+  border-right: 1px solid #4D4D4D;
+  border-left: 1px solid #4D4D4D;
+  border-bottom: 1px solid #4D4D4D;
+  width: 350px;
+  height: 250px;
+  padding-top: 5px;
+  padding-left: 15px;
+  margin-bottom: 20px; }
+
+#rondleidingen h3 {
+  padding: 35px 0;
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 12px; }
+
+#iconenrondleidingen h5 {
+  color: #3DB4D6;
+  width: 300px;
+  font-weight: bold;
+  font-size: 26px; }
+
+#rondleiding {
+  background-color: #F5F6F7;
   width: 100%;
-  float: none;
-}
-.workflow ul li[name=stap2], .workflow ul li[name=stap3]{
-  margin-top: 15px;
-}
-.workflow ul .tussenlijn{
-  display: none;
-}
-.workflow ul li img{
+  height: 250px;
+  padding-top: 5px;
+  padding-left: 15px;
+  margin-bottom: 20px; }
+
+#rondleidingen h5 strong {
+  color: #3DB4D6;
+  font-size: 14px; }
+
+#leesmeer {
+  color: white;
+  background-color: #FC9D50;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px; }
+
+.col-xs-6 .col-sm-4over {
+  margin-left: 50px; }
+
+@media (max-width: 600px) {
+  #rondleidingen .col-md-4 {
+    width: 100%; }
+
+  #rondleidingen h3 {
+    font-size: 30px; }
+
+  .form-item-edit-tour-language-nl {
+    color: red; } }
+/* Subnavigatie voor gidsen */
+#subnav {
+  width: 100%;
+  background-color: lightgrey;
+  padding: 10px 18%; }
+
+#block-menu-menu-gidssub h2 {
+  display: none; }
+
+#block-menu-menu-gidssub .content ul {
+  display: flex;
+  justify-content: flex-end; }
+
+#block-menu-menu-gidssub .content ul li {
+  list-style: none; }
+
+#block-menu-menu-gidssub .content ul li a {
+  color: #4D4D4D; }
+
+#block-menu-menu-gidssub .content ul li a:hover {
+  text-decoration: none; }
+
+#info {
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F6F7; }
+
+#info h2 {
+  padding-top: 30px;
+  font-size: 34px;
+  text-align: center; }
+
+#info p {
+  font-size: 15px; }
+
+#filmpje {
+  padding-top: 30px; }
+
+#waarom {
+  padding-top: 10px; }
+
+.clearfix {
+  clear: both; }
+
+#waarom ul li {
+  margin-top: 20px; }
+
+#waarom ul li img {
+  float: left;
+  margin: 2px 0 0 10px; }
+
+#waarom ul li p {
+  margin: 0px 0 0 15px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545; }
+
+@media (max-width: 600px) {
+  #filmpje {
+    display: none; } }
+.workflow {
+  background-color: #F1F1F1; }
+
+.workflow ul {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.workflow ul li {
+  width: 32.5%;
+  float: left;
+  margin-top: 15px; }
+
+.workflow ul .tussenlijn {
+  width: 1px;
+  height: 100px;
+  background-color: #888887;
+  float: left; }
+
+.workflow ul li img {
   display: block;
   margin: auto;
-}
-.workflow ul li p{
+  margin-top: 10px; }
+
+.workflow ul li p {
   text-align: center;
   color: #888887;
-  margin-top: 5px;
-}
+  margin-top: 10px; }
 
-#subscribe{
-  display: none;
-}
+@media (max-width: 600px) {
+  .workflow {
+    background-color: #F1F1F1; }
 
-/* filter rondleidingen */
+  .workflow ul {
+    max-width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
-.form-item-edit-tour-language-nl{
-   color: red;
-}
+  .workflow ul li {
+    width: 100%;
+    float: none; }
 
+  .workflow ul li[name=stap2], .workflow ul li[name=stap3] {
+    margin-top: 15px; }
+
+  .workflow ul .tussenlijn {
+    display: none; }
+
+  .workflow ul li img {
+    display: block;
+    margin: auto; }
+
+  .workflow ul li p {
+    text-align: center;
+    color: #888887;
+    margin-top: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
