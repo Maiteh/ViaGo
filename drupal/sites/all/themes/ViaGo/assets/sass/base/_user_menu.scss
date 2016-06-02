@@ -1,0 +1,39 @@
+#block-system-user-menu ul {
+  float: right;
+}
+
+#block-system-user-menu ul.menu li {
+  display: block;
+  float: left;
+  margin-top: 10px;
+}
+#block-nice-menus-1 {
+  padding-top: 20px;
+}
+#block-nice-menus-1 h2{
+  display: none;
+}
+#nice-menu-1 {
+  margin-right: 20%;
+
+}
+#nice-menu li a{
+  background: none;
+}
+
+#block-system-user-menu ul.menu li a:hover
+{
+
+  text-decoration: none;
+  color: #18bc9c;
+
+
+}
+#block-system-user-menu ul.menu li a:active
+{
+
+  text-decoration: none;
+  color: #18bc9c;
+
+
+}

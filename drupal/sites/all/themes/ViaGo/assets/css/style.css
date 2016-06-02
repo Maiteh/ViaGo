@@ -9,7 +9,7 @@ header {
     background-repeat: no-repeat;
     background-position: 0 -90px;
     background-size: 100% auto;
-    text-shadow: 0px 0px 28px rgba(0, 0, 0, 1); 
+    text-shadow: 0px 0px 28px rgba(0, 0, 0, 1);
 }
 
 header .container {
@@ -229,9 +229,10 @@ header strong{
 
 
 #zoekKnop{
-    margin-top: 50px;
-}
+     margin-top: 50px;
+ }
 
+/* *****************************************************************************
 #stappen .col-xs-6 {
     text-align: center;
 
@@ -242,8 +243,9 @@ header strong{
 }
 
 #stappenKlant .col-xs-6{
-  text-align: center;
+    text-align: center;
 }
+*/
 
 /*header img {
     display: block;
@@ -275,7 +277,7 @@ nav{
 nav a{
     color: white;
 }
-
+/* *****************************************************************************
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -290,7 +292,7 @@ nav a{
     height: 100px;
     margin: 10px;
 }
-
+*/
 #zoekbalk{
     height: 35px;
     width: 270px;
@@ -311,7 +313,7 @@ nav a{
 }
 
 
-
+/* *****************************************************************************
 header h1{
     margin-bottom: 40px;
 }
@@ -333,9 +335,10 @@ header a:hover{
      text-decoration: none;
      color: #FC9D50;
      background-color: #FC9D50;
-     background: rgb(252, 157, 80); /* Fall-back for browsers that don't support rgba */
+     background: rgb(252, 157, 80);
      background: rgba(252, 157, 80, .3);
 }
+*/
 /*header .logo{
     text-align: left;
     margin-top: -500px;
@@ -351,7 +354,7 @@ header .logo #logo{
     text-align: left !important;
 }*/
 
-
+/* *****************************************************************************
 #intro{
     background-color: #EFEFEF;
     padding-bottom: 50px;
@@ -373,6 +376,7 @@ header .logo #logo{
     color: #FC9D50;
     
 }
+*/
 
 #fotos{
     width: 90%;
@@ -775,60 +779,28 @@ header .logo #logo{
 }
 
 /* Mijn account */
-
-
-#account{
-  background-color: #F5F6F7;
+#acountform{
+  color: red;
 }
-
-#accountblok{
-    background-color: white;
-    width: 75%;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-}
-
-#accountblok h2{
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding-top: 50px;
-    padding-left: 30px;
-    color: #3DB4D6;
-}
-
-#accountblok p{
-  padding-top: 10px;
-  padding-left: 30px;
-}
-
-
-#gegevens{
+#acountform strong{
   padding-top: 30px;
-  padding-left: 30px;
 }
-
-
 
 .field-name-field-user-guide-experience{
-  padding-top: 20px;
+    padding-left: 30px;
+    padding-top: 50px;
 }
 .field-name-field-user-guide-birthdate{
-  padding-top: 20px;
-}
-.field-name-field-user-guide-birthdate .field-label{
-  font-weight: normal;
+  padding-left: 30px;
+  padding-top: 10px;
 }
 .field-name-field-user-guide-address{
   padding-left: 30px;
   padding-top: 10px;
 }
 .field-name-field-user-guide-languages{
-  padding-top: 20px;
-}
-.field-name-field-user-guide-languages .field-label{
-  font-weight: normal;
+  padding-left: 30px;
+  padding-top: 10px;
 }
 
 .field-name-field-user-name{

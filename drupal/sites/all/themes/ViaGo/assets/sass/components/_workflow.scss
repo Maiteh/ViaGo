@@ -1,0 +1,36 @@
+.workflow{
+  background-color: #F1F1F1;
+}
+
+.workflow ul{
+  width: 90%;
+  margin: auto;
+  max-width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.workflow ul li{
+  width: 32.5%;
+  float: left;
+}
+.workflow ul li[name=stap2], .workflow ul li[name=stap3]{
+  margin-top: 15px;
+}
+.workflow ul .tussenlijn{
+  width: 1px;
+  height: 100px;
+  background-color: #888887;
+  float: left;
+}
+.workflow ul li img{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+.workflow ul li p{
+  text-align: center;
+  color: #888887;
+  margin-top: 10px;
+}
+
+

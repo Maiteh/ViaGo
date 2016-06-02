@@ -1,0 +1,74 @@
+header {
+    color: #fff;
+    background-image: url(../img/gent_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -90px;
+    background-size: 100% auto;
+    text-shadow: 0px 0px 28px rgba(0, 0, 0, 1);
+}
+
+header .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+header p{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+header strong{
+    color: white;
+    font-weight: bold;
+}
+
+header h1 a{
+     border: 2px solid #3DB4D6;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     color: #3DB4D6;
+     text-shadow: 0px 0px 28px rgba(0, 0, 0, 1);
+     display: block;
+     width: 25%;
+     float: left;
+    /*-webkit-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
+    -moz-box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);
+    box-shadow: inset 0px 0px 86px -18px rgba(0,0,0,0.19);*/
+}
+
+nav{
+    height: 70px;
+    background-color: #162431;
+}
+
+nav a{
+    color: white;
+}
+
+#zoekbalk{
+    height: 35px;
+    width: 270px;
+    display: block;
+    float: right;
+    margin-top: -36px;
+    padding-left: 5px;
+    background-color: #D8D8D8;
+    border-radius: 3px;
+    color: #162431;
+    font-style: italic;
+}
+
+.logo{
+    margin-top: 19px;
+    height: 30px;
+    width: 100px;
+}

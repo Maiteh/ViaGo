@@ -5,9 +5,9 @@ package = Core
 version = VERSION
 core = 7.x
 
-stylesheets[all][] = css/bootstrap.min.css
-stylesheets[all][] = css/style.css
-stylesheets[all][] = css/reset.css
+stylesheets[all][] = assets/css/bootstrap.min.css
+stylesheets[all][] = assets/css/style.css
+stylesheets[all][] = assets/css/reset.css
 
 
 

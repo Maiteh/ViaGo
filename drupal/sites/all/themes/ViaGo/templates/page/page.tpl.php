@@ -85,7 +85,7 @@
  * @see html.tpl.php
  */
 global $base_url;
-$img_url = $base_url . '/sites/all/themes/ViaGo/img';
+$img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
 ?>
 
 <!--<script>
