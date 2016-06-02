@@ -466,27 +466,6 @@ header .logo #logo{
 }
 
 
-
-#filmpje{
-    padding-top: 30px;
-}
-
-#waarom{
-    margin-top: 30px;
-}
-.clearfix{
-  clear: both;
-}
-
-#fotos ul li img{
-  float: left;
-
-}
-
-.info li{
-  margin-top: 7px;
-}
-
 .field-name-field-tour-location{
   margin: 0 0 0 10px;
   display: inline-block;
@@ -518,112 +497,6 @@ header .logo #logo{
   color: #454545; 
 }
 
-
-
-#hoeregistreren{
-    background-color: #F5F6F7;
-    padding-bottom: 60px;
-
-
-}
-
-#hoeaccountaanmaken{
-    background-color: #d4d4d4;
-    padding-bottom: 60px;
-
-}
-
-#stappen{
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-}
-
-#stappenKlant{
-     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-
-}
-
-#stappenKlant h1{
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    margin-left: -115px;
-}
-
-#stappen h1{
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-}
-
-
-#registreer{
-    background-color: white;
-    width: 75%;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#registreerformgids{
-    border-top: 2px;
-}
-
-#registreer p{
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 25px;
-}
-
-#registreer h2{
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-#registreer input{
-    width: 85%;
-    height: 40px;
-    margin-bottom: 5px;
-    padding-left: 5px;
-    color: #000;
-}
-
-#registreer form{
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-}
-
-#contact{
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10px;
-}
-
-#contact strong{
-    color: #3DB4D6;
-}
-
-#registreerButton{
-    background-color: #FF4D27;
-    color: #fff;
-    margin-left: 30px;
-    padding: 10px 18px 10px 18px;
-    text-decoration: none;
-
-}
 
 #rondleidingen h3{
     padding: 35px 0;
@@ -658,16 +531,7 @@ header .logo #logo{
     margin-bottom: 20px;
 }
 
-#tour{
-  
 
-}
-
-#rondleidingen h5{
-    color: #3DB4D6;
-    font-size: 18px;
-    font-weight: bold;
-}
 #rondleidingen h5 strong{
     color: #3DB4D6;
     font-size: 14px;
@@ -681,11 +545,6 @@ header .logo #logo{
     padding: 5px 15px 5px 15px;
     border-radius: 10px;.col-xs-6 .col-sm-4over
     margin-left: 50px;
-}
-
-#iconen{
-    padding-top: 40px;
-    
 }
 
 /* user logn/registreer pagina */
@@ -859,21 +718,6 @@ ul.nice-menu-down li.menuparent ul{
 
 
 
-
-
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
-
 /*ADD TOUR*/
 .form-item-title{
   margin-top: 50px;
@@ -935,9 +779,6 @@ header .intro-text .skills {
   line-height: 20px;
   color: #454545;
 }
-
-
-
 
 
 
@@ -1067,37 +908,11 @@ footer p{
     float: left;
 }
 
-#newsletter{
-    background-color: #4D4D4D;
-    color: #F5F6F7;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#newsletter form{
-    margin-right: auto;
-    margin-left: auto;
-    color: #F5F6F7;
-    width: 380px;
-
-}
-
-#newsletterInvoer{
-    background-color: #4D4D4D;
-    padding: 5px;
-    border-radius: 3px;
-    color: #F5F6F7;
-    margin-left: 10px;
-}
 
 
 
-@media (min-width: 1500px) {
-    header{
-        background-position: 0px -200px;
-    }
 
-    }
+
 
 /*      MAX WIDTH 768       */
 

@@ -1,0 +1,38 @@
+#lid{
+   background-image: url("../img/hands_guide_blauw.jpg");
+   background-repeat: no-repeat;
+   background-position: center; 
+   background-size: 100%;
+   text-align: center;
+   color: white;
+}
+
+#lid h2{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#lid p{
+    font-size: 20px;
+}
+#lidworden{
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+.registreerlinks{
+    color: #fff;
+    width: 195px;
+    display: inline-block;
+    border-style: solid;
+    border-color: #3DB4D6;
+    border-width: 1px;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.registreerlinks:hover{ 
+  color: #3DB4D6;
+  text-decoration: none;
+}

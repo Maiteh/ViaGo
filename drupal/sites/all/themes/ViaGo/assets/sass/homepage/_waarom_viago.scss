@@ -1,0 +1,42 @@
+#info{
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F6F7;
+}
+
+#info h2{
+    padding-top: 30px;
+    font-size: 34px;
+    text-align: center;
+}
+
+#info p{
+    font-size: 15px;
+}
+
+#filmpje{
+    padding-top: 30px;
+}
+
+#waarom{
+    padding-top: 10px;
+}
+.clearfix{
+  clear: both;
+}
+#waarom ul li{
+  margin-top: 20px;
+}
+#waarom ul li img{
+  float: left;
+  margin: 2px 0 0 10px;
+}
+#waarom ul li p{
+  margin: 0px 0 0 15px;
+  display: inline-block;
+  line-height: 20px;
+  color: #454545;
+}

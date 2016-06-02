@@ -1,0 +1,32 @@
+#nice-menu-1 {
+  float: right;
+}
+
+ul.nice-menu li  {
+  background: none;
+}
+ul.nice-menu li a {
+    color: white;
+}
+
+.nice-menu  li a:hover {
+  color: #027ac6;
+  text-decoration: none;
+}
+
+ul.nice-menu-down li.menuparent {
+    background: none;
+    margin-top: 0.3em;
+    margin-left: 20px;
+}
+ul.nice-menu-down li.menuparent:hover {
+    background: none;
+    cursor: pointer;
+    color: #027ac6;
+}
+ul.nice-menu-down li.menuparent span{
+    color: white;
+}
+ul.nice-menu-down li.menuparent ul{
+    background-color: #162431;
+}
