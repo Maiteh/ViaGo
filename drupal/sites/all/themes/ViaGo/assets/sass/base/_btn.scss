@@ -1,8 +1,8 @@
 /** header **/
 
 #zoeken{
-  background-color: #FF4D27;
-  color: #fff;
+  background-color: $search_button_color;
+  color: $white;
   margin-top: 50px;
   padding: 13px 20px 13px 20px;
   border-radius: 5px;
@@ -12,13 +12,13 @@
   margin-top: 50px;
 }
 
-#sub {
+/*#sub {
   background-color: #FF4D27;
   color: #fff;
   margin-top: 50px;
   padding: 18px 30px 18px 30px;
   border-radius: 5px;
-}
+}*/
 @media (max-width: 600px) {
   #zoeken {
     margin: auto;

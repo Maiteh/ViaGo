@@ -73,13 +73,13 @@ body {
 #zoekKnop {
   margin-top: 50px; }
 
-#sub {
+/*#sub {
   background-color: #FF4D27;
   color: #fff;
   margin-top: 50px;
   padding: 18px 30px 18px 30px;
-  border-radius: 5px; }
-
+  border-radius: 5px;
+}*/
 @media (max-width: 600px) {
   #zoeken {
     margin: auto;
@@ -105,10 +105,10 @@ body {
 #about strong {
   color: #4DBEF0; }
 
-.footer {
+/*.footer {
   clear: both;
-  background-color: #4D4D4D; }
-
+  background-color: $footer_color;
+}*/
 .newsletter {
   width: 100%;
   margin-right: auto;
@@ -116,7 +116,7 @@ body {
   padding: 30px 0; }
 
 .newsletter label {
-  color: white;
+  color: #fff;
   font-size: 20px;
   font-weight: normal; }
 
@@ -124,7 +124,7 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #162431;
-  color: white; }
+  color: #fff; }
 
 footer h3 {
   font-size: 1.3em;
