@@ -335,6 +335,13 @@ nav a {
   background-color: #162431;
   border: none;
   color: white; }
+#login input[value="E-mail new password"] {
+    width: 85%;
+    height: 40px;
+    background-color: #162431;
+    border: none;
+    color: white;
+}
 
 #nieuwsbrief {
   background-color: #4D4D4D;
@@ -569,6 +576,7 @@ ul.nice-menu-down li.menuparent ul {
 #tour {
   margin-right: 20px;
   margin-left: 40px; }
+
 
 /* filter overview */
 .views-exposed-form {
