@@ -26,6 +26,7 @@ function ViaGo_theme() {
       'viago_preprocess_user_pass'
     ),
   );
+
   return $items;
 }
 ?>

@@ -490,20 +490,15 @@ nav a {
   line-height: 20px;
   color: #454545; }
 
-#user-register-form {
-  width: 650px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 110px;
-  margin-bottom: 150px; }
+#loginform .fieldset-legend{
+  visibility: hidden;
 
-#user-register-form input {
-  float: right; }
+}
 
 #user-register-form input[value="Create new account"] {
-  width: 520px;
-  height: 30px;
+  height: 40px;
   background-color: #162431;
+  margin-top: -150px;
   border: none;
   color: white; }
 

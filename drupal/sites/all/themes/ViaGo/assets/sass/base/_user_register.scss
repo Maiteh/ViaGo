@@ -1,20 +1,11 @@
-#user-register-form{
-  width: 650px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 110px;
-  margin-bottom: 150px;
-
+#loginform .fieldset-legend{
+  visibility: hidden;
 }
-#user-register-form input{
-  float: right;
 
-}
 #user-register-form input[value="Create new account"]{
   width: 520px;
   height: 30px;
   background-color: #162431;
   border: none;
   color: white;
-
 }
