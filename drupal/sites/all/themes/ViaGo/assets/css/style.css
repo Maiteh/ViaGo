@@ -293,7 +293,10 @@ nav a {
   margin-bottom: 50px; }
 
 #loginform {
-  border-top: 2px; }
+  border-top: 2px; 
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;}
 
 #login p {
   padding-top: 30px;
@@ -494,6 +497,117 @@ nav a {
   visibility: hidden;
 
 }
+
+/*--------------------- */
+#loginform .form-item-name{
+ margin-top: 50px;
+}
+#loginform .form-item-profile-guide-field-user-guide-profilepic-und-0{
+  margin-top: -30px;
+}
+
+#loginform #edit-profile-guide-field-user-guide-profilepic-und-0-upload{
+  margin-top: 10px;
+}
+#loginform #edit-profile-guide-field-user-guide-profilepic-und-0-upload-button{
+  visibility: hidden;
+}
+#loginform .form-item-profile-guide-field-user-guide-cv-und-0{
+  margin-top: -50px;
+}
+#loginform #edit-profile-guide-field-user-guide-cv-und-0-upload{
+  margin-top: 10px;
+}
+#loginform #edit-profile-guide-field-user-guide-cv-und-0-upload-button{
+  visibility: hidden;
+}
+#loginform .form-item-profile-guide-field-user-guide-experience-und-value{
+  margin-top: -110px;
+}
+#loginform .form-item-profile-guide-field-user-guide-experience-und-value label{
+  margin-left: -1px;
+}
+#loginform #edit-profile-guide-field-user-guide-experience-und-value-ignore{
+  visibility: hidden;
+}
+
+#loginform label[for="edit-profile-guide-field-user-guide-experience-und-value-ignore"]{
+  visibility: hidden;
+}
+#loginform #edit-profile-guide-field-user-guide-experience-und-value-container{
+  margin-top: -60px;
+  margin-left: 10px;
+  width: 88%;
+}
+#loginform .sliderfield-display-values-field{
+  visibility: hidden;
+}
+#loginform #edit-profile-guide-field-user-guide-education{
+  margin-top: 20px;
+}
+#loginform #edit-profile-guide-field-user-guide-description-und-0-value{
+  margin-left: 30px;
+  width: 85%;
+}
+#loginform #edit-profile-guide-field-user-guide-description-und-0-format{
+  visibility: hidden;
+}
+#loginform #edit-profile-guide-field-user-guide-languages{
+  margin-top: -120px;
+  margin-left: -30px;
+}
+#loginform #edit-profile-guide-field-user-guide-languages-und input[type="checkbox"]{
+  width: 20%;
+}
+#loginform .form-type-checkbox{
+  float: left;
+}
+#loginform #edit-profile-guide-field-user-guide-languages-und{
+  margin-left: 6px;
+}
+#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value{
+  margin-top: 50px;
+  margin-left: -325px;
+}
+
+#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-month"]{
+margin-left: -2px;
+}
+#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-day"]{
+margin-left: -2px;
+}
+#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-year"]{
+margin-left: -2px;
+}
+#loginform #profile-guide-field-user-guide-address-add-more-wrapper{
+  margin-left: -30px;
+  margin-bottom: 20px;
+}
+#loginform #profile-guide-field-user-guide-website-add-more-wrapper{
+  width: 96%;
+}
+#loginform #edit-profile-guide-field-user-guide-experience-und-value-container{
+  margin-top: 30px;
+  width: 87%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #user-register-form input[value="Create new account"] {
   height: 40px;
