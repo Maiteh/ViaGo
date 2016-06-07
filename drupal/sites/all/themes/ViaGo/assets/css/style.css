@@ -297,6 +297,8 @@ nav a {
   width: 70%;
   margin-left: auto;
   margin-right: auto;}
+#loginformlogin {
+  border-top: 2px; }
 
 #login p {
   padding-top: 30px;
