@@ -122,7 +122,8 @@ $img_url = image_style_url("Cover_tour ", $img_uri);
             </div>
             <div class="col-xs-6" id="comment">
                 <div class="col-xs-6 col-md-4"></div>
-                <div class="col-xs-6 col-md-4"><p>Uw enthousiaste gids</p> <strong>Glenn Sterckx</strong></div>
+                <div class="col-xs-6 col-md-4"><p>Uw enthousiaste gids</p> <strong>
+                    <?php if ($page): ?> <?php if ($display_submitted): ?><?php print $name; ?><?php endif; ?><?php endif;?></strong></div>
                 <div class="col-xs-6 col-md-4"><img src="<?php print $image . '/persoon.jpg'?>" width="60%" /></div>
                 <div id="price">
                     <img src="<?php print $image . '/ticket.svg'?>" width="60%" />

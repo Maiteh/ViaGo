@@ -623,6 +623,15 @@ margin-left: -2px;
 }
 
   -----*/
+
+/* Nieuwe rondleiding */
+
+#nieuwsteRondleidingen{
+  margin-left: -20px;
+}
+#block-views-214c82a163aed3db8b868e01f9000f53 h2{
+  visibility: hidden;
+}
 /* Overview Filter */
 #edit-tour-language-wrapper{
   width: 100%;
@@ -633,6 +642,7 @@ margin-left: -2px;
   float: left;
   margin-left: 50px;
 }
+
 #edit-field-tour-pricecategory-value-wrapper{
   width: 39%;
   margin-top: 20px;

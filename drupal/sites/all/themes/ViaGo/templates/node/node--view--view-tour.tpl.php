@@ -5,7 +5,6 @@ global $base_url;
 $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
 
 ?>
-
             <div id="tour">
                 <?php print drupal_render($content['field_tour_coverphoto']); ?>
                         <div id="rondleidingTeaser">
