@@ -423,7 +423,8 @@ nav a {
   margin-top: 30px; }
 
 #commentaar {
-  padding-left: 120px; }
+  padding-left: 120px;
+  margin-top: 50px; }
 
 #commentaar h2 {
   font-size: 25px;
@@ -681,9 +682,18 @@ margin-left: -2px;
 }
 
 
+/*----- Detail */
 
-
-
+#TourFoto img{
+  margin-left: 16px;
+}
+#boeken a{
+  background-color: #ff4d27;;
+  padding: 10px;
+  color: white;
+  margin-left: 180px;
+  margin-bottom: 100px;
+}
 
 
 

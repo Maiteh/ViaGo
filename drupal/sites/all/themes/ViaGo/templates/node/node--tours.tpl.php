@@ -106,14 +106,14 @@ $img_url = image_style_url("Cover_tour ", $img_uri);
                     </li>
                 <ul>
                 <div id="TourCover">
-                <?php print drupal_render($content['field_tour_coverphoto']); ?>
+                <img src="<?php echo render(file_create_url($node->field_tour_photos['und'][0]['uri'])); ?>" width="480px" height="319px" />
                 </div>
                 <div class="row">
                     <div id="TourFoto">
-                     <div class="col-xs-6 col-sm-3"><img src="<?php print $image . '/gent_1.jpg'?>" width="100%" /></div> 
-                     <div class="col-xs-6 col-sm-3"><img src="<?php print $image . '/gent_1.jpg'?>" width="100%" /></div>
-                     <div class="col-xs-6 col-sm-3"><img src="<?php print $image . '/gent_1.jpg'?>" width="100%" /></div>
-                     <div class="col-xs-6 col-sm-3"><img src="<?php print $image. '/gent_1.jpg'?>" width="100%" /></div> 
+                     <img src="<?php echo render(file_create_url($node->field_tour_photos['und'][1]['uri'])); ?>" width="104px" height="81px" />
+                     <img src="<?php echo render(file_create_url($node->field_tour_photos['und'][2]['uri'])); ?>" width="104px" height="81px" />
+                     <img src="<?php echo render(file_create_url($node->field_tour_photos['und'][3]['uri'])); ?>" width="104px" height="81px" />
+                     <img src="<?php echo render(file_create_url($node->field_tour_photos['und'][4]['uri'])); ?>" width="104px" height="81px" />
                  </div>
                 </div>
                 <div id="like">
@@ -124,9 +124,11 @@ $img_url = image_style_url("Cover_tour ", $img_uri);
                 <div class="col-xs-6 col-md-4"></div>
                 <div class="col-xs-6 col-md-4"><p>Uw enthousiaste gids</p> <strong>
                     <?php if ($page): ?> <?php if ($display_submitted): ?><?php print $name; ?><?php endif; ?><?php endif;?></strong></div>
-                <div class="col-xs-6 col-md-4"><img src="<?php print $image . '/persoon.jpg'?>" width="60%" /></div>
-                <div id="price">
-                    <img src="<?php print $image . '/ticket.svg'?>" width="60%" />
+                <div class="col-xs-6 col-md-4">
+                <?php if ($page): ?> <?php if ($display_submitted): ?><?php print $user_picture; ?><?php endif; ?><?php endif;?>
+            </div>
+                <div id="boeken">
+                    <a href="">BOEK NU</a>
                 </div>
                 <div id="commentaar">
                     <img src="<?php print $image . '/starts.png'?>" width="30%" id="rating" />
