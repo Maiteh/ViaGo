@@ -13,11 +13,11 @@ $account = user_load($user->uid);
              <div class="col-xs-6" id="accountform">
                 <div class="row">
                     <div class="col-xs-6">
-
+                        
                     </div>
                     <div class="col-xs-6">
                         <ul id="gegevens">
-                            <strong><?php print $account->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> <?php print $account->field_user_name[LANGUAGE_NONE][0]['value']; ?> </strong>
+                            
                         </ul>
                         
                         
@@ -35,11 +35,6 @@ $account = user_load($user->uid);
                         <p>Username: <?php  print $user->name; ?> </p>
                         <p>E-mailadres: <?php print $user->mail; ?></p>
                         <p>Wachtwoord: ****** </p>
-
-                       
-
-                        
-                        <h2>Mijn favoriete rondleidingen</h2>
                    </div>
     </div>
 </body>
