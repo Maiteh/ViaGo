@@ -40,3 +40,46 @@
   padding-left: 30px;
   padding-top: 50px;
 }
+
+  @media (min-width: 600px) {
+ .user-picture .active{
+  margin-right: 500px;
+}
+}
+}
+#gegevens h2{
+  color: #3DB4D6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#favorieten h2{
+    color: #3DB4D6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#gegevens p{
+  margin-top: 5px;
+}
+#gegevens{
+    padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+#NaamToerist{
+  border-bottom: 1px solid;
+  height: 150px;
+}
+
+#NaamToerist h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.profile dt{
+  visibility: hidden;
+}
+.profile dd{
+  visibility: hidden;
+}

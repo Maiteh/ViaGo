@@ -689,11 +689,18 @@ margin-left: -2px;
 }
 #boeken a{
   background-color: #ff4d27;
-  padding: 10px;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
   color: white;
+  margin-top: 50px;
   margin-left: 180px;
   margin-bottom: 100px;
 }
+.user-picture{
+  margin-bottom: 50px;
+}
+
 
 /* Toevoegen rondleiding */
 
@@ -829,6 +836,48 @@ margin-left: -2px;
   margin-top: -150px;
   border: none;
   color: white; }
+
+  @media (min-width: 600px) {
+ .user-picture .active{
+  margin-right: 500px;
+}
+}
+#gegevens h2{
+  color: #3DB4D6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#favorieten h2{
+    color: #3DB4D6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#gegevens p{
+  margin-top: 5px;
+}
+#gegevens{
+    padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+#NaamToerist{
+  border-bottom: 1px solid;
+  height: 150px;
+}
+
+#NaamToerist h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.profile dt{
+  visibility: hidden;
+}
+.profile dd{
+  visibility: hidden;
+}
 
 #block-system-user-menu ul {
   float: right; }
