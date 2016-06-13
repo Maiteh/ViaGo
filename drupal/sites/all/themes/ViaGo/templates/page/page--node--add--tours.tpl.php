@@ -30,34 +30,12 @@ $form = node_add('tours');
 <body id="toevoegenRondleiding">
   <div id="basisinfoRondleiding">  
 	<h1>Rondleiding toevoegen</h1>
-    <div class="row">
-        <div class="col-xs-6" id="basisInformatie">
-        		  <h2>Basis informatie</h2>
-                  <?php print drupal_render($form['title']); ?>  
-                  <?php print drupal_render($form['field_tour_location']); ?>  
-                  <?php print drupal_render($form['field_tour_theme']); ?>
-                  <?php print drupal_render($form['field_tour_duration']); ?>  	
-                  <?php print drupal_render($form['field_tour_gatherpoint']); ?> 
-                  <?php print drupal_render($form['field_tour_pricecategory']); ?> 
-                  <?php print drupal_render($form['field_tour_participants_amount']); ?>    
-                  <?php print drupal_render($form['field_tour_languages']); ?>
-        </div>
-        <div class="col-xs-6" id="fotoInformatie">
-        		  <h2>Foto's rondleiding</h2>
-                  <h3>Omslagfoto</h3>
-        		  <?php print drupal_render($form['field_tour_coverphoto']); ?> 
-                  <h3>Fotogalerij</h3>
-        		  <?php print drupal_render($form['field_tour_photos']); ?>            
-        </div>
-    </div>
-        <div id="beschrijvingrondleiding">
-                <?php print drupal_render($form['field_tour_body']); ?> 
-                <?php print drupal_render($form['field_tour_inclusive']); ?> 
-                <?php print drupal_render_children($form); ?>
-        </div>
+    <?php print drupal_render($form); ?>
+    <?php print drupal_render_children($form); ?>
+
+  </div>
 
     </div>
-  </div>
 </body>
 
 

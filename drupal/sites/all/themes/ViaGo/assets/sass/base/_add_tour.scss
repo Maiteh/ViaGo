@@ -52,87 +52,99 @@
   font-size: 20px;
 }
 
-#basisInformatie .form-item-title input{
-  width: 60%;
-  margin-left: 32px;
-}
-#basisInformatie .form-item-field-tour-location-und input{
-  width: 60%;
-  margin-top: -50px;
-  margin-bottom: 20px;
-}
-#basisInformatie .form-item-field-tour-theme-und-0-value input{
-  width: 60%;
-  margin-left: 24px;
-}
+@media (max-width: 600px) {
+.form-item-title label[for='edit-title--2']{
+  width: 100%;
 
-#basisInformatie .form-item-field-tour-gatherpoint-und-0-value input{
-  width: 60%;
-  margin-left: 14px;
 }
-#basisInformatie .form-item-field-tour-theme-und-0-value{
-  margin-left: -30px;
+.form-item-title #edit-title--2 {
+  width: 20%;
+  margin-left: -1px;
+  margin-top: 10px;
 }
-#basisInformatie .form-item-field-tour-gatherpoint-und-0-value{
+.form-item-field-tour-theme-und-0-value{
+  width: 20.5%;
+}
+.form-item-field-tour-location-und{
+  width: 20%;
+}
+.form-item-field-tour-gatherpoint-und-0-value{
+  width: 20%;
+}
+.form-item-field-tour-body-und-0-value{
+  width: 20%;
   margin-left: 10px;
 }
-#basisInformatie .form-item-field-tour-duration-und-0-value input{
-  margin-left: 40px;
-  padding-right: 207px;
+.form-item-field-tour-inclusive-und-0-value{
+  width: 20%;
+  margin-left: 10px;
+  margin-top: -30px;
+}
+.form-item-field-tour-coverphoto-und-0{
+  width: 20%;
+}
+.form-item-field-tour-photos-und-0{
+  width: 20%;
+}
+.form-item-field-tour-pricecategory-und-0-value{
+  float: left;
+  display: block;
+  margin-bottom: 80px;
+}
+.form-item-field-tour-duration-und-0-value{
+  float: left;
+  margin-left: -230px;
 }
 
-#basisInformatie .form-item-field-tour-duration-und-0-value .description{
-  margin-left: 82px;
+
+             
 }
-#basisInformatie #field-tour-participants-amount-add-more-wrapper--2 .fieldset-legend {
-  font-weight: bold;
+
+.form-item-field-tour-body-und-0-value label[for='edit-field-tour-body-und-0-value--2']{
+  margin-left: 10px;
 }
-#basisInformatie .form-item-field-tour-languages-und .form-type-checkbox{
+#edit-field-tour-body-und-0-value--2{
+  width: 100%;
+}
+#edit-title--2{
+  width: 100%;
+  margin-left: 0px;
+}
+#edit-field-tour-location-und--2{
+  width: 100%;
+  margin-left: 0px;
+  padding-right: 220px;
+}
+.form-item-field-tour-gatherpoint-und-0-value{
+  margin-left: 8px;
+}
+#edit-field-tour-gatherpoint-und-0-value--2{
+  width: 100%;
+  margin-left: 0px;
+}
+
+#field-tour-pricecategory-add-more-wrapper--2 label{
+  width: 100%;
+}
+.form-item-field-tour-theme-und-0-value{
+  margin-top: 50px;
+  margin-left: -32px;
+}
+#edit-field-tour-theme-und-0-value--2{
+  width: 100%
+}
+
+.form-item-field-tour-languages-und .form-type-checkbox{
   float: left;
   margin-left: 20px;
+  margin-top: 18px;
 }
-#basisInformatie .form-item-field-tour-participants-amount-und-0-from{
-  width: 60%;
-}
-#basisInformatie #edit-field-tour-participants-amount-und-0-from--2{
-  width: 20%;
-}
-#basisInformatie #edit-field-tour-participants-amount-und-0-to--2{
-  width: 20%;
-}
-
-#fotoInformatie .fieldset-legend{
-  visibility: hidden;
-}
-#fotoInformatie label[for="edit-field-tour-photos-und-0--2-upload"]{
-  visibility: hidden;
-}
-#fotoInformatie h3{
+.fieldset-legend{
   font-weight: bold;
-  margin-top: 40px;
-} 
-#fotoInformatie label[for="edit-field-tour-coverphoto-und-0--2-upload"]{
+}
+.tips{
   visibility: hidden;
 }
-#basisinfoRondleiding #edit-field-tour-body-und-0-value--2{
-  width: 80%;
-  margin-left: 40px;
-}
-#basisinfoRondleiding #edit-field-tour-inclusive-und-0-value--2{
-  width: 80%;
-  margin-left: 40px;
-}
-#basisinfoRondleiding .filter-guidelines{
+#edit-field-tour-body-und-0-format-help--2 a{
   visibility: hidden;
-}
-#basisinfoRondleiding #edit-field-tour-body-und-0-format-help--2 a{
-  visibility: hidden;
-}
-#beschrijvingrondleiding label[for="edit-field-tour-body-und-0-value--2"]{
-  margin-left: 40px;
-
-}
-#beschrijvingrondleiding label[for="edit-field-tour-inclusive-und-0-value--2"]{
-  margin-left: 40px;
-
 }
