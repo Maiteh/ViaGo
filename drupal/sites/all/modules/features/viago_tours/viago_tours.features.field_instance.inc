@@ -48,7 +48,7 @@ function viago_tours_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 36,
+      'weight' => 9,
     ),
   );
 
@@ -107,7 +107,7 @@ function viago_tours_field_default_field_instances() {
         'resolution' => '350x235',
       ),
       'type' => 'imagefield_crop_widget',
-      'weight' => 39,
+      'weight' => 11,
     ),
   );
 
@@ -149,7 +149,7 @@ function viago_tours_field_default_field_instances() {
       'module' => 'hms_field',
       'settings' => array(),
       'type' => 'hms_default_widget',
-      'weight' => 33,
+      'weight' => 6,
     ),
   );
 
@@ -201,7 +201,7 @@ function viago_tours_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 40,
+      'weight' => 3,
     ),
   );
 
@@ -241,7 +241,7 @@ function viago_tours_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 37,
+      'weight' => 10,
     ),
   );
 
@@ -281,7 +281,7 @@ function viago_tours_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 35,
+      'weight' => 8,
     ),
   );
 
@@ -322,7 +322,7 @@ function viago_tours_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 44,
+      'weight' => 2,
     ),
   );
 
@@ -389,7 +389,7 @@ function viago_tours_field_default_field_instances() {
       'module' => 'range',
       'settings' => array(),
       'type' => 'range',
-      'weight' => 34,
+      'weight' => 7,
     ),
   );
 
@@ -457,7 +457,7 @@ function viago_tours_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_miw',
-      'weight' => 43,
+      'weight' => 12,
     ),
   );
 
@@ -507,7 +507,7 @@ function viago_tours_field_default_field_instances() {
       'module' => 'starrating',
       'settings' => array(),
       'type' => 'starrating_rating_widget',
-      'weight' => 32,
+      'weight' => 5,
     ),
   );
 
@@ -547,7 +547,7 @@ function viago_tours_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 41,
+      'weight' => 1,
     ),
   );
 
