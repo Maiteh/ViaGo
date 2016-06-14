@@ -1003,6 +1003,11 @@ ul.nice-menu-down li.menuparent ul {
   float: left;
   padding-right: 10px;
 }
+.views-view-grid{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 #tour {
