@@ -99,10 +99,7 @@ $img_url = image_style_url("Cover_tour ", $img_uri);
                 <h1> <?php print $title;?></h1>
                 <ul class="clearfix">
                     <li>
-                        <img src="<?php print $image . '/starts.png'?>" width="30%" id="rating" />
-                    </li>
-                    <li>
-                        <p>(244 beoordelingen)</p>
+                    <?php print rate_embed($node, 'rate_tour', RATE_FULL); ?>
                     </li>
                 <ul>
                 <div id="TourCover">
@@ -185,8 +182,17 @@ $img_url = image_style_url("Cover_tour ", $img_uri);
          <p><?php print drupal_render($content['field_tour_inclusive']); ?></p>
          <?php print t('<h2>Trefpunt</h2>') ?>
          <p><?php print drupal_render($content['field_tour_gatherpoint']); ?></p>
+         </div>
+    </div>
+<div id="commentRondleiding">
+    <div class="container">
+     <h2>Meningen van bezokers</h2>
+     <?php print drupal_render(comment_node_page_additions($node)); ?>
+     <?php print drupal_render(drupal_get_form("comment_node_{$node->type}_form", (object) array('nid' => $node->nid))); ?>
+</div>
+</div>
+     
 
 
-     </div>
 </div>   
     </div>

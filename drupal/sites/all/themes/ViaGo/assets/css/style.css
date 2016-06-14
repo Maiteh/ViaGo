@@ -441,6 +441,41 @@ nav a {
   background-color: #F5F6F7;
   padding-top: 30px;
   padding-bottom: 30px; }
+  /*______*/
+#commentRondleiding{
+  background-color: #F5F6F7;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#commentRondleiding h2{
+  color: #3DB4D6;
+  font-weight: bold;
+  font-size: 20px;
+}
+#comments .title{
+  visibility: hidden;
+}
+.comment .user-picture{
+  visibility: hidden;
+}
+.comment h3{
+  margin-bottom: 10px;
+}
+.comment .submitted{
+  margin-bottom: 10px;
+}
+
+.comment{
+  margin-bottom: 30px;
+}
+.comment-form{
+  margin-top: 50px;
+}
+#edit-comment-body a{
+  visibility: hidden;
+}
+/*_______*/
 
 #infoBlok h2 {
   color: #3DB4D6;
@@ -697,6 +732,7 @@ margin-left: -2px;
   margin-left: 180px;
   margin-bottom: 100px;
 }
+
 .user-picture{
   margin-bottom: 50px;
 }
@@ -959,7 +995,7 @@ ul.nice-menu-down li.menuparent ul {
 
 #tour {
   margin-right: 20px;
-  margin-left: 40px; }
+  margin-left: 20px; }
 
 
 /* filter overview */
