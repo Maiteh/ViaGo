@@ -186,7 +186,7 @@ $img_url = image_style_url("Cover_tour ", $img_uri);
     </div>
 <div id="commentRondleiding">
     <div class="container">
-     <h2>Meningen van bezokers</h2>
+     <h2>Meningen van bezoekers</h2>
      <?php print drupal_render(comment_node_page_additions($node)); ?>
      <?php print drupal_render(drupal_get_form("comment_node_{$node->type}_form", (object) array('nid' => $node->nid))); ?>
 </div>
