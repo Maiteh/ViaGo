@@ -9,6 +9,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
                 <?php print drupal_render($content['field_tour_coverphoto']); ?>
                         <div id="rondleidingTeaser">
                             <div id="overzicht">
+                                <?php print rate_embed($node, 'rate_tour', RATE_FULL); ?>
                                 <h5><?php print $title;?></h5>
                                 <p><?php print drupal_render($content['field_tour_location']); ?></p>
                                 <p><?php print drupal_render($content['field_tour_languages']); ?></p>
