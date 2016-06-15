@@ -1,3 +1,72 @@
+.form-type-bef-checkbox{
+  float: left;
+  margin-left: 30px;
+}
+.form-item-tour-language{
+  margin-left: 80px;
+}
+#edit-tour-language-wrapper{
+  width: 50%;
+  float: right;
+}
+#edit-tour-language-wrapper label[for="edit-tour-language"]{
+  margin-top: 10px;
+}
+#edit-field-tour-pricecategory-value-wrapper{
+  float: left;
+  margin-top: 100px;
+}
+#edit-field-tour-location-tid-wrapper{
+  width: 40%;
+}
+#edit-field-tour-location-tid{
+  width: 100%;
+}
+
+#edit-tour-language-wrapper{
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+.form-type-bef-checkbox{
+  float: left;
+  margin-left: 50px;
+}
+#edit-field-tour-pricecategory-value-wrapper{
+  width: 39%;
+  margin-top: 20px;
+}
+#edit-field-tour-location-tid-wrapper{
+  width: 50%;
+  margin-top: 20px;
+}
+#edit-field-tour-location-tid{
+  width: 100%;
+}
+.views-widget-sort-by{
+  visibility: hidden;
+}
+.form-item-sort-order label[for="edit-sort-order"]{
+  visibility: hidden;
+}
+.views-widget-sort-order{
+  margin-top: 46px;
+}
+#edit-sort-order{
+  padding: 5px;
+}
+.views-submit-button{
+  margin-top: 20px;
+}
+.views-submit-button input{
+  background-color: #ff4d27;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  border: none;
+}
 .views-exposed-form {
   margin-top: 50px;
   margin-bottom: 20px;
