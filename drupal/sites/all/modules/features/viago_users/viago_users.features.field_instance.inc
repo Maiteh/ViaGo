@@ -33,7 +33,7 @@ function viago_users_field_default_field_instances() {
     ),
     'entity_type' => 'profile2',
     'field_name' => 'field_user_guide_address',
-    'label' => 'Woonplaats',
+    'label' => 'Afkomstig van',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -562,6 +562,7 @@ function viago_users_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Aantal jaar ervaring');
+  t('Afkomstig van');
   t('Beschrijving');
   t('Cv');
   t('Diploma');
@@ -572,7 +573,6 @@ function viago_users_field_default_field_instances() {
   t('Talen');
   t('Voornaam');
   t('Website');
-  t('Woonplaats');
 
   return $field_instances;
 }

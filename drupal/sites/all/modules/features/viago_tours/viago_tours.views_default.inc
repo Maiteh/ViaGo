@@ -22,7 +22,7 @@ function viago_tours_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'rondleidingen';
+  $handler->display->display_options['title'] = 'Mijn rondleidingen';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -226,8 +226,8 @@ function viago_tours_views_default_views() {
     'tours' => 'tours',
   );
 
-  /* Display: Page */
-  $handler = $view->new_display('page', 'Page', 'view_tours_page');
+  /* Display: all tours */
+  $handler = $view->new_display('page', 'all tours', 'view_tours_page');
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Content: Published */
   $handler->display->display_options['sorts']['status']['id'] = 'status';
@@ -312,11 +312,14 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['filters']['field_tour_location_tid']['vocabulary'] = 'location';
   $handler->display->display_options['path'] = 'rondleidingen';
   $handler->display->display_options['menu']['type'] = 'normal';
-  $handler->display->display_options['menu']['title'] = 'rondleidingen';
+  $handler->display->display_options['menu']['title'] = 'Alle rondleidingen';
+  $handler->display->display_options['menu']['weight'] = '0';
   $handler->display->display_options['menu']['name'] = 'main-menu';
+  $handler->display->display_options['menu']['context'] = 0;
+  $handler->display->display_options['menu']['context_only_inline'] = 0;
 
-  /* Display: Block */
-  $handler = $view->new_display('block', 'Block', 'view_tour_block_newest');
+  /* Display: newest tours */
+  $handler = $view->new_display('block', 'newest tours', 'view_tour_block_newest');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'view_block_tours_newest';
   $handler->display->display_options['defaults']['pager'] = FALSE;
@@ -329,12 +332,52 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'node';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['block_description'] = 'view_tours_block_newest';
 
-  /* Display: Block */
-  $handler = $view->new_display('block', 'Block', 'view_tour_block_popular');
+  /* Display: popular tours */
+  $handler = $view->new_display('block', 'popular tours', 'view_tour_block_popular');
+  $handler->display->display_options['block_description'] = 'view_tours_block_popular';
+
+  /* Display: my tours */
+  $handler = $view->new_display('page', 'my tours', 'view_my_tours');
+  $handler->display->display_options['defaults']['relationships'] = FALSE;
+  /* Relationship: Content: Author */
+  $handler->display->display_options['relationships']['uid']['id'] = 'uid';
+  $handler->display->display_options['relationships']['uid']['table'] = 'node';
+  $handler->display->display_options['relationships']['uid']['field'] = 'uid';
+  $handler->display->display_options['relationships']['uid']['label'] = 'Gids';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'tours' => 'tours',
+  );
+  /* Filter criterion: User: Current */
+  $handler->display->display_options['filters']['uid_current']['id'] = 'uid_current';
+  $handler->display->display_options['filters']['uid_current']['table'] = 'users';
+  $handler->display->display_options['filters']['uid_current']['field'] = 'uid_current';
+  $handler->display->display_options['filters']['uid_current']['relationship'] = 'uid';
+  $handler->display->display_options['filters']['uid_current']['value'] = '1';
+  $handler->display->display_options['path'] = 'mijnrondleidingen';
+  $handler->display->display_options['menu']['type'] = 'normal';
+  $handler->display->display_options['menu']['title'] = 'Mijn rondleidingen';
+  $handler->display->display_options['menu']['weight'] = '0';
+  $handler->display->display_options['menu']['name'] = 'menu-gidssub';
+  $handler->display->display_options['menu']['context'] = 0;
+  $handler->display->display_options['menu']['context_only_inline'] = 0;
   $translatables['view_tour'] = array(
     t('Master'),
-    t('rondleidingen'),
+    t('Mijn rondleidingen'),
     t('more'),
     t('pas toe'),
     t('Toon alles'),
@@ -352,13 +395,18 @@ function viago_tours_views_default_views() {
     t('next ›'),
     t('last »'),
     t('All'),
-    t('Page'),
+    t('all tours'),
     t('Prijs '),
     t('Talen'),
     t('Prijscategorie'),
     t('Locatie'),
-    t('Block'),
+    t('newest tours'),
     t('view_block_tours_newest'),
+    t('view_tours_block_newest'),
+    t('popular tours'),
+    t('view_tours_block_popular'),
+    t('my tours'),
+    t('Gids'),
   );
   $export['view_tour'] = $view;
 
