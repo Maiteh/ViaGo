@@ -535,6 +535,10 @@ nav a {
   visibility: hidden;
 
 }
+#infoBlok .field-name-field-tour-languages .field-item {
+    float: left;
+    padding-right: 10px;
+}
 
 /*--------------------- */
 #loginform .form-item-name{
@@ -1008,6 +1012,7 @@ ul.nice-menu-down li.menuparent ul {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 #tour {
