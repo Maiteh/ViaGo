@@ -36,6 +36,43 @@
   padding-left: 30px;
   padding-top: 50px; }
 
+@media (min-width: 600px) {
+  .user-picture .active {
+    margin-right: 500px; } }
+#gegevens h2 {
+  color: #3DB4D6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+#favorieten h2 {
+  color: #3DB4D6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px; }
+
+#gegevens p {
+  margin-top: 5px; }
+
+#gegevens {
+  padding-bottom: 20px;
+  border-bottom: 1px solid; }
+
+#NaamToerist {
+  border-bottom: 1px solid;
+  height: 150px; }
+
+#NaamToerist h1 {
+  font-size: 30px;
+  font-weight: bold; }
+
+.profile dt {
+  visibility: hidden; }
+
+.profile dd {
+  visibility: hidden; }
+
 .form-item-title {
   margin-top: 50px;
   margin-left: 10px; }
@@ -54,6 +91,124 @@
   width: 800px;
   margin-right: auto;
   margin-left: auto; }
+
+#toevoegenRondleiding {
+  background-color: #EFEFEF; }
+
+#basisinfoRondleiding {
+  background-color: white;
+  margin-top: 50px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto; }
+
+#basisinfoRondleiding h1 {
+  padding-left: 30px;
+  padding-top: 60px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ff4d27; }
+
+#basisInformatie {
+  padding-left: 45px;
+  padding-top: 20px; }
+
+#basisInformatie h2 {
+  font-size: 20px; }
+
+#fotoInformatie {
+  padding-left: 45px;
+  padding-top: 20px; }
+
+#fotoInformatie h2 {
+  font-size: 20px; }
+
+@media (max-width: 600px) {
+  .form-item-title label[for='edit-title--2'] {
+    width: 100%; }
+
+  .form-item-title #edit-title--2 {
+    width: 20%;
+    margin-left: -1px;
+    margin-top: 10px; }
+
+  .form-item-field-tour-theme-und-0-value {
+    width: 20.5%; }
+
+  .form-item-field-tour-location-und {
+    width: 20%; }
+
+  .form-item-field-tour-gatherpoint-und-0-value {
+    width: 20%; }
+
+  .form-item-field-tour-body-und-0-value {
+    width: 20%;
+    margin-left: 10px; }
+
+  .form-item-field-tour-inclusive-und-0-value {
+    width: 20%;
+    margin-left: 10px;
+    margin-top: -30px; }
+
+  .form-item-field-tour-coverphoto-und-0 {
+    width: 20%; }
+
+  .form-item-field-tour-photos-und-0 {
+    width: 20%; }
+
+  .form-item-field-tour-pricecategory-und-0-value {
+    float: left;
+    display: block;
+    margin-bottom: 80px; }
+
+  .form-item-field-tour-duration-und-0-value {
+    float: left;
+    margin-left: -230px; } }
+.form-item-field-tour-body-und-0-value label[for='edit-field-tour-body-und-0-value--2'] {
+  margin-left: 10px; }
+
+#edit-field-tour-body-und-0-value--2 {
+  width: 100%; }
+
+#edit-title--2 {
+  width: 100%;
+  margin-left: 0px; }
+
+#edit-field-tour-location-und--2 {
+  width: 100%;
+  margin-left: 0px;
+  padding-right: 220px; }
+
+.form-item-field-tour-gatherpoint-und-0-value {
+  margin-left: 8px; }
+
+#edit-field-tour-gatherpoint-und-0-value--2 {
+  width: 100%;
+  margin-left: 0px; }
+
+#field-tour-pricecategory-add-more-wrapper--2 label {
+  width: 100%; }
+
+.form-item-field-tour-theme-und-0-value {
+  margin-top: 50px;
+  margin-left: -32px; }
+
+#edit-field-tour-theme-und-0-value--2 {
+  width: 100%; }
+
+.form-item-field-tour-languages-und .form-type-checkbox {
+  float: left;
+  margin-left: 20px;
+  margin-top: 18px; }
+
+.fieldset-legend {
+  font-weight: bold; }
+
+.tips {
+  visibility: hidden; }
+
+#edit-field-tour-body-und-0-format-help--2 a {
+  visibility: hidden; }
 
 /* HOME */
 body {
@@ -293,10 +448,11 @@ nav a {
   margin-bottom: 50px; }
 
 #loginform {
-  border-top: 2px; 
+  border-top: 2px;
   width: 50%;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto; }
+
 #loginformlogin {
   border-top: 2px; }
 
@@ -320,6 +476,13 @@ nav a {
   margin-left: 30px;
   color: #000; }
 
+#login input[value="E-mail new password"] {
+  width: 85%;
+  height: 40px;
+  background-color: #162431;
+  border: none;
+  color: white; }
+
 #login a {
   padding-left: 30px; }
 
@@ -340,13 +503,6 @@ nav a {
   background-color: #162431;
   border: none;
   color: white; }
-#login input[value="E-mail new password"] {
-    width: 85%;
-    height: 40px;
-    background-color: #162431;
-    border: none;
-    color: white;
-}
 
 #nieuwsbrief {
   background-color: #4D4D4D;
@@ -416,8 +572,12 @@ nav a {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-#price {
-  padding-left: 150px; }
+#TourFoto img {
+  margin-left: 16px; }
+
+#infoBlok .field-name-field-tour-languages .field-item {
+  float: left;
+  padding-right: 10px; }
 
 #comment {
   margin-top: 30px; }
@@ -425,6 +585,19 @@ nav a {
 #commentaar {
   padding-left: 120px;
   margin-top: 50px; }
+
+#boeken a {
+  background-color: #ff4d27;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-bottom: 100px; }
+
+.user-picture {
+  margin-bottom: 50px; }
 
 #commentaar h2 {
   font-size: 25px;
@@ -441,41 +614,6 @@ nav a {
   background-color: #F5F6F7;
   padding-top: 30px;
   padding-bottom: 30px; }
-  /*______*/
-#commentRondleiding{
-  background-color: #F5F6F7;
-  margin-top: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-#commentRondleiding h2{
-  color: #3DB4D6;
-  font-weight: bold;
-  font-size: 20px;
-}
-#comments .title{
-  visibility: hidden;
-}
-.comment .user-picture{
-  visibility: hidden;
-}
-.comment h3{
-  margin-bottom: 10px;
-}
-.comment .submitted{
-  margin-bottom: 10px;
-}
-
-.comment{
-  margin-bottom: 30px;
-}
-.comment-form{
-  margin-top: 50px;
-}
-#edit-comment-body a{
-  visibility: hidden;
-}
-/*_______*/
 
 #infoBlok h2 {
   color: #3DB4D6;
@@ -531,405 +669,135 @@ nav a {
   line-height: 20px;
   color: #454545; }
 
-#loginform .fieldset-legend{
-  visibility: hidden;
-
-}
-#infoBlok .field-name-field-tour-languages .field-item {
-    float: left;
-    padding-right: 10px;
-}
-
-/*--------------------- */
-#loginform .form-item-name{
- margin-top: 50px;
-}
-#loginform .form-item-profile-guide-field-user-guide-profilepic-und-0{
-  margin-top: -30px;
-}
-
-#loginform #edit-profile-guide-field-user-guide-profilepic-und-0-upload{
-  margin-top: 10px;
-}
-#loginform #edit-profile-guide-field-user-guide-profilepic-und-0-upload-button{
-  visibility: hidden;
-}
-#loginform .form-item-profile-guide-field-user-guide-cv-und-0{
-  margin-top: -50px;
-}
-#loginform #edit-profile-guide-field-user-guide-cv-und-0-upload{
-  margin-top: 10px;
-}
-#loginform #edit-profile-guide-field-user-guide-cv-und-0-upload-button{
-  visibility: hidden;
-}
-#loginform .form-item-profile-guide-field-user-guide-experience-und-value{
-  margin-top: -110px;
-}
-#loginform .form-item-profile-guide-field-user-guide-experience-und-value label{
-  margin-left: -1px;
-}
-#loginform #edit-profile-guide-field-user-guide-experience-und-value-ignore{
-  visibility: hidden;
-}
-
-#loginform label[for="edit-profile-guide-field-user-guide-experience-und-value-ignore"]{
-  visibility: hidden;
-}
-#loginform #edit-profile-guide-field-user-guide-experience-und-value-container{
-  margin-top: -60px;
-  margin-left: 10px;
-  width: 88%;
-}
-#loginform .sliderfield-display-values-field{
-  visibility: hidden;
-}
-#loginform #edit-profile-guide-field-user-guide-education{
-  margin-top: 20px;
-}
-#loginform #edit-profile-guide-field-user-guide-description-und-0-value{
-  margin-left: 30px;
-  width: 85%;
-}
-#loginform #edit-profile-guide-field-user-guide-description-und-0-format{
-  visibility: hidden;
-}
-#loginform #edit-profile-guide-field-user-guide-languages{
-  margin-top: -120px;
-  margin-left: -30px;
-}
-#loginform #edit-profile-guide-field-user-guide-languages-und input[type="checkbox"]{
-  width: 20%;
-}
-#loginform .form-type-checkbox{
-  float: left;
-}
-#loginform #edit-profile-guide-field-user-guide-languages-und{
-  margin-left: 6px;
-}
-#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value{
-  margin-top: 50px;
-  margin-left: -325px;
-}
-
-#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-month"]{
-margin-left: -2px;
-}
-#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-day"]{
-margin-left: -2px;
-}
-#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-year"]{
-margin-left: -2px;
-}
-#loginform #profile-guide-field-user-guide-address-add-more-wrapper{
-  margin-left: -30px;
-  margin-bottom: 20px;
-}
-#loginform #profile-guide-field-user-guide-website-add-more-wrapper{
-  width: 96%;
-}
-#loginform #edit-profile-guide-field-user-guide-experience-und-value-container{
+#commentRondleiding {
+  background-color: #F5F6F7;
   margin-top: 30px;
-  width: 87%;
-}
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
-/* -------------------
-
-.form-type-bef-checkbox{
-  float: left;
-  margin-left: 30px;
-}
-.form-item-tour-language{
-  margin-left: 80px;
-}
-#edit-tour-language-wrapper{
-  background-color: red;
-  width: 50%;
-  float: right;
-}
-#edit-tour-language-wrapper label[for="edit-tour-language"]{
-  margin-top: 10px;
-}
-#edit-field-tour-pricecategory-value-wrapper{
-  float: left;
-  margin-top: 100px;
-}
-#edit-field-tour-location-tid-wrapper{
-  width: 40%;
-  background-color: blue;
-}
-#edit-field-tour-location-tid{
-  width: 100%;
-}
-
-  -----*/
-
-/* Nieuwe rondleiding */
-
-#nieuwsteRondleidingen{
-  margin-left: -20px;
-}
-#block-views-214c82a163aed3db8b868e01f9000f53 h2{
-  visibility: hidden;
-}
-/* Overview Filter */
-#edit-tour-language-wrapper{
-  width: 100%;
-  padding-bottom: 20px;
-  border-bottom: 1px solid;
-}
-.form-type-bef-checkbox{
-  float: left;
-  margin-left: 50px;
-}
-
-#edit-field-tour-pricecategory-value-wrapper{
-  width: 39%;
-  margin-top: 20px;
-
-}
-#edit-field-tour-location-tid-wrapper{
-  width: 50%;
-  margin-top: 20px;
-}
-#edit-field-tour-location-tid{
-  width: 100%;
-}
-.views-widget-sort-by{
-  visibility: hidden;
-}
-.form-item-sort-order label[for="edit-sort-order"]{
-  visibility: hidden;
-}
-.views-widget-sort-order{
-  margin-top: 46px;
-}
-#edit-sort-order{
-  padding: 5px;
-}
-.views-submit-button{
-  margin-top: 20px;
-}
-.views-submit-button input{
-  background-color: #ff4d27;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: white;
-  border: none;
-}
-
-
-/*----- Detail */
-
-#TourFoto img{
-  margin-left: 16px;
-}
-#boeken a{
-  background-color: #ff4d27;
-  padding: 15px;
-  font-size: 25px;
+#commentRondleiding h2 {
+  color: #3DB4D6;
   font-weight: bold;
-  color: white;
-  margin-top: 50px;
-  margin-left: 180px;
-  margin-bottom: 100px;
-}
+  font-size: 20px; }
 
-.user-picture{
-  margin-bottom: 50px;
-}
+#comments .title {
+  visibility: hidden; }
 
+.comment .user-picture {
+  visibility: hidden; }
 
-/* Toevoegen rondleiding */
+.comment h3 {
+  margin-bottom: 10px; }
 
-#toevoegenRondleiding{
-  background-color: #EFEFEF;
+.comment .submitted {
+  margin-bottom: 10px; }
 
-}
-#basisinfoRondleiding{
-  background-color: white;
-  margin-top: 50px;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-}
+.comment {
+  margin-bottom: 30px; }
 
-#basisinfoRondleiding h1{
-  padding-left: 19%;
-  padding-top: 60px;
-  font-weight: bold;
-  font-size: 25px;
-  color: #ff4d27;
-}
-#basisInformatie{
-  padding-left: 45px;
-  padding-top: 20px;
-}
-#basisInformatie h2{
-  font-size: 20px;
-}
+.comment-form {
+  margin-top: 50px; }
 
-@media (max-width: 600px) {
-.form-item-title label[for='edit-title--2']{
-  width: 100%;
+#edit-comment-body a {
+  visibility: hidden; }
 
-}
-.form-item-title #edit-title--2 {
-  width: 20%;
-  margin-left: -1px;
-  margin-top: 10px;
-}
-.form-item-field-tour-theme-und-0-value{
-  width: 20.5%;
-}
-.form-item-field-tour-location-und{
-  width: 20%;
-}
-.form-item-field-tour-gatherpoint-und-0-value{
-  width: 20%;
-}
-.form-item-field-tour-body-und-0-value{
-  width: 20%;
-  margin-left: 10px;
-}
-.form-item-field-tour-inclusive-und-0-value{
-  width: 20%;
-  margin-left: 10px;
-  margin-top: -30px;
-}
-.form-item-field-tour-coverphoto-und-0{
-  width: 20%;
-}
-.form-item-field-tour-photos-und-0{
-  width: 20%;
-}
-.form-item-field-tour-pricecategory-und-0-value{
-  float: left;
-  display: block;
-  margin-bottom: 80px;
-}
-.form-item-field-tour-duration-und-0-value{
-  float: left;
-  margin-left: -230px;
-}
-
-
-             
-}
-
-.form-item-field-tour-body-und-0-value label[for='edit-field-tour-body-und-0-value--2']{
-  margin-left: 10px;
-}
-#edit-field-tour-body-und-0-value--2{
-  width: 100%;
-}
-#edit-title--2{
-  width: 100%;
-  margin-left: 0px;
-}
-#edit-field-tour-location-und--2{
-  width: 100%;
-  margin-left: 0px;
-  padding-right: 220px;
-}
-.form-item-field-tour-gatherpoint-und-0-value{
-  margin-left: 8px;
-}
-#edit-field-tour-gatherpoint-und-0-value--2{
-  width: 100%;
-  margin-left: 0px;
-}
-
-#field-tour-pricecategory-add-more-wrapper--2 label{
-  width: 100%;
-}
-.form-item-field-tour-theme-und-0-value{
-  margin-top: 50px;
-  margin-left: -32px;
-}
-#edit-field-tour-theme-und-0-value--2{
-  width: 100%
-}
-
-.form-item-field-tour-languages-und .form-type-checkbox{
-  float: left;
-  margin-left: 20px;
-  margin-top: 18px;
-}
-.fieldset-legend{
-  font-weight: bold;
-}
-.tips{
-  visibility: hidden;
-}
-#edit-field-tour-body-und-0-format-help--2 a{
-  visibility: hidden;
-}
-
-/*-----*/
-
-
-
-
-
-#acountbeschrijving{
-  margin-left: 367px;
-}
-
-
-
-
+#loginform .fieldset-legend {
+  visibility: hidden; }
 
 #user-register-form input[value="Create new account"] {
-  height: 40px;
+  width: 520px;
+  height: 30px;
   background-color: #162431;
-  margin-top: -150px;
   border: none;
   color: white; }
 
-  @media (min-width: 600px) {
- .user-picture .active{
-  margin-right: 500px;
-}
-}
-#gegevens h2{
-  color: #3DB4D6;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-#favorieten h2{
-    color: #3DB4D6;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-#gegevens p{
-  margin-top: 5px;
-}
-#gegevens{
-    padding-bottom: 20px;
-  border-bottom: 1px solid;
-}
-#NaamToerist{
-  border-bottom: 1px solid;
-  height: 150px;
-}
+#loginform .form-item-name {
+  margin-top: 50px; }
 
-#NaamToerist h1{
-  font-size: 30px;
-  font-weight: bold;
-}
+#loginform .form-item-profile-guide-field-user-guide-profilepic-und-0 {
+  margin-top: -30px; }
 
-.profile dt{
-  visibility: hidden;
-}
-.profile dd{
-  visibility: hidden;
-}
+#loginform #edit-profile-guide-field-user-guide-profilepic-und-0-upload {
+  margin-top: 10px; }
+
+#loginform #edit-profile-guide-field-user-guide-profilepic-und-0-upload-button {
+  visibility: hidden; }
+
+#loginform .form-item-profile-guide-field-user-guide-cv-und-0 {
+  margin-top: -50px; }
+
+#loginform #edit-profile-guide-field-user-guide-cv-und-0-upload {
+  margin-top: 10px; }
+
+#loginform #edit-profile-guide-field-user-guide-cv-und-0-upload-button {
+  visibility: hidden; }
+
+#loginform .form-item-profile-guide-field-user-guide-experience-und-value {
+  margin-top: -110px; }
+
+#loginform .form-item-profile-guide-field-user-guide-experience-und-value label {
+  margin-left: -1px; }
+
+#loginform #edit-profile-guide-field-user-guide-experience-und-value-ignore {
+  visibility: hidden; }
+
+#loginform label[for="edit-profile-guide-field-user-guide-experience-und-value-ignore"] {
+  visibility: hidden; }
+
+#loginform #edit-profile-guide-field-user-guide-experience-und-value-container {
+  margin-top: -60px;
+  margin-left: 10px;
+  width: 88%; }
+
+#loginform .sliderfield-display-values-field {
+  visibility: hidden; }
+
+#loginform #edit-profile-guide-field-user-guide-education {
+  margin-top: 20px; }
+
+#loginform #edit-profile-guide-field-user-guide-description-und-0-value {
+  margin-left: 30px;
+  width: 85%; }
+
+#loginform #edit-profile-guide-field-user-guide-description-und-0-format {
+  visibility: hidden; }
+
+#loginform #edit-profile-guide-field-user-guide-languages {
+  margin-top: -120px;
+  margin-left: -30px; }
+
+#loginform #edit-profile-guide-field-user-guide-languages-und input[type="checkbox"] {
+  width: 20%; }
+
+#loginform .form-type-checkbox {
+  float: left; }
+
+#loginform #edit-profile-guide-field-user-guide-languages-und {
+  margin-left: 6px; }
+
+#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value {
+  margin-top: 50px;
+  margin-left: -325px; }
+
+#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-month"] {
+  margin-left: -2px; }
+
+#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-day"] {
+  margin-left: -2px; }
+
+#loginform #edit-profile-guide-field-user-guide-birthdate-und-0-value label[for="edit-profile-guide-field-user-guide-birthdate-und-0-value-year"] {
+  margin-left: -2px; }
+
+#loginform #profile-guide-field-user-guide-address-add-more-wrapper {
+  margin-left: -30px;
+  margin-bottom: 20px; }
+
+#loginform #profile-guide-field-user-guide-website-add-more-wrapper {
+  width: 96%; }
+
+#loginform #edit-profile-guide-field-user-guide-experience-und-value-container {
+  margin-top: 30px;
+  width: 87%; }
 
 #block-system-user-menu ul {
   float: right; }
@@ -997,38 +865,21 @@ ul.nice-menu-down li.menuparent ul {
   margin-top: 30px;
   margin-bottom: 20px; }
 
-#overzicht .rate-widget-fivestar{
-  padding-left: 10px;
-}
-#overzicht .rate-info{
-  visibility: hidden;
-}
+#overzicht .rate-widget-fivestar {
+  padding-left: 10px; }
+
+#overzicht .rate-info {
+  visibility: hidden; }
+
 #overzicht .field-name-field-tour-languages .field-item {
   float: left;
-  padding-right: 10px;
-}
-.views-view-grid{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
+  padding-right: 10px; }
 
 #tour {
   margin-right: 20px;
-  margin-left: 20px; }
-
+  margin-left: 40px; }
 
 /* filter overview */
-.views-exposed-form {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  width: 50%;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto; }
-
 #rondleidingTeaser {
   background-color: #F5F6F7;
   border-right: 1px solid #4D4D4D;
