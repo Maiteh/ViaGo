@@ -1,50 +1,56 @@
 #nieuwsbrief{
-    background-color: #4D4D4D;
-    padding: 20px;
+    background-color: #F1F1F1;
+    padding: 10px;
 }
 #subscribe{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 #subscribe label {
-  color: #F5F6F7;
+  color: #162431;
   font-weight: normal;
   font-size: 20px;
   line-height: 35px;
-  margin-top: 10px;
-  padding-left: 60px;
+  margin-top: 3px;
+  text-align: center;
+  width: 100%;
 }
 
+#nieuwsbrief #subscribe .nieuwsbriefcontainer{
+  margin: auto;
+  max-width: 550px;
+  display: inline-block;
+}
 #subscribe input[type="text"] {
-  height: 55px;
-  width: 75%;
-  font-family: 'allerbold';
-  text-transform: uppercase;
+  height: 40px;
+  width: 68%;
   font-size: 13px;
-  padding: 20px 40px;
+  padding: 20px 20px;
   float: left;
-  color: #F5F6F7;
-  background-color: #4D4D4D;
-  border: 0.5px solid white;
+  color: #D8D8D8;
+  background-color: white;
+  border: 1px solid #D8D8D8;
   border-radius: 4px;
+}
+.nieuwsbriefmargin{
+  width: 2%;
+  height: 10px;
+  float: left;
 }
 #subscribe input[type="submit"] {
-  height: 55px;
-  width: 25%;
-  font-family: 'allerbold';
+  height: 40px;
+  width: 30%;
   text-transform: uppercase;
   font-size: 13px;
-  padding: 20px 40px;
+  padding: 10px 40px;
   float: left;
-  color: #4D4D4D;
-  background-color: #F5F6F7;
+  color: white;
+  background-color: #162431;
   border: none;
   border-radius: 4px;
-
+  margin-top: 1px;
 }
 @media (max-width: 600px) {
   #subscribe {
