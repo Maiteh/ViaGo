@@ -20,10 +20,10 @@ $myprofile = profile2_load_by_user($account, 'guide');
                     </div>
                     <div class="col-xs-6">
                         <ul id="gegevens">
-                           <!-- <strong><? /*php print $myprofile->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> <?php print $myprofile->field_user_name[LANGUAGE_NONE][0]['value']; ?> </strong>
+                           <!-- <strong><?php print $myprofile->field_user_firstname[LANGUAGE_NONE][0]['value']; ?> <?php print $myprofile->field_user_name[LANGUAGE_NONE][0]['value']; ?> </strong>
                             <li><?php print render($myprofile->field_user_guide_birthdate[LANGUAGE_NONE][0]['value']);?>test</li>
                             <li><?php print render($myprofile->field_user_guide_experience[LANGUAGE_NONE][0]['value']); ?></li>
-                            <li><?php print render($myprofile->field_user_guide_languages[LANGUAGE_NONE][0]['value']); */?></li> -->
+                            <li><?php print render($myprofile->field_user_guide_languages[LANGUAGE_NONE][0]['value']); ?></li> -->
                         </ul>
                         
                         
