@@ -89,18 +89,18 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
 
 ?>
 
- <nav>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-5 header-logo">
-                    <a href="/"><img src="<?php print $img_url . '/logo.png'?>" alt="" class="logo"></a>
-                </div>                          
-                    <ul>
-                       <?php print render($page['header']); ?>
-                    </ul>
+<nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-5 header-logo">
+                <a href="/"><img src="<?php print $img_url . '/logo.png'?>" alt="" class="logo"></a>
             </div>
+            <ul>
+               <?php print render($page['header']); ?>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 <div id="subnav"><?php print render($page['highlighted']); ?></div>
                                 
     <header>
