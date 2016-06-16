@@ -56,7 +56,9 @@ function viago_tours_field_default_field_instances() {
   $field_instances['node-tours-field_tour_coverphoto'] = array(
     'bundle' => 'tours',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Upload hier een foto als omslag foto. Deze foto wordt "Enkel" getoond bij het overzicht van alle rondleidingen.
+Bij het uploaden krijgt u de mogelijkheid om deze bij te snijden in de juiste verhoudingen.
+Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -90,7 +92,7 @@ function viago_tours_field_default_field_instances() {
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
-      'min_resolution' => '',
+      'min_resolution' => '350x235',
       'title_field' => 0,
       'user_register_form' => FALSE,
     ),
@@ -102,7 +104,7 @@ function viago_tours_field_default_field_instances() {
         'croparea' => '350x235',
         'enforce_minimum' => 1,
         'enforce_ratio' => 1,
-        'preview_image_style' => 'thumbnail',
+        'preview_image_style' => 'cover_tour',
         'progress_indicator' => 'throbber',
         'resolution' => '350x235',
       ),
@@ -329,7 +331,12 @@ function viago_tours_field_default_field_instances() {
   // Exported field_instance: 'node-tours-field_tour_participants_amount'.
   $field_instances['node-tours-field_tour_participants_amount'] = array(
     'bundle' => 'tours',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'from' => 1,
+        'to' => 30,
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -470,7 +477,15 @@ function viago_tours_field_default_field_instances() {
       ),
     ),
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Prijs per uur
+1 -> €1-€40
+2 -> €41-€60
+3 -> €61-€80
+4 -> €81-€100
+5 -> +€100
+
+
+',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -560,10 +575,22 @@ function viago_tours_field_default_field_instances() {
   t('Inbegrepen');
   t('Locatie');
   t('Omslagsfoto');
+  t('Prijs per uur
+1 -> €1-€40
+2 -> €41-€60
+3 -> €61-€80
+4 -> €81-€100
+5 -> +€100
+
+
+');
   t('Prijscategorie');
   t('Talen');
   t('Thema');
   t('Trefpunt');
+  t('Upload hier een foto als omslag foto. Deze foto wordt "Enkel" getoond bij het overzicht van alle rondleidingen.
+Bij het uploaden krijgt u de mogelijkheid om deze bij te snijden in de juiste verhoudingen.
+Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.');
 
   return $field_instances;
 }

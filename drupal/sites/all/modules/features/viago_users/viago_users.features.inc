@@ -14,7 +14,7 @@ function viago_users_image_default_styles() {
   $styles['profile_photo'] = array(
     'label' => 'profile photo',
     'effects' => array(
-      6 => array(
+      1 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 150,
@@ -22,7 +22,7 @@ function viago_users_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      7 => array(
+      2 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -44,7 +44,7 @@ function viago_users_image_default_styles() {
         ),
         'weight' => 2,
       ),
-      8 => array(
+      3 => array(
         'name' => 'canvasactions_roundedcorners',
         'data' => array(
           'radius' => 75,
@@ -60,7 +60,7 @@ function viago_users_image_default_styles() {
         ),
         'weight' => 3,
       ),
-      9 => array(
+      4 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',

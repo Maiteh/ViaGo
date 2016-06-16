@@ -15,7 +15,7 @@ function viago_users_field_default_field_instances() {
     'bundle' => 'guide',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Uit welke regio bent u afkomstig',
     'display' => array(
       'account' => array(
         'label' => 'above',
@@ -109,7 +109,7 @@ function viago_users_field_default_field_instances() {
   $field_instances['profile2-guide-field_user_guide_cv'] = array(
     'bundle' => 'guide',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Voeg eventueel uw CV toe als u graag nog extra informatie met ons wilt delen over waarom we u zouden accepteren.',
     'display' => array(
       'account' => array(
         'label' => 'above',
@@ -127,12 +127,12 @@ function viago_users_field_default_field_instances() {
     ),
     'entity_type' => 'profile2',
     'field_name' => 'field_user_guide_cv',
-    'label' => 'Cv',
+    'label' => 'Curriculum Vitae',
     'required' => 0,
     'settings' => array(
       'description_field' => 1,
       'file_directory' => '',
-      'file_extensions' => 'txt',
+      'file_extensions' => 'txt pdf',
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -147,12 +147,55 @@ function viago_users_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'profile2-guide-field_user_guide_degree'.
+  $field_instances['profile2-guide-field_user_guide_degree'] = array(
+    'bundle' => 'guide',
+    'deleted' => 0,
+    'description' => 'Heeft u een relevante diploma / getuigenschrift? Dan kan u deze hier uploaden indien u dit wenst.
+Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
+    'display' => array(
+      'account' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 9,
+      ),
+    ),
+    'entity_type' => 'profile2',
+    'field_name' => 'field_user_guide_degree',
+    'label' => 'Diploma',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 1,
+      'file_directory' => '',
+      'file_extensions' => 'txt jpg pdf',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'file',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'file_generic',
+      'weight' => 3,
+    ),
+  );
+
   // Exported field_instance: 'profile2-guide-field_user_guide_description'.
   $field_instances['profile2-guide-field_user_guide_description'] = array(
     'bundle' => 'guide',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Geef hier een beschrijving van kwaliteiten en je kennis.',
     'display' => array(
       'account' => array(
         'label' => 'above',
@@ -190,46 +233,6 @@ function viago_users_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'profile2-guide-field_user_guide_education'.
-  $field_instances['profile2-guide-field_user_guide_education'] = array(
-    'bundle' => 'guide',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'account' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 4,
-      ),
-    ),
-    'entity_type' => 'profile2',
-    'field_name' => 'field_user_guide_education',
-    'label' => 'Diploma',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 3,
-    ),
-  );
-
   // Exported field_instance: 'profile2-guide-field_user_guide_experience'.
   $field_instances['profile2-guide-field_user_guide_experience'] = array(
     'bundle' => 'guide',
@@ -261,7 +264,7 @@ function viago_users_field_default_field_instances() {
     'label' => 'Aantal jaar ervaring',
     'required' => 0,
     'settings' => array(
-      'max' => 100,
+      'max' => 25,
       'min' => 1,
       'prefix' => '',
       'suffix' => '',
@@ -302,7 +305,7 @@ function viago_users_field_default_field_instances() {
     'default_value_function' => '',
     'default_value_php' => '',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Duid hier aan in welke talen u gidst.',
     'display' => array(
       'account' => array(
         'label' => 'above',
@@ -338,7 +341,7 @@ function viago_users_field_default_field_instances() {
   $field_instances['profile2-guide-field_user_guide_profilepic'] = array(
     'bundle' => 'guide',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Voeg hier een foto van u zelf toe een vertrouwd beeld te geven naar de toeristen toe.',
     'display' => array(
       'account' => array(
         'label' => 'above',
@@ -360,7 +363,7 @@ function viago_users_field_default_field_instances() {
     'entity_type' => 'profile2',
     'field_name' => 'field_user_guide_profilepic',
     'label' => 'Profiel foto',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
@@ -368,7 +371,7 @@ function viago_users_field_default_field_instances() {
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
-      'min_resolution' => '',
+      'min_resolution' => '300x300',
       'title_field' => 0,
       'user_register_form' => FALSE,
     ),
@@ -386,6 +389,45 @@ function viago_users_field_default_field_instances() {
       ),
       'type' => 'imagefield_crop_widget',
       'weight' => 0,
+    ),
+  );
+
+  // Exported field_instance: 'profile2-guide-field_user_guide_theme'.
+  $field_instances['profile2-guide-field_user_guide_theme'] = array(
+    'bundle' => 'guide',
+    'default_value' => NULL,
+    'default_value_function' => '',
+    'default_value_php' => '',
+    'deleted' => 0,
+    'description' => 'Kies hier enkele thema\'s die het nauwst aansluiten bij jou interesse.',
+    'display' => array(
+      'account' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 10,
+      ),
+    ),
+    'entity_type' => 'profile2',
+    'field_name' => 'field_user_guide_theme',
+    'label' => 'thema\'s',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 9,
     ),
   );
 
@@ -564,15 +606,24 @@ function viago_users_field_default_field_instances() {
   t('Aantal jaar ervaring');
   t('Afkomstig van');
   t('Beschrijving');
-  t('Cv');
+  t('Curriculum Vitae');
   t('Diploma');
+  t('Duid hier aan in welke talen u gidst.');
   t('GSM');
   t('Geboortedatum');
+  t('Geef hier een beschrijving van kwaliteiten en je kennis.');
+  t('Heeft u een relevante diploma / getuigenschrift? Dan kan u deze hier uploaden indien u dit wenst.
+Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.');
+  t('Kies hier enkele thema\'s die het nauwst aansluiten bij jou interesse.');
   t('Naam');
   t('Profiel foto');
   t('Talen');
+  t('Uit welke regio bent u afkomstig');
+  t('Voeg eventueel uw CV toe als u graag nog extra informatie met ons wilt delen over waarom we u zouden accepteren.');
+  t('Voeg hier een foto van u zelf toe een vertrouwd beeld te geven naar de toeristen toe.');
   t('Voornaam');
   t('Website');
+  t('thema\'s');
 
   return $field_instances;
 }

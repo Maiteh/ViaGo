@@ -101,7 +101,31 @@ function viago_users_field_default_field_bases() {
     'settings' => array(
       'display_default' => 1,
       'display_field' => 1,
-      'profile2_private' => 0,
+      'profile2_private' => 1,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'file',
+  );
+
+  // Exported field_base: 'field_user_guide_degree'.
+  $field_bases['field_user_guide_degree'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_user_guide_degree',
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'file',
+    'settings' => array(
+      'display_default' => 0,
+      'display_field' => 0,
+      'profile2_private' => 1,
       'uri_scheme' => 'public',
     ),
     'translatable' => 0,
@@ -127,28 +151,6 @@ function viago_users_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'text_with_summary',
-  );
-
-  // Exported field_base: 'field_user_guide_education'.
-  $field_bases['field_user_guide_education'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_user_guide_education',
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'text',
-    'settings' => array(
-      'max_length' => 255,
-      'profile2_private' => 0,
-    ),
-    'translatable' => 0,
-    'type' => 'text',
   );
 
   // Exported field_base: 'field_user_guide_experience'.
@@ -218,6 +220,49 @@ function viago_users_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'image',
+  );
+
+  // Exported field_base: 'field_user_guide_theme'.
+  $field_bases['field_user_guide_theme'] = array(
+    'active' => 1,
+    'cardinality' => 4,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_user_guide_theme',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'Geschiedenis' => 'Geschiedenis',
+        'Avontuur' => 'Avontuur',
+        'Actie' => 'Actie',
+        'Nacht' => 'Nacht',
+        'Stad' => 'Stad',
+        'Dag' => 'Dag',
+        'Ontdekking' => 'Ontdekking',
+        'Culinair' => 'Culinair',
+        'Natuur wandelingen' => 'Natuur wandelingen',
+        'Locale ervaring' => 'Locale ervaring',
+        'Musea en cultuur' => 'Musea en cultuur',
+        'Natuur' => 'Natuur',
+        'Religieuse erfgoed' => 'Religieuse erfgoed',
+        'Erfgoed' => 'Erfgoed',
+        'Shopping' => 'Shopping',
+        'Kust' => 'Kust',
+        'Gezins uitstap' => 'Gezins uitstap',
+        'Anderen' => 'Anderen',
+      ),
+      'allowed_values_function' => '',
+      'allowed_values_php' => '',
+      'profile2_private' => 0,
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
   );
 
   // Exported field_base: 'field_user_guide_website'.
