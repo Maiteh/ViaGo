@@ -94,9 +94,6 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
             <div class="row">
                 <div class="col-xs-5 header-logo">
                     <a href="/"><img src="<?php print $img_url . '/logo.png'?>" alt="" class="logo"></a>
-                    <form>
-                        <input id="zoekbalk" value="Zoek rondleiding, stad of gids" > </input>
-                    </form>
                 </div>                          
                     <ul>
                        <?php print render($page['header']); ?>

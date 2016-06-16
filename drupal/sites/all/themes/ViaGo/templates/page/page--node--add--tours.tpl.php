@@ -14,9 +14,6 @@ $form = node_add('tours');
             <div class="row">
                 <div class="col-xs-5 header-logo">
                     <a href="<?php print $base_url . '/' . drupal_get_path_alias('node');?>"><img src="<?php print $img_url . '/logo.png'?>" alt="" class="logo"></a>
-                    <form>
-                        <input id="zoekbalk" value="Zoek rondleiding, stad of gids" > </input>
-                    </form>
                 </div>                          
                     <ul>
                        <?php print render($page['header']); ?>
