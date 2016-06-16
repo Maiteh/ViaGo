@@ -140,6 +140,7 @@
 #commentRondleiding h2{
   color: #3DB4D6;
   font-weight: bold;
+  margin-bottom: -100px;
   font-size: 20px;
 }
 #comments .title{
@@ -155,13 +156,37 @@
   margin-bottom: 10px;
 }
 
+.comment h3 a{
+  color: #3DB4D6;
+  font-weight: bold;
+  font-size: 18px;
+}
+.comment h3 a:hover{
+  color: #3DB4D6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .comment{
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .comment-form{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 #edit-comment-body a{
   visibility: hidden;
 }
+.submitted .permalink{
+  visibility: hidden;
+}
+.submitted{
+  font-size: 12px;
+  margin-left: -59px;
+}
+.field-name-comment-body p{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
 
