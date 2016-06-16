@@ -93,7 +93,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
         <div class="container">
             <div class="row">
                 <div class="col-xs-5 header-logo">
-                    <a href="<?php print $base_url . '/' . drupal_get_path_alias('node');?>"><img src="<?php print $img_url . '/logo.png'?>" alt="" class="logo"></a>
+                    <a href="/"><img src="<?php print $img_url . '/logo.png'?>" alt="" class="logo"></a>
                     <form>
                         <input id="zoekbalk" value="Zoek rondleiding, stad of gids" > </input>
                     </form>
@@ -113,7 +113,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
             <?php print t('<p>bieden <strong>authentieke, persoonlijke en kwaliteitsvolle</strong></p>') ?>
             <?php print t('<p>rondleidingen aan in <strong>België</strong></p>') ?>
             <div id="zoekKnop">
-                <a href="<?php print $base_url . '/' . drupal_get_path_alias('rondleidingen');?>" id="zoeken">Zoek nu!</a>
+               <?php print t('<a href="/rondleidingen" id="zoeken">Zoek nu!</a>') ?>
             </div>
         </div>
     </header>
@@ -225,8 +225,8 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
         <?php print t('<h2>Word lid bij ViaGo</h2>') ?>
         <?php print t('<p>Ben jij een gids en wil je je rondleiding bij ons </br>aanbieden? Dat kan!</p>') ?>
         <div id="lidworden">
-            <a href="<?php print $base_url . '/' . drupal_get_path_alias('user/register');?>" id="bezokerworden" class="registreerlinks">Registreer als bezoeker</a>
-            <a href="<?php print $base_url . '/' . drupal_get_path_alias('guide/register');?>" id="gidsworden" class="registreerlinks">Registreer als gids</a>
+            <?php print t('<a href="/user/register" id="bezoekerworden" class="registreerlinks">Registreer als bezoeker</a>') ?>
+            <?php print t('<a href="/guide/register" id="gidsworden" class="registreerlinks">Registreer als gids</a>') ?>
             <div class="clearfix"></div>
         </div>
         </div>
