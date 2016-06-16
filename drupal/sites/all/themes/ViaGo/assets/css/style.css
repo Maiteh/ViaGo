@@ -62,6 +62,9 @@
 #gegevens p {
   margin-top: 5px; }
 
+#BasisInfo p {
+  padding-top: 5px; }
+
 #gegevens {
   padding-bottom: 20px; }
 
@@ -105,13 +108,15 @@
 #basisinfoRondleiding {
   background-color: white;
   margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
   width: 80%;
   margin-right: auto;
   margin-left: auto; }
 
 #basisinfoRondleiding h1 {
-  padding-left: 30px;
-  padding-top: 60px;
+  text-align: center;
+  padding-top: 50px;
   font-weight: bold;
   font-size: 25px;
   color: #ff4d27; }

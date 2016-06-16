@@ -35,7 +35,6 @@ $form = node_add('tours');
 
   </div>
 
-    </div>
 </body>
 
 
