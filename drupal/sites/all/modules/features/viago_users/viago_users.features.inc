@@ -17,8 +17,8 @@ function viago_users_image_default_styles() {
       6 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 300,
-          'height' => 300,
+          'width' => 150,
+          'height' => 150,
         ),
         'weight' => 1,
       ),
@@ -47,7 +47,7 @@ function viago_users_image_default_styles() {
       8 => array(
         'name' => 'canvasactions_roundedcorners',
         'data' => array(
-          'radius' => 150,
+          'radius' => 75,
           'independent_corners_set' => array(
             'independent_corners' => 0,
             'radii' => array(
