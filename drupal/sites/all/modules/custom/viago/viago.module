@@ -11,10 +11,10 @@
  * @return mixed
  */
 function viago_menu_alter(&$items) {
-  $items['user']['type']          = MENU_CALLBACK;
-  $items['user/register']['type'] = MENU_CALLBACK;
-  $items['user/password']['type'] = MENU_CALLBACK;
-  $items['user/login']['type']    = MENU_CALLBACK;
+  $items['user']['type']           = MENU_CALLBACK;
+  $items['user/register']['type']  = MENU_CALLBACK;
+  $items['user/password']['type']  = MENU_CALLBACK;
+  $items['user/login']['type']     = MENU_CALLBACK;
   $items['guide']['type']          = MENU_CALLBACK;
   $items['guide/register']['type'] = MENU_CALLBACK;
   $items['guide/password']['type'] = MENU_CALLBACK;
@@ -22,3 +22,19 @@ function viago_menu_alter(&$items) {
 
   return $items;
 }
+  /**
+   * hook_form_FORM_ID_alter
+   */
+  function viago_form_search_block_form_alter(&$form, &$form_state, $form_id) {
+    $img_src = '/sites/all/themes/ViaGo/assets/img/searchNav.png';
+    $image_html = theme('image', array(
+      'path' => $img_src,
+    ));
+    $form['search_block_form']['#title_display'] = 'invisible'; // Toggle label visibilty
+    $form['search_block_form']['#size'] = 27;  // define size of the textfield
+    $form['search_block_form']['#default_value'] = t('Zoek op Viago'); // Set a default value for the textfield
+    unset($form['actions']['submit']);
+
+    // Alternative (HTML5) placeholder attribute instead of using the javascript
+    $form['search_block_form']['#attributes']['placeholder'] = t('Zoek op Viago');
+  }
