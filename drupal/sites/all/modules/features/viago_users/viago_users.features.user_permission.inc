@@ -836,6 +836,7 @@ function viago_users_user_default_permissions() {
     'roles' => array(
       'Gids' => 'Gids',
       'Toerist' => 'Toerist',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'search',
@@ -867,6 +868,7 @@ function viago_users_user_default_permissions() {
     'name' => 'use advanced search',
     'roles' => array(
       'Gids' => 'Gids',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'search',
