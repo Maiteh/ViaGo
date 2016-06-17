@@ -323,11 +323,16 @@ nav a {
   height: 35px;
   width: 270px;
   display: block;
-  padding-left: 5px;
+  padding-left: 10px;
   background-color: #D8D8D8;
   border-radius: 3px;
   color: #162431;
-  font-style: italic; }
+  font-style: italic;
+  border: none;
+  background-image: url("../img/searchNav.png");
+  background-repeat: no-repeat;
+  background-position: right 7px center;
+  background-size: 30px 30px; }
 
 .logo {
   margin-top: 19px;
@@ -953,9 +958,6 @@ ul.nice-menu-down li.menuparent ul {
 /* filter overview */
 #rondleidingTeaser {
   background-color: #F5F6F7;
-  border-right: 1px solid #4D4D4D;
-  border-left: 1px solid #4D4D4D;
-  border-bottom: 1px solid #4D4D4D;
   width: 350px;
   height: 250px;
   padding-top: 5px;
