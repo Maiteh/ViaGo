@@ -325,24 +325,13 @@ nav {
 nav a {
   color: white; }
 
-.zoekbalk {
-  height: 35px;
-  width: 270px;
-  display: block;
-  float: right;
-  margin-top: -36px;
-  padding-left: 5px;
-  background-color: #D8D8D8;
-  border-radius: 3px;
-  color: #162431;
-  font-style: italic; }
+.region-header {
+  margin-top: 19px; }
 
 #edit-search-block-form--2 {
   height: 35px;
   width: 270px;
   display: block;
-  float: right;
-  margin-top: -36px;
   padding-left: 5px;
   background-color: #D8D8D8;
   border-radius: 3px;
@@ -859,7 +848,7 @@ nav a {
   margin-top: 10px; }
 
 #block-nice-menus-1 {
-  padding-top: 20px; }
+  margin-top: -30px; }
 
 #block-nice-menus-1 h2 {
   display: none; }
