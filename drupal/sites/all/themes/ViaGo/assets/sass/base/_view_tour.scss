@@ -1,30 +1,38 @@
 #overzicht h5{
   margin-left: 10px;
-  margin-bottom: 20px;
   color: #3DB4D6;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: bold;
+  height: 45px;
 }
 
 #overzicht{
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 #overzicht .rate-widget-fivestar{
   padding-left: 10px;
 }
 #overzicht .rate-info{
-  visibility: hidden;
+  display: none;
+}
+.field-name-field-tour-location{
+  margin-bottom: 5px;
 }
 #overzicht .field-name-field-tour-languages .field-item {
   float: left;
   padding-right: 10px;
+  margin-bottom: 2px;
 }
 
 #tour {
+  width: 350px;
   margin-top: -40px;
   margin-right: 20px;
   margin-left: 16px;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 /* filter overview */
 
@@ -32,10 +40,12 @@
 #rondleidingTeaser{
     background-color: #F5F6F7;
     width: 350px;
-    height: 250px;
+    height: 225px;
     padding-top: 5px;
     padding-left: 15px;
     margin-bottom: 20px;
+    margin-top: -2px;
+
 }
 #rondleidingen h3{
   padding: 35px 0;
@@ -44,7 +54,7 @@
   padding-left: 12px;
 }
 
-#iconenrondleidingen h5{
+#iconenrondleidingen h5{  
   color: #3DB4D6;
   width: 300px;
   font-weight: bold;
@@ -66,7 +76,12 @@
   color: white;
   background-color: #FC9D50;
   padding: 5px 15px 5px 15px;
-  border-radius: 10px;
+  border-radius: 100px;
+  width: 180px;
+  height: 28px;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
 
   .col-xs-6 .col-sm-4over{
