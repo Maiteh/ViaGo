@@ -29,12 +29,33 @@
   margin-left: auto;
   margin-right: auto; }
 
-#accountdetail .profile2-guide .content {
-  background-color: red; }
+#accountnamedetail {
+  margin-top: 50px; }
 
-#accountdetail .content .profile .user-picture .active img {
-  width: 100%;
-  margin-right: auto; }
+#accountnamedetail h2 {
+  font-weight: bold;
+  font-size: 18px; }
+
+#accountdetail .field-name-field-user-guide-description {
+  margin-bottom: 20px; }
+
+#accountdetail .field-name-field-user-guide-birthdate {
+  margin-bottom: 20px; }
+
+#accountdetail .field-name-field-user-guide-experience {
+  margin-bottom: 20px; }
+
+#accountdetail .field-name-field-user-guide-address {
+  margin-bottom: 20px; }
+
+#accountdetail .field-name-field-user-guide-languages {
+  margin-bottom: 20px; }
+
+#accountdetail dt {
+  visibility: hidden; }
+
+#accountdetail dd {
+  visibility: hidden; }
 
 .form-item-title {
   margin-top: 50px;

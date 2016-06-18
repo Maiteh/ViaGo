@@ -1,85 +1,61 @@
-#acountform{
-  color: red;
+#account{
+  background-color: #EFEFEF;
 }
-#acountform strong{
-  padding-top: 30px;
-}
-#accountblok{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+#accountinfo{
+  background-color: white;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-.field-name-field-user-guide-experience{
-    padding-left: 30px;
-    padding-top: 50px;
+#accountdetail h1{
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ff4d27;
 }
-.field-name-field-user-guide-birthdate{
-  padding-left: 30px;
-  padding-top: 10px;
-}
-.field-name-field-user-guide-address{
-  padding-left: 30px;
-  padding-top: 10px;
-}
-.field-name-field-user-guide-languages{
-  padding-left: 30px;
-  padding-top: 10px;
-}
-
-.profile h3{
+#accountdetail h3{
   visibility: hidden;
 }
-
-#basicInfo{
-  padding-left: 30px;
-  padding-top: 50px;
+#accountinfo .user-picture{
+  display: block;
+  float: left;
 }
-
-  @media (min-width: 600px) {
- .user-picture .active{
-  margin-right: 500px;
+#accountdetail{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
+#accountnamedetail{
+  margin-top: 50px;
 }
-#gegevens h2{
-  color: #3DB4D6;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 20px;
+#accountnamedetail h2{
+ font-weight: bold;
+ font-size: 18px;
+}
+#accountdetail .field-name-field-user-guide-description{
   margin-bottom: 20px;
 }
-#favorieten h2{
-    color: #3DB4D6;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 20px;
+#accountdetail .field-name-field-user-guide-birthdate{
+  margin-bottom: 20px;
 }
-#gegevens p{
-  margin-top: 5px;
+#accountdetail .field-name-field-user-guide-experience{
+  margin-bottom: 20px;
 }
-#BasisInfo p{
-  padding-top: 5px;
+#accountdetail .field-name-field-user-guide-address{
+  margin-bottom: 20px;
 }
-#gegevens{
-    padding-bottom: 20px;
-
+#accountdetail .field-name-field-user-guide-languages{
+  margin-bottom: 20px;
 }
-#NaamToerist{
-  border-bottom: 1px solid;
-  height: 150px;
-}
-
-#accountform h1{
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.profile dt{
+#accountdetail dt{
   visibility: hidden;
 }
-.profile dd{
+#accountdetail dd{
   visibility: hidden;
 }
+
+

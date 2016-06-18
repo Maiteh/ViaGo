@@ -86,6 +86,8 @@
  */
 global $base_url;
 $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
+ global $user;
+  $user = user_load($user->uid);
 ?>
 
 <!--<script>
@@ -124,7 +126,26 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
           <?php print render($tabs); ?>
         </div>
       <?php endif; ?>
-      <?php print render($page['content']); ?>
+
+  <body id="account">
+    <div id="accountinfo"> 
+      <div id="accountdetail">
+        <h1>Account</h1>
+          <div class="row">
+           <div class="col-xs-6">
+            <?php print render($page['content']); ?>
+           </div>
+           <div class="col-xs-6" id="accountnamedetail">
+            <h2><?php print $user->name; ?><h2>
+            <p><?php print $user->mail; ?></p>
+           </div>
+
+          </div>
+      </div>
+        
+    </div>
+  </body>
+      
 
 <?php 
     include_once dirname(__FILE__) . '/../includes/nieuwsbrief.inc.php' ; 
