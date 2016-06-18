@@ -1002,12 +1002,11 @@ ul.nice-menu-down li.menuparent ul {
   display: none; }
 
 .field-name-field-tour-location {
-  margin-bottom: 5px; }
+  margin-top: -5px; }
 
 #overzicht .field-name-field-tour-languages .field-item {
   float: left;
-  padding-right: 10px;
-  margin-bottom: 2px; }
+  padding-right: 10px; }
 
 #tour {
   width: 350px;
@@ -1022,11 +1021,28 @@ ul.nice-menu-down li.menuparent ul {
 #rondleidingTeaser {
   background-color: #F5F6F7;
   width: 350px;
-  height: 225px;
+  height: 245px;
   padding-top: 5px;
   padding-left: 15px;
   margin-bottom: 20px;
   margin-top: -2px; }
+
+li.teaserelement {
+  height: 28px;
+  margin-bottom: 2px; }
+  li.teaserelement img {
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    margin-left: 5px; }
+  li.teaserelement p {
+    float: left;
+    margin-top: 0px;
+    height: 30px;
+    padding-top: 2px; }
+  li.teaserelement .field, li.teaserelement .field-name-field-tour-location, li.teaserelement .field-type-taxonomy-term-reference, li.teaserelement .field-label-hidden {
+    position: absolute;
+    margin-top: 5px; }
 
 #rondleidingen h3 {
   padding: 35px 0;
@@ -1061,7 +1077,17 @@ ul.nice-menu-down li.menuparent ul {
   height: 28px;
   text-align: center;
   display: block;
-  margin: auto; }
+  margin: auto;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+  /*
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FC9D50;
+  */ }
+
+#leesmeer:hover {
+  background-color: #F78D3E; }
 
 .col-xs-6 .col-sm-4over {
   margin-left: 50px; }
