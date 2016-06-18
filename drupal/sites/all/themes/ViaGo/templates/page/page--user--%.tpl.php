@@ -113,8 +113,6 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
 <?php 
     include_once dirname(__FILE__) . '/../includes/navigation.inc.php' ; 
 ?>
-
-<div id="subnav"><?php print render($page['highlighted']); ?></div>
    
       <?php if ($messages): ?>
     <div id="messages"><div class="section clearfix">
