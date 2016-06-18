@@ -15,6 +15,21 @@
 .form-item-mail .description{
   visibility: hidden;
 }
+.text-format-wrapper .description{
+  margin-top: -100px;
+}
+
+#registerform .form-item-profile-guide-field-user-guide-birthdate-und-0-value{
+  margin-left: -40px;
+}
+#registerform .date-clear{
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#edit-profile-guide-field-user-guide-description-und-0-format-help a{
+  visibility: hidden;
+}
 
 #registerform {
   border-top: 2px; 
@@ -48,16 +63,84 @@
 #registerform .fieldset-legend{
   visibility: hidden;
 }
-
-/*
-
-#loginform .form-item-profile-guide-field-user-guide-profilepic-und-0{
-  margin-top: -30px;
+#registerform #profile-guide-field-user-guide-address-add-more-wrapper{
+  margin-left: -30px;
+  margin-bottom: 20px;
+}
+#registerform #edit-profile-guide-field-user-guide-languages .form-type-checkbox{
+  float: left;
+}
+#registerform #edit-profile-guide-field-user-guide-languages{
+  width: 100%;
+  margin-left: -30px;
+  margin-bottom: 40px;
+}
+#registerform #edit-profile-guide-field-user-guide-theme{
+  width: 100%;
+}
+#registerform #edit-profile-guide-field-user-guide-languages-und input[type="checkbox"]{
+  width: 80%;
+}
+#registerform #edit-profile-guide-field-user-guide-theme-und input[type="checkbox"]{
+  width: 4%;
 }
 
-#loginform #edit-profile-guide-field-user-guide-profilepic-und-0-upload{
+#registerform .form-item-profile-guide-field-user-guide-languages-und-FR{
+  margin-left: 20px;
+}
+#registerform .form-item-profile-guide-field-user-guide-languages-und-DE{
+  margin-left: 20px;
+}
+#registerform .form-item-profile-guide-field-user-guide-languages-und-EN{
+  margin-left: 20px;
+}
+#registerform .form-item-profile-guide-field-user-guide-languages-und .description{
+  margin-top: 80px;
+}
+#registerform .form-item-profile-guide-field-user-guide-experience-und-value{
+  margin-top: -60px;
+  margin-left: -30px;
+  width: 115%;
+}
+#registerform .form-item-profile-guide-field-user-guide-experience-und-value .sliderfield-display-values-field{
+  visibility: hidden;
+}
+
+#registerform #edit-profile-guide-field-user-guide-experience-und-value-ignore{
+  visibility: hidden;
+}
+
+#registerform label[for="edit-profile-guide-field-user-guide-experience-und-value-ignore"]{
+  visibility: hidden;
+}
+#registerform #edit-profile-guide-field-user-guide-experience-und-value-container{
+  margin-top: -60px;
+  margin-left: 10px;
+  width: 88%;
+}
+
+
+#registerform #edit-profile-guide-field-user-guide-profilepic{
+  margin-bottom: 30px;
+}
+#registerform #edit-profile-guide-field-user-guide-cv{
+  margin-bottom: 30px;
+}
+#registerform #edit-profile-guide-field-user-guide-degree{
+  margin-bottom: 50px;
+}
+
+#registerform #edit-profile-guide-field-user-guide-profilepic-und-0-upload{
   margin-top: 10px;
 }
+#registerform #edit-profile-guide-field-user-guide-cv-und-0-upload{
+  margin-top: 10px;
+}
+#registerform #edit-profile-guide-field-user-guide-degree-und-0-upload{
+  margin-top: 10px;
+}
+
+/*
 #loginform #edit-profile-guide-field-user-guide-profilepic-und-0-upload-button{
   visibility: hidden;
 }
