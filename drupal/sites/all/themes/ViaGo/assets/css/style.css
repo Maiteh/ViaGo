@@ -1007,9 +1007,22 @@ ul.nice-menu-down li.menuparent ul {
 .field-name-field-tour-location {
   margin-top: -5px; }
 
+#overzicht .field-name-field-tour-languages .field-items {
+  margin-top: 2px;
+  display: block; }
+
 #overzicht .field-name-field-tour-languages .field-item {
   float: left;
-  padding-right: 10px; }
+  padding-right: 5px; }
+
+span.smalllanguage {
+  font-size: 16px;
+  height: 16px; }
+  span.smalllanguage .field-type-list-text {
+    color: #3DB4D6; }
+  span.smalllanguage .field-name-field-tour-languages {
+    line-height: 16px;
+    position: relative; }
 
 #tour {
   width: 350px;
@@ -1037,15 +1050,24 @@ li.teaserelement {
     width: 25px;
     height: 25px;
     margin-top: 2px;
-    margin-left: 5px; }
+    margin-left: 5px;
+    float: left; }
   li.teaserelement p {
     float: left;
-    margin-top: 0px;
     height: 30px;
     padding-top: 2px; }
+  li.teaserelement .printname {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-transform: capitalize; }
   li.teaserelement .field, li.teaserelement .field-name-field-tour-location, li.teaserelement .field-type-taxonomy-term-reference, li.teaserelement .field-label-hidden {
     position: absolute;
     margin-top: 5px; }
+  li.teaserelement .field-name-field-tour-location .field-items a {
+    text-decoration: none;
+    color: #000;
+    cursor: text; }
 
 #rondleidingen h3 {
   padding: 35px 0;

@@ -15,15 +15,24 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
                             <?php print rate_embed($node, 'rate_tour', RATE_FULL); ?>
                         </li>
                         <li>
-                            <h5><?php print $title;?></h5>
+                            <h5>
+                                <?php print $title; ?>
+                                <span class="smalllanguage">
+                                (
+                                <span class="languagewrap">
+                                <?php print drupal_render($content['field_tour_languages']);?>
+                                </span>
+                                )
+                                </span>
+                            </h5>
                         </li>
                         <li class="teaserelement">
                             <img src="<?php print $img_url . '/wegmarkering_ViaGo.png'?>">
                             <p><?php print drupal_render($content['field_tour_location']); ?></p>
                         </li>
                         <li class="teaserelement">
-                            <img src="<?php print $img_url . '/taal_Viago.png'?>">
-                            <p><?php print drupal_render($content['field_tour_languages']); ?></p>
+                            <img src="<?php print $img_url . '/gids_Viago.png'?>">
+                            <div class="printname"><?php print $name; ?></div>
                         </li>
                         <li class="teaserelement">
                             <img src="<?php print $img_url . '/money_ViaGo.png'?>">
