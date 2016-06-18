@@ -14,9 +14,6 @@ $form = node_add('tours');
 ?>
 
 
-<div id="subnav"><?php print render($page['highlighted']); ?></div>
-
-
 <body id="toevoegenRondleiding">
   <div id="basisinfoRondleiding">  
 	<h1>Rondleiding toevoegen</h1>

@@ -10,3 +10,5 @@
         </div>
     </div>
 </nav>
+
+<div id="subnav"><?php print render($page['highlighted']); ?></div>
