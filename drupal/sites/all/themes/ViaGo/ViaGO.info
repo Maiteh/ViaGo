@@ -9,7 +9,11 @@ stylesheets[all][] = assets/css/bootstrap.min.css
 stylesheets[all][] = assets/css/style.css
 stylesheets[all][] = assets/css/reset.css
 
-
+regions[content] = Content
+regions[header] =  Header
+regions[gids] = Gids
+regions[newest] = Newest
+regions[popular] = Popular
 
 
 settings[shortcut_module_link] = 0

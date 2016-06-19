@@ -2,6 +2,9 @@
 body {
   overflow-x: hidden;
 }
+#rondleidingen .block-views h2{
+	visibility: hidden;
+}
 @media (max-width: 600px) {
 
   .col-xs-6 {
