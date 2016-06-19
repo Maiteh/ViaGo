@@ -356,12 +356,39 @@ nav a {
 
   header .intro-text .skills {
     font-size: 1.75em; } }
+@media (max-width: 1000px) {
+  nav .container .row .header-logo a {
+    margin-left: 30px; }
+  nav .container .row .col-xs-5 {
+    width: 30%; } }
+@media (max-width: 1200px) {
+  nav .container .content #nice-menu-1 {
+    margin-right: 10%; } }
 @media (max-width: 900px) {
   header {
     background-size: cover; }
 
   header .container p {
     font-size: 24px; } }
+@media (max-width: 700px) {
+  nav {
+    height: 160px; }
+    nav .search-block-form {
+      display: inline-block; }
+    nav .form-type-textfield #edit-search-block-form--2 {
+      margin: auto; }
+    nav .container .row .header-logo {
+      float: none;
+      margin: auto;
+      width: 130px; }
+      nav .container .row .header-logo a {
+        margin-left: 0; }
+
+  nav .container .content #nice-menu-1 {
+    margin: auto;
+    float: none;
+    width: 150px;
+    margin-top: 40px; } }
 @media (max-width: 600px) {
   header {
     background-size: cover;
