@@ -142,32 +142,8 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
               
                   <div id="nieuwsteRondleidingen"><?php print render($page['newest']); ?></div> 
                     
-                    <div class="col-md-4 col-sm-2 col-xs-8" >
-                        <a href="#"><img src="<?php print $img_url . '/rondleiding5.jpg'?>" height="auto" width="100%"></a>
-                            <div id="rondleiding">
-                                <img src="<?php print $img_url . '/starts.png'?>" width="20%"/>
-                                <h5>Scheldeland en natuur<strong>(Nl)</strong> </h5>
-                                    <div id ="overzicht">
-                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Antwerpen, Linkeroever</p>
-                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>Marian Tielemans</p>
-                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" /></p>
-                                    </div>
-                                <a href="#" id="leesmeer">Bekijk deze tour ></a>
-                            </div>
-                    </div>
-                    <div class="col-md-4 col-sm-2 col-xs-8" >
-                        <a href="#"><img src="<?php print $img_url . '/rondleiding6.jpg'?>" height="auto" width="100%"></a>
-                            <div id="rondleiding">
-                                <img src="<?php print $img_url . '/starts.png'?>" width="20%"/>
-                                <h5>Westkust te paard <strong>(Nl, Fr)</strong> </h5>
-                                    <div id ="overzicht">
-                                        <p><img src="<?php print $img_url . '/wegmarkering_ViaGo.png' ?>" width="8%"/>Westkust, West-vlaanderen</p>
-                                        <p><img src="<?php print $img_url . '/mannetje_ViaGo.png' ?>" width="8%"/>Christel Van der Meers</p>
-                                        <p><img src="<?php print $img_url . '/money_ViaGo.png' ?>" width="8%" /></p>
-                                    </div>
-                                <a href="#" id="leesmeer">Bekijk deze tour ></a>
-                            </div>
-                    </div>
+                   
+              
 
                   
     </section>
