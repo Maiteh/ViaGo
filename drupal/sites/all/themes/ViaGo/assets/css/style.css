@@ -317,6 +317,9 @@ nav a {
   background-position: right 7px center;
   background-size: 30px 30px; }
 
+.container-inline .form-actions {
+  display: none; }
+
 .logo {
   margin-top: 19px;
   height: 30px;
