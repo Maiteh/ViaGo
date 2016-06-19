@@ -29,14 +29,13 @@
   margin-left: auto;
   margin-right: auto; }
 
-#accountnamedetail {
-  margin-top: 50px; }
-
-#accountnamedetail h2 {
-  font-weight: bold;
-  font-size: 18px; }
-
 #accountdetail .field-name-field-user-name {
+  margin-bottom: 20px; }
+
+#accountdetail .field-name-field-user-phone {
+  margin-bottom: 20px; }
+
+#accountdetail .field-name-field-user-firstname {
   margin-bottom: 20px; }
 
 #accountdetail .field-name-field-user-guide-description {
