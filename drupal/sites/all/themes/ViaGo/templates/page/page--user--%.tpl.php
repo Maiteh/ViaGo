@@ -134,8 +134,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
             <?php print render($page['content']); ?>
            </div>
            <div class="col-xs-6" id="accountnamedetail">
-            <h2><?php print $user->name; ?><h2>
-            <p><?php print $user->mail; ?></p>
+
            </div>
 
           </div>

@@ -18,10 +18,11 @@ function viago_users_field_default_field_instances() {
     'description' => 'Uit welke regio bent u afkomstig',
     'display' => array(
       'account' => array(
-        'label' => 'above',
+        'label' => 'inline',
+        'module' => 'text',
         'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'type' => 'text_default',
+        'weight' => 2,
       ),
       'default' => array(
         'label' => 'above',
@@ -57,10 +58,11 @@ function viago_users_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'account' => array(
-        'label' => 'above',
+        'label' => 'inline',
+        'module' => 'date',
         'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'type' => 'date_plain',
+        'weight' => 3,
       ),
       'default' => array(
         'label' => 'above',
@@ -115,7 +117,7 @@ function viago_users_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 9,
       ),
       'default' => array(
         'label' => 'above',
@@ -158,7 +160,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 6,
       ),
       'default' => array(
         'label' => 'above',
@@ -233,6 +235,46 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
     ),
   );
 
+  // Exported field_instance: 'profile2-guide-field_user_guide_education'.
+  $field_instances['profile2-guide-field_user_guide_education'] = array(
+    'bundle' => 'guide',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'account' => array(
+        'label' => 'inline',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 10,
+      ),
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
+    ),
+    'entity_type' => 'profile2',
+    'field_name' => 'field_user_guide_education',
+    'label' => 'Diploma',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 1,
+    ),
+  );
+
   // Exported field_instance: 'profile2-guide-field_user_guide_experience'.
   $field_instances['profile2-guide-field_user_guide_experience'] = array(
     'bundle' => 'guide',
@@ -241,10 +283,16 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
     'description' => '',
     'display' => array(
       'account' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'inline',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 0,
+          'thousand_separator' => '',
+        ),
+        'type' => 'number_integer',
+        'weight' => 1,
       ),
       'default' => array(
         'label' => 'above',
@@ -308,10 +356,11 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
     'description' => 'Duid hier aan in welke talen u gidst.',
     'display' => array(
       'account' => array(
-        'label' => 'above',
+        'label' => 'inline',
+        'module' => 'list',
         'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'type' => 'list_default',
+        'weight' => 5,
       ),
       'default' => array(
         'label' => 'above',
@@ -347,7 +396,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 8,
       ),
       'default' => array(
         'label' => 'above',
@@ -405,7 +454,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 7,
       ),
       'default' => array(
         'label' => 'above',
@@ -439,10 +488,11 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
     'description' => '',
     'display' => array(
       'account' => array(
-        'label' => 'above',
+        'label' => 'inline',
+        'module' => 'link',
         'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'type' => 'link_default',
+        'weight' => 4,
       ),
       'default' => array(
         'label' => 'above',
@@ -496,11 +546,11 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'inline',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 1,
       ),
     ),
     'entity_type' => 'user',
@@ -534,11 +584,11 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'inline',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'user',
@@ -572,11 +622,11 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'inline',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_plain',
-        'weight' => 3,
+        'weight' => 2,
       ),
     ),
     'entity_type' => 'user',
