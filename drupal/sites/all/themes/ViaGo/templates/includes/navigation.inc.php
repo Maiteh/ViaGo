@@ -11,4 +11,4 @@
     </div>
 </nav>
 
-<div id="subnav"><?php print render($page['gids']); ?></div>
+<div id="subnav"><?php print render($page['subnavigatie']); ?></div>

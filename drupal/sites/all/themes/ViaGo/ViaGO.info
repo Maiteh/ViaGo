@@ -11,7 +11,7 @@ stylesheets[all][] = assets/css/reset.css
 
 regions[content] = Content
 regions[header] =  Header
-regions[gids] = Gids
+regions[subnavigatie] = Subnavigatie
 regions[newest] = Newest
 regions[popular] = Popular
 
