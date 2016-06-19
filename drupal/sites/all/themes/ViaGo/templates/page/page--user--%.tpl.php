@@ -143,37 +143,11 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
     </div>
   </body>
       
-
 <?php 
     include_once dirname(__FILE__) . '/../includes/nieuwsbrief.inc.php' ; 
 ?>
 
-  <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Contact</h3></br></br> 
-                        <p>Lorem</p></br>
-                        <p>Ipsum</p></br>
-                        <p>Whatsoever</p>
-
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Zoek</h3></br></br>
-                        <p>Rondleiding</p></br>
-                        <p>Gidsen</p></br>
-  
-                    </div>
-                    <div class="footer-col col-md-4">
-                       <h3>Volg ViaGo</h3></br></br>
-                       <p>Facebook</p></br>
-                        <p>Twitter</p> </br>
-                          <p>And so on.</p> </br>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
+<?php 
+    include_once dirname(__FILE__) . '/../includes/footer.inc.php' ; 
+?>
 
