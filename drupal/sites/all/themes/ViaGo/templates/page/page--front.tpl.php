@@ -135,12 +135,12 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
 
             <h3>Nieuwste rondleidingen</h3>
               
-                <div id="nieuwsteRondleidingen"><?php print render($page['popular']); ?></div>
+                <div id="nieuwsteRondleidingen"><?php print render($page['newest']); ?></div>
 
 
             <h3>Populairste rondleidingen</h3>
               
-                  <div id="nieuwsteRondleidingen"><?php print render($page['newest']); ?></div> 
+                  <div id="nieuwsteRondleidingen"><?php print render($page['popular']); ?></div> 
                     
                    
               
