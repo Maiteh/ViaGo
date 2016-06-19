@@ -30,3 +30,15 @@ footer h3 {
 footer p{
     float: left;
 }
+footer .footer-col img{
+  width: 130px;
+  margin-top: -10px;
+}
+@media (max-width: 995px) {
+  .footervolg, .footercontact{
+    margin-bottom: 35px;
+  }
+  .footer-col{
+    margin-left: 5%;
+  }
+}
