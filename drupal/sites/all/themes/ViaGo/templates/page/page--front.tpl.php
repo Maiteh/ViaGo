@@ -189,32 +189,6 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
     include_once dirname(__FILE__) . '/../includes/nieuwsbrief.inc.php' ; 
 ?>
 
-
-<footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <?php print t('<h3>Contact</h3></br></br>') ?>
-                        <?php print t('<p>Lorem</p></br>') ?>
-                        <?php print t('<p>Ipsum</p></br>') ?>
-                        <?php print t('<p>Whatsoever</p>') ?>
-
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <?php print t('<h3>Zoek</h3></br></br>') ?>
-                        <?php print t('<p>Rondleiding</p></br>') ?>
-                        <?php print t('<p>Gidsen</p></br>') ?>
-  
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <?php print t('<h3>Volg ViaGo</h3></br></br>') ?>
-                        <?php print t('<p>Facebook</p></br>') ?>
-                        <?php print t('<p>Twitter</p> </br>') ?>
-                        <?php print t('<p>And so on.</p> </br>') ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
+<?php 
+    include_once dirname(__FILE__) . '/../includes/footer.inc.php' ; 
+?>
