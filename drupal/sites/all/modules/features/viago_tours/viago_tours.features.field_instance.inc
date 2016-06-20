@@ -293,7 +293,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
       ),
     ),
     'deleted' => 0,
-    'description' => 'Geef hier het adress op waar u afspreekt.',
+    'description' => 'Geef hier het adres op waar u afspreekt.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -854,7 +854,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
   t('Beschrijving');
   t('Duur');
   t('Foto\'s');
-  t('Geef hier het adress op waar u afspreekt.');
+  t('Geef hier het adres op waar u afspreekt.');
   t('Inbegrepen');
   t('Locatie');
   t('Omslagsfoto');
