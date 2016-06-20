@@ -229,6 +229,15 @@ function viago_tours_views_default_views() {
 
   /* Display: all tours */
   $handler = $view->new_display('page', 'all tours', 'view_tours_page');
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['style_options']['columns'] = '3';
+  $handler->display->display_options['style_options']['caption'] = 'Prijscategorie = prijs per uur 1 < €40 || 2 €40 < €60 || 3 €60 < €80 || 4 €80 < €100 || 5 > €100';
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['row_plugin'] = 'node';
+  $handler->display->display_options['row_options']['links'] = FALSE;
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['relationships'] = FALSE;
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   /* Sort criterion: Content: Published */
@@ -283,8 +292,7 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['operator'] = 'between';
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['operator_id'] = 'field_tour_pricecategory_value_op';
-  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['label'] = 'Prijscategorie';
-  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['description'] = '1 en 4 (1 = < €40, 2 = €40-€60, 3 = €60-€80, 4 = €80-€100, 5 = >€100';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['label'] = 'Prijscatergorie per uur';
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['operator'] = 'field_tour_pricecategory_value_op';
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['identifier'] = 'field_tour_pricecategory_value';
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['remember_roles'] = array(
@@ -436,8 +444,7 @@ function viago_tours_views_default_views() {
     t('all tours'),
     t('Prijs '),
     t('Talen'),
-    t('Prijscategorie'),
-    t('1 en 4 (1 = < €40, 2 = €40-€60, 3 = €60-€80, 4 = €80-€100, 5 = >€100'),
+    t('Prijscatergorie per uur'),
     t('Locatie'),
     t('newest tours'),
     t('view_block_tours_newest'),
