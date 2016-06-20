@@ -12,7 +12,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
                 <div id="overzicht">
                     <ul>
                         <li>
-                            <?php print rate_embed($node, 'rate_tour', RATE_FULL); ?>
+                            <?php print rate_embed($node, 'rate_tour', RATE_AVERAGE); ?>
                         </li>
                         <li>
                             <h5>

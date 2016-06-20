@@ -95,7 +95,7 @@ $image = $base_url . '/sites/all/themes/ViaGo/assets/img';
                 <h1> <?php print $title;?></h1>
                 <ul class="clearfix">
                     <li>
-                    <?php print rate_embed($node, 'rate_tour', RATE_COMPACT); ?>
+                    <?php print rate_embed($node, 'rate_tour', RATE_FULL); ?>
                     </li>
                 <ul>
                 <div id="TourCover">
@@ -121,7 +121,7 @@ $image = $base_url . '/sites/all/themes/ViaGo/assets/img';
                 <?php if ($page): ?> <?php if ($display_submitted): ?><?php print $user_picture; ?><?php endif; ?><?php endif;?>
             </div>
                 <div id="boeken">
-                    <a href="">BOEK NU</a>
+                    <?php echo l('Click here contact this author.', "user/$node->uid/contact"); ?>
                 </div>
                 <div id="commentaar">
                     <img src="<?php print $image . '/starts.png'?>" width="30%" id="rating" />
