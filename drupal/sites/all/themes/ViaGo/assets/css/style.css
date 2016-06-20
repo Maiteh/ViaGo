@@ -70,11 +70,14 @@
   margin-left: 20px;
   width: 600px; }
 
-.field-name-field-tour-location {
-  margin-top: 10px; }
+#basisinfoRondleiding .form-item-field-tour-pricecategory-und-0-value {
+  margin-right: 150px; }
 
-.field-name-field-tour-location input {
-  margin-left: 20px; }
+#basisinfoRondleiding .field-name-field-tour-participants-amount {
+  margin-right: 250px; }
+
+#basisinfoRondleiding .form-item-field-tour-duration-und-0-value {
+  margin-right: 500px; }
 
 .node-tours-form {
   width: 800px;
@@ -127,7 +130,7 @@
     width: 20.5%; }
 
   .form-item-field-tour-location-und {
-    width: 20%; }
+    width: 50%; }
 
   .form-item-field-tour-gatherpoint-und-0-value {
     width: 20%; }
@@ -145,16 +148,7 @@
     width: 20%; }
 
   .form-item-field-tour-photos-und-0 {
-    width: 20%; }
-
-  .form-item-field-tour-pricecategory-und-0-value {
-    float: left;
-    display: block;
-    margin-bottom: 80px; }
-
-  .form-item-field-tour-duration-und-0-value {
-    float: left;
-    margin-left: -230px; } }
+    width: 20%; } }
 .form-item-field-tour-body-und-0-value label[for='edit-field-tour-body-und-0-value--2'] {
   margin-left: 10px; }
 

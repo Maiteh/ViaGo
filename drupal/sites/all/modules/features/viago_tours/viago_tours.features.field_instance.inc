@@ -142,7 +142,7 @@ function viago_tours_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_tour_body',
-    'label' => 'Beschrijving',
+    'label' => 'Omschrijving rondleiding',
     'required' => 0,
     'settings' => array(
       'display_summary' => 1,
@@ -293,7 +293,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
       ),
     ),
     'deleted' => 0,
-    'description' => 'Geef hier het adress op waar u afspreekt.',
+    'description' => 'Geef hier het adres op waar u afspreekt.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -342,7 +342,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     ),
     'entity_type' => 'node',
     'field_name' => 'field_tour_gatherpoint',
-    'label' => 'Trefpunt (Adress)',
+    'label' => 'Trefpunt (Adres)',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -389,7 +389,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     ),
     'entity_type' => 'node',
     'field_name' => 'field_tour_inclusive',
-    'label' => 'Inbegrepen',
+    'label' => 'Inbegrepen in prijs',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -807,12 +807,12 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
   t('Aantal deelnemers');
   t('Alt Text');
   t('Alternative text is used by screen readers, search engines, and when the image cannot be loaded. By adding alt text you improve accessibility and search engine optimization.');
-  t('Beschrijving');
   t('Duur');
   t('Foto\'s');
-  t('Geef hier het adress op waar u afspreekt.');
-  t('Inbegrepen');
+  t('Geef hier het adres op waar u afspreekt.');
+  t('Inbegrepen in prijs');
   t('Locatie');
+  t('Omschrijving rondleiding');
   t('Omslagsfoto');
   t('Prijs per uur
 1 -> €1-€40
@@ -828,7 +828,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
   t('Thema');
   t('Title Text');
   t('Title text is used in the tool tip when a user hovers their mouse over the image. Adding title text makes it easier to understand the context of an image and improves usability.');
-  t('Trefpunt (Adress)');
+  t('Trefpunt (Adres)');
   t('Upload hier een foto als omslag foto. Deze foto wordt "Enkel" getoond bij het overzicht van alle rondleidingen.
 Bij het uploaden krijgt u de mogelijkheid om deze bij te snijden in de juiste verhoudingen.
 Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.');
