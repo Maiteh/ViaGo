@@ -287,9 +287,13 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
   // Exported field_instance: 'node-tours-field_tour_gatherpoint'.
   $field_instances['node-tours-field_tour_gatherpoint'] = array(
     'bundle' => 'tours',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 'Grote Markt, Brussel',
+      ),
+    ),
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Geef hier het adress op waar u afspreekt.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -338,7 +342,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     ),
     'entity_type' => 'node',
     'field_name' => 'field_tour_gatherpoint',
-    'label' => 'Trefpunt',
+    'label' => 'Trefpunt (Adress)',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -751,6 +755,49 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     ),
   );
 
+  // Exported field_instance: 'node-tours-field_tour_start'.
+  $field_instances['node-tours-field_tour_start'] = array(
+    'bundle' => 'tours',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'google_map_field',
+        'settings' => array(),
+        'type' => 'google_map_field_formatter_default',
+        'weight' => 16,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_tour_start',
+    'label' => 'Afspreekpunt',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'google_map_field',
+      'settings' => array(),
+      'type' => 'google_map_field_widget',
+      'weight' => 31,
+    ),
+  );
+
   // Exported field_instance: 'node-tours-field_tour_theme'.
   $field_instances['node-tours-field_tour_theme'] = array(
     'bundle' => 'tours',
@@ -801,11 +848,13 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
   // Translatables
   // Included for use with string extractors like potx.
   t('Aantal deelnemers');
+  t('Afspreekpunt');
   t('Alt Text');
   t('Alternative text is used by screen readers, search engines, and when the image cannot be loaded. By adding alt text you improve accessibility and search engine optimization.');
   t('Beschrijving');
   t('Duur');
   t('Foto\'s');
+  t('Geef hier het adress op waar u afspreekt.');
   t('Inbegrepen');
   t('Locatie');
   t('Omslagsfoto');
@@ -823,7 +872,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
   t('Thema');
   t('Title Text');
   t('Title text is used in the tool tip when a user hovers their mouse over the image. Adding title text makes it easier to understand the context of an image and improves usability.');
-  t('Trefpunt');
+  t('Trefpunt (Adress)');
   t('Upload hier een foto als omslag foto. Deze foto wordt "Enkel" getoond bij het overzicht van alle rondleidingen.
 Bij het uploaden krijgt u de mogelijkheid om deze bij te snijden in de juiste verhoudingen.
 Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.');

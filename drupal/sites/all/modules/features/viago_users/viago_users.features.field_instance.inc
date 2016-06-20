@@ -235,46 +235,6 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
     ),
   );
 
-  // Exported field_instance: 'profile2-guide-field_user_guide_education'.
-  $field_instances['profile2-guide-field_user_guide_education'] = array(
-    'bundle' => 'guide',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'account' => array(
-        'label' => 'inline',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 10,
-      ),
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 4,
-      ),
-    ),
-    'entity_type' => 'profile2',
-    'field_name' => 'field_user_guide_education',
-    'label' => 'Diploma',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 1,
-    ),
-  );
-
   // Exported field_instance: 'profile2-guide-field_user_guide_experience'.
   $field_instances['profile2-guide-field_user_guide_experience'] = array(
     'bundle' => 'guide',
@@ -383,61 +343,6 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
       'settings' => array(),
       'type' => 'options_buttons',
       'weight' => 5,
-    ),
-  );
-
-  // Exported field_instance: 'profile2-guide-field_user_guide_profilepic'.
-  $field_instances['profile2-guide-field_user_guide_profilepic'] = array(
-    'bundle' => 'guide',
-    'deleted' => 0,
-    'description' => 'Voeg hier een foto van u zelf toe een vertrouwd beeld te geven naar de toeristen toe.',
-    'display' => array(
-      'account' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 8,
-      ),
-      'default' => array(
-        'label' => 'above',
-        'module' => 'image',
-        'settings' => array(
-          'image_link' => '',
-          'image_style' => '',
-        ),
-        'type' => 'image',
-        'weight' => 1,
-      ),
-    ),
-    'entity_type' => 'profile2',
-    'field_name' => 'field_user_guide_profilepic',
-    'label' => 'Profiel foto',
-    'required' => 1,
-    'settings' => array(
-      'alt_field' => 0,
-      'default_image' => 0,
-      'file_directory' => '',
-      'file_extensions' => 'png gif jpg jpeg',
-      'max_filesize' => '',
-      'max_resolution' => '',
-      'min_resolution' => '300x300',
-      'title_field' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'imagefield_crop',
-      'settings' => array(
-        'collapsible' => 2,
-        'croparea' => '300x300',
-        'enforce_minimum' => 1,
-        'enforce_ratio' => 1,
-        'preview_image_style' => 'profile_photo',
-        'progress_indicator' => 'throbber',
-        'resolution' => '300x300',
-      ),
-      'type' => 'imagefield_crop_widget',
-      'weight' => 0,
     ),
   );
 
@@ -666,11 +571,9 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
 Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.');
   t('Kies hier enkele thema\'s die het nauwst aansluiten bij jou interesse.');
   t('Naam');
-  t('Profiel foto');
   t('Talen');
   t('Uit welke regio bent u afkomstig');
   t('Voeg eventueel uw CV toe als u graag nog extra informatie met ons wilt delen over waarom we u zouden accepteren.');
-  t('Voeg hier een foto van u zelf toe een vertrouwd beeld te geven naar de toeristen toe.');
   t('Voornaam');
   t('Website');
   t('thema\'s');

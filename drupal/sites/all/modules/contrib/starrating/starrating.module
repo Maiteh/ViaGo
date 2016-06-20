@@ -82,7 +82,7 @@ function starrating_field_settings_form($field, $instance, $has_data) {
   $form['max_value'] = array(
     '#type' => 'select',
     '#title' => t('Maximum rating value'),
-    '#options' => array(1 => '1', 2 => '2', 3 => '3', 4 => '4', 5 => '5', 6 => '6', 7 => '7', 8 => '8', 9 => '9', 10 => '10'),
+    '#options' => array(1 => '1 (< €40)', 2 => '2 (€40-€60)', 3 => '3 (€60-€80)', 4 => '4 (€80-€100)', 5 => '5 (> €100)', 6 => '6', 7 => '7', 8 => '8', 9 => '9', 10 => '10'),
     '#default_value' => $max_value,
     '#description' => t('Select the maximum rating value of this field.'),
   );
@@ -183,7 +183,7 @@ function starrating_field_formatter_settings_summary($field, $instance, $view_mo
   $css_file = $settings['icon_type'] . '.css';
   drupal_add_css(drupal_get_path('module', 'starrating') . '/icons/' . $css_file, $options);
 
-  $min = 0;
+  $min = 1;
   $max = isset($field['settings']['max_value']) ? $field['settings']['max_value'] : DEFAULT_MAX_RATING_VALUE;
 
   $rate = $max - 1; // sample data to be used for summary view
@@ -352,11 +352,18 @@ function starrating_field_widget_form(&$form, &$form_state, $field, $instance, $
 
   $max_value = isset($field['settings']['max_value']) ? $field['settings']['max_value'] : DEFAULT_MAX_RATING_VALUE;
 
-  $options = array();
+  $options = array(
+    1 => '1 (< €40)',
+    2 => '2 (€40-€60)',
+    3 => '3 (€60-€80)',
+    4 => '4 (€80-€100)',
+    5 => '5 (> €100)',
+  );
   //handle "null" as a string so the form will validate
-  $options['null'] = t('Not selected');
-  for ($i = 0; $i <= $max_value; $i++) {
+ // $options['null'] = t('Not selected');
+  for ($i = 1; $i <= $max_value; $i++) {
     $options[$i] = $i;
+    //$options_description[$i] = $i;
   }
 
   $element += array(

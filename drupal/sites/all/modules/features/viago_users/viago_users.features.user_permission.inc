@@ -51,6 +51,7 @@ function viago_users_user_default_permissions() {
     'roles' => array(
       'Gids' => 'Gids',
       'Toerist' => 'Toerist',
+      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'comment',
@@ -693,7 +694,9 @@ function viago_users_user_default_permissions() {
   // Exported permission: 'edit own comments'.
   $permissions['edit own comments'] = array(
     'name' => 'edit own comments',
-    'roles' => array(),
+    'roles' => array(
+      'Toerist' => 'Toerist',
+    ),
     'module' => 'comment',
   );
 
@@ -852,7 +855,9 @@ function viago_users_user_default_permissions() {
   // Exported permission: 'skip comment approval'.
   $permissions['skip comment approval'] = array(
     'name' => 'skip comment approval',
-    'roles' => array(),
+    'roles' => array(
+      'Toerist' => 'Toerist',
+    ),
     'module' => 'comment',
   );
 

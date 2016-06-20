@@ -283,6 +283,7 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['operator_id'] = 'field_tour_pricecategory_value_op';
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['label'] = 'Prijscategorie';
+  $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['description'] = '1 en 4 (1 = < €40, 2 = €40-€60, 3 = €60-€80, 4 = €80-€100, 5 = >€100';
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['operator'] = 'field_tour_pricecategory_value_op';
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['identifier'] = 'field_tour_pricecategory_value';
   $handler->display->display_options['filters']['field_tour_pricecategory_value']['expose']['remember_roles'] = array(
@@ -323,6 +324,9 @@ function viago_tours_views_default_views() {
   $handler = $view->new_display('block', 'newest tours', 'view_tour_block_newest');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'view_block_tours_newest';
+  $handler->display->display_options['defaults']['exposed_form'] = FALSE;
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['exposed_form']['options']['expose_sort_order'] = FALSE;
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '3';
@@ -333,6 +337,11 @@ function viago_tours_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'node';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['sorts'] = FALSE;
+  /* Sort criterion: Content: Published */
+  $handler->display->display_options['sorts']['status']['id'] = 'status';
+  $handler->display->display_options['sorts']['status']['table'] = 'node';
+  $handler->display->display_options['sorts']['status']['field'] = 'status';
   $handler->display->display_options['block_description'] = 'view_tours_block_newest';
 
   /* Display: popular tours */
@@ -404,9 +413,15 @@ function viago_tours_views_default_views() {
     t('Prijs '),
     t('Talen'),
     t('Prijscategorie'),
+    t('1 en 4 (1 = < €40, 2 = €40-€60, 3 = €60-€80, 4 = €80-€100, 5 = >€100'),
     t('Locatie'),
     t('newest tours'),
     t('view_block_tours_newest'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
     t('view_tours_block_newest'),
     t('popular tours'),
     t('view_tours_block_popular'),
