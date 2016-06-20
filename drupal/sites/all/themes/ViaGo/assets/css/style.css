@@ -602,6 +602,9 @@ nav a {
   color: #4DBEF0;
   font-size: 2rem; }
 
+#fotos .username {
+  color: #4DBEF0; }
+
 #fotos strong {
   color: blue;
   font-weight: bold; }
