@@ -2,9 +2,10 @@
   display: block;
   float: left;
   background: url(add.png);
+    background-size: cover;
   width: 16px;
   height: 16px;
-  margin-top: 4px;
+  margin-top: 0px;
   text-indent: 100px;
   overflow: hidden;
 }
@@ -13,9 +14,10 @@
   display: block;
   float: left;
   background: url(minus.png);
+  background-size: cover;
   width: 16px;
   height: 16px;
-  margin-top: 4px;
+  margin-top: 0px;
   text-indent: 100px;
   overflow: hidden;
 }

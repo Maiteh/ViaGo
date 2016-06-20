@@ -95,7 +95,7 @@ $image = $base_url . '/sites/all/themes/ViaGo/assets/img';
                 <h1> <?php print $title;?></h1>
                 <ul class="clearfix">
                     <li>
-                    <?php print rate_embed($node, 'rate_tour', RATE_FULL); ?>
+                    <?php print rate_embed($node, 'rate_tour', RATE_COMPACT); ?>
                     </li>
                 <ul>
                 <div id="TourCover">

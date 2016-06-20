@@ -86,7 +86,7 @@ function viago_tours_field_default_field_bases() {
     'locked' => 0,
     'module' => 'image',
     'settings' => array(
-      'default_image' => 0,
+      'default_image' => 112,
       'profile2_private' => FALSE,
       'uri_scheme' => 'public',
     ),
@@ -225,7 +225,7 @@ function viago_tours_field_default_field_bases() {
   // Exported field_base: 'field_tour_photos'.
   $field_bases['field_tour_photos'] = array(
     'active' => 1,
-    'cardinality' => 10,
+    'cardinality' => 8,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_tour_photos',
@@ -237,7 +237,7 @@ function viago_tours_field_default_field_bases() {
     'locked' => 0,
     'module' => 'image',
     'settings' => array(
-      'default_image' => 0,
+      'default_image' => 110,
       'profile2_private' => FALSE,
       'uri_scheme' => 'public',
     ),
@@ -265,23 +265,6 @@ function viago_tours_field_default_field_bases() {
     ),
     'translatable' => 0,
     'type' => 'starrating_rating',
-  );
-
-  // Exported field_base: 'field_tour_start'.
-  $field_bases['field_tour_start'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_tour_start',
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'google_map_field',
-    'settings' => array(
-      'profile2_private' => FALSE,
-    ),
-    'translatable' => 0,
-    'type' => 'google_map_field',
   );
 
   // Exported field_base: 'field_tour_theme'.

@@ -206,7 +206,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
-      'default_image' => 0,
+      'default_image' => 111,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
@@ -665,7 +665,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
-      'default_image' => 0,
+      'default_image' => 109,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
@@ -755,49 +755,6 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     ),
   );
 
-  // Exported field_instance: 'node-tours-field_tour_start'.
-  $field_instances['node-tours-field_tour_start'] = array(
-    'bundle' => 'tours',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'google_map_field',
-        'settings' => array(),
-        'type' => 'google_map_field_formatter_default',
-        'weight' => 16,
-      ),
-      'full' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_tour_start',
-    'label' => 'Afspreekpunt',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'google_map_field',
-      'settings' => array(),
-      'type' => 'google_map_field_widget',
-      'weight' => 31,
-    ),
-  );
-
   // Exported field_instance: 'node-tours-field_tour_theme'.
   $field_instances['node-tours-field_tour_theme'] = array(
     'bundle' => 'tours',
@@ -848,7 +805,6 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
   // Translatables
   // Included for use with string extractors like potx.
   t('Aantal deelnemers');
-  t('Afspreekpunt');
   t('Alt Text');
   t('Alternative text is used by screen readers, search engines, and when the image cannot be loaded. By adding alt text you improve accessibility and search engine optimization.');
   t('Beschrijving');

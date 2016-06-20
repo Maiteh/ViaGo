@@ -18,16 +18,19 @@
 .rate-fivestar-btn-filled {
   display: inline-block;
   background: url(fivestar.png) no-repeat 0 -16px;
+  background-size: cover;
   width: 16px;
   height: 16px;
   text-indent: -9999px;
 }
 .rate-user .rate-fivestar-btn-filled {
   background: url(fivestar.png) no-repeat 0 0;
+  background-size: cover;
 }
 .rate-fivestar-btn-empty {
   display: inline-block;
   background: url(fivestar.png) no-repeat 0 -32px;
+    background-size: cover;
   width: 16px;
   height: 16px;
   text-indent: -9999px;
