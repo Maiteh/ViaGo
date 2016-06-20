@@ -356,12 +356,39 @@ nav a {
 
   header .intro-text .skills {
     font-size: 1.75em; } }
+@media (max-width: 1000px) {
+  nav .container .row .header-logo a {
+    margin-left: 30px; }
+  nav .container .row .col-xs-5 {
+    width: 30%; } }
+@media (max-width: 1200px) {
+  nav .container .content #nice-menu-1 {
+    margin-right: 10%; } }
 @media (max-width: 900px) {
   header {
     background-size: cover; }
 
   header .container p {
     font-size: 24px; } }
+@media (max-width: 700px) {
+  nav {
+    height: 160px; }
+    nav .search-block-form {
+      display: inline-block; }
+    nav .form-type-textfield #edit-search-block-form--2 {
+      margin: auto; }
+    nav .container .row .header-logo {
+      float: none;
+      margin: auto;
+      width: 130px; }
+      nav .container .row .header-logo a {
+        margin-left: 0; }
+
+  nav .container .content #nice-menu-1 {
+    margin: auto;
+    float: none;
+    width: 150px;
+    margin-top: 40px; } }
 @media (max-width: 600px) {
   header {
     background-size: cover;
@@ -1150,14 +1177,16 @@ li.teaserelement {
 .views-exposed-form {
   margin-top: 50px;
   margin-bottom: 20px;
-  width: 50%;
+  width: 40%;
   padding: 10px;
   margin-left: auto;
   margin-right: auto; }
 
 #edit-tour-language-wrapper {
-  width: 100%;
-  padding-bottom: 20px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
   border-bottom: 1px solid; }
 
 .form-type-bef-checkbox {
@@ -1165,15 +1194,18 @@ li.teaserelement {
   margin-left: 50px; }
 
 #edit-field-tour-pricecategory-value-wrapper {
-  width: 39%;
+  float: left;
+  width: 48%;
+  margin-left: 24px;
   margin-top: 20px; }
 
 #edit-field-tour-location-tid-wrapper {
-  width: 50%;
+  width: 48%;
+  float: right;
   margin-top: 20px; }
 
-#edit-field-tour-location-tid {
-  width: 100%; }
+.form-item-field-tour-location-tid input {
+  width: 80%; }
 
 .views-widget-sort-by {
   visibility: hidden; }
@@ -1182,22 +1214,27 @@ li.teaserelement {
   visibility: hidden; }
 
 .views-widget-sort-order {
-  margin-top: 46px; }
+  float: right;
+  margin-top: 40px; }
 
 #edit-sort-order {
   padding: 5px; }
 
-.views-submit-button {
-  margin-top: 20px; }
+.views-widget-filter-field_tour_pricecategory_value input {
+  margin-right: 40px;
+  width: 20%;
+  float: left; }
 
-.views-submit-button input {
-  background-color: #ff4d27;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: white;
-  border: none; }
+.views-exposed-form .bef-slider {
+  margin-top: 20px;
+  width: 55%; }
+
+.form-item-sort-order .form-select {
+  float: right;
+  margin-right: 55px; }
+
+.form-item-field-tour-pricecategory-value-max label {
+  visibility: hidden; }
 
 .views-view-grid {
   margin-top: 20px;
@@ -1205,8 +1242,9 @@ li.teaserelement {
   margin-right: auto;
   margin-left: auto; }
 
-#block-views-214c82a163aed3db8b868e01f9000f53 h2 {
-  visibility: hidden; }
+.views-exposed-form .views-exposed-widget {
+  float: none;
+  padding: .5em 1em 0 0; }
 
 /* Subnavigatie voor gidsen */
 #subnav {
