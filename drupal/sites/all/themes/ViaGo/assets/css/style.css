@@ -1196,7 +1196,7 @@ li.teaserelement {
   margin-top: 20px; }
 
 #edit-field-tour-location-tid-wrapper {
-  width: 48%;
+  width: 40%;
   float: right;
   margin-top: 20px; }
 
@@ -1211,6 +1211,7 @@ li.teaserelement {
 
 .views-widget-sort-order {
   float: right;
+  margin-left: -10px;
   margin-top: 40px; }
 
 #edit-sort-order {
@@ -1226,8 +1227,8 @@ li.teaserelement {
   width: 55%; }
 
 .form-item-sort-order .form-select {
-  float: right;
-  margin-right: 55px; }
+  margin-right: 32px;
+  float: right; }
 
 .form-item-field-tour-pricecategory-value-max label {
   visibility: hidden; }
