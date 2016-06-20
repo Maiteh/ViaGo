@@ -342,7 +342,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
     ),
     'entity_type' => 'node',
     'field_name' => 'field_tour_gatherpoint',
-    'label' => 'Trefpunt (Adress)',
+    'label' => 'Trefpunt (Adres)',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -872,7 +872,7 @@ Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.',
   t('Thema');
   t('Title Text');
   t('Title text is used in the tool tip when a user hovers their mouse over the image. Adding title text makes it easier to understand the context of an image and improves usability.');
-  t('Trefpunt (Adress)');
+  t('Trefpunt (Adres)');
   t('Upload hier een foto als omslag foto. Deze foto wordt "Enkel" getoond bij het overzicht van alle rondleidingen.
 Bij het uploaden krijgt u de mogelijkheid om deze bij te snijden in de juiste verhoudingen.
 Deze wordt automatisch opgeslagen  bij het opslaan van uw rondleiding.');
