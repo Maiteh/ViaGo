@@ -140,6 +140,50 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+#commentRondleiding #edit-submit--3{
+    color: white;
+  background-color: #162431;
+  width: 20%;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+}
+.block-webform{
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.block-webform .webform-submit{
+  color: white;
+  background-color: #162431;
+  width: 20%;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+}
+.block-webform .webform-component--tour input{
+  width: 41%;
+}
+.block-webform .description{
+  margin-top: 10px;
+}
+.block-webform .webform-component--guide-email input {
+  visibility: hidden;
+}
+.block-webform h2{
+  color: #3DB4D6;
+    font-weight: bold;
+    font-size: 20px;
+}
 #commentRondleiding h2{
   color: #3DB4D6;
   font-weight: bold;
