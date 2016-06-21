@@ -730,6 +730,10 @@ nav a {
   border: none;
   border-radius: 4px; }
 
+.block-webform .sliderfield-container {
+  margin-top: 20px;
+  margin-left: 10px; }
+
 .block-webform {
   width: 72%;
   margin-left: auto;
@@ -754,9 +758,6 @@ nav a {
 
 .block-webform .description {
   margin-top: 10px; }
-
-.block-webform .webform-component--guide-email input {
-  visibility: hidden; }
 
 .block-webform h2 {
   color: #3DB4D6;
