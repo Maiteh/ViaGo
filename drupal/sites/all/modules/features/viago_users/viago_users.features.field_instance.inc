@@ -47,7 +47,7 @@ function viago_users_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 7,
+      'weight' => 5,
     ),
   );
 
@@ -55,7 +55,7 @@ function viago_users_field_default_field_instances() {
   $field_instances['profile2-guide-field_user_guide_birthdate'] = array(
     'bundle' => 'guide',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Geef hier je geboortedatum.',
     'display' => array(
       'account' => array(
         'label' => 'inline',
@@ -103,7 +103,7 @@ function viago_users_field_default_field_instances() {
         'year_range' => '-80:+0',
       ),
       'type' => 'date_select',
-      'weight' => 6,
+      'weight' => 8,
     ),
   );
 
@@ -145,7 +145,7 @@ function viago_users_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
-      'weight' => 1,
+      'weight' => 0,
     ),
   );
 
@@ -188,7 +188,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
-      'weight' => 3,
+      'weight' => 2,
     ),
   );
 
@@ -231,7 +231,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 4,
+      'weight' => 3,
     ),
   );
 
@@ -302,7 +302,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
         ),
       ),
       'type' => 'sliderfield',
-      'weight' => 2,
+      'weight' => 1,
     ),
   );
 
@@ -342,7 +342,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 5,
+      'weight' => 4,
     ),
   );
 
@@ -381,7 +381,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 9,
+      'weight' => 7,
     ),
   );
 
@@ -439,7 +439,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 8,
+      'weight' => 6,
     ),
   );
 
@@ -567,6 +567,7 @@ Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.',
   t('GSM');
   t('Geboortedatum');
   t('Geef hier een beschrijving van kwaliteiten en je kennis.');
+  t('Geef hier je geboortedatum.');
   t('Heeft u een relevante diploma / getuigenschrift? Dan kan u deze hier uploaden indien u dit wenst.
 Bij het beschrijvingsveld kan u een korte beschrijving geven over dit diploma.');
   t('Kies hier enkele thema\'s die het nauwst aansluiten bij jou interesse.');
