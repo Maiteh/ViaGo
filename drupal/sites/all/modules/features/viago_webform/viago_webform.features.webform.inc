@@ -257,7 +257,7 @@ de verzending kan u hier bekijken
           'display_bubble_format' => '%{value}%',
           'slider_length' => '200px',
           'hide_inputs' => 1,
-          'display_ignore_button' => 1,
+          'display_ignore_button' => 0,
           'hide_slider_handle_when_no_value' => 0,
           'field_prefix' => '',
           'field_suffix' => '',
