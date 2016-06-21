@@ -121,7 +121,7 @@ $image = $base_url . '/sites/all/themes/ViaGo/assets/img';
                 <?php if ($page): ?> <?php if ($display_submitted): ?><?php print $user_picture; ?><?php endif; ?><?php endif;?>
             </div>
                 <div id="boeken">
-                    <?php echo l('Boek nu!', "user/$node->uid/contact"); ?>
+                    <a href="#bottem">Boek nu!</a>
                 </div>
                 <div id="commentaar">
                     <img src="<?php print $image . '/starts.png'?>" width="30%" id="rating" />
@@ -188,7 +188,7 @@ $image = $base_url . '/sites/all/themes/ViaGo/assets/img';
 </div>
 </div>
      
-
+<a name="bottem"></a>
 
 </div>   
     </div>
