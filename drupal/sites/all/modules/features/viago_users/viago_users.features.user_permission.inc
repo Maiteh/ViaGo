@@ -391,7 +391,10 @@ function viago_users_user_default_permissions() {
   // Exported permission: 'create webform content'.
   $permissions['create webform content'] = array(
     'name' => 'create webform content',
-    'roles' => array(),
+    'roles' => array(
+      'Admin' => 'Admin',
+      'Toerist' => 'Toerist',
+    ),
     'module' => 'node',
   );
 

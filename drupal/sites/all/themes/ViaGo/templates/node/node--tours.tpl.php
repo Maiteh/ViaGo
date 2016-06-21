@@ -121,7 +121,7 @@ $image = $base_url . '/sites/all/themes/ViaGo/assets/img';
                 <?php if ($page): ?> <?php if ($display_submitted): ?><?php print $user_picture; ?><?php endif; ?><?php endif;?>
             </div>
                 <div id="boeken">
-                    <?php echo l('Click here contact this author.', "user/$node->uid/contact"); ?>
+                    <?php echo l('Boek nu!', "user/$node->uid/contact"); ?>
                 </div>
                 <div id="commentaar">
                     <img src="<?php print $image . '/starts.png'?>" width="30%" id="rating" />
