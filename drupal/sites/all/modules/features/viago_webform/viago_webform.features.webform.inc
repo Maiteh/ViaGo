@@ -71,7 +71,7 @@ Vergeet niet uwe mening achter te laten over de geboekte tour.',
     ),
     'emails' => array(
       0 => array(
-        'email' => 'contact_guide__gids_adress',
+        'email' => NULL,
         'subject' => 'Verzoek om rondleiding te boeken bij Viago',
         'from_name' => 'default',
         'from_address' => 'default',
@@ -89,7 +89,7 @@ de verzending kan u hier bekijken
         'extra' => FALSE,
         'status' => 1,
         'components_machine_names' => array(
-          'email' => TRUE,
+          'email' => FALSE,
           'subject' => FALSE,
           'from_name' => FALSE,
           'from_address' => FALSE,
