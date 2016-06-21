@@ -178,7 +178,7 @@ $img_url = $base_url . '/sites/all/themes/ViaGo/assets/img';
         <?php print t('<h2>Word lid bij ViaGo</h2>') ?>
         <?php print t('<p>Ben jij een gids en wil je je rondleiding bij ons </br>aanbieden? Dat kan!</p>') ?>
         <div id="lidworden">
-            <a href="<?php print $base_url . '/' . drupal_get_path_alias('user/register');?>" id="bezokerworden" class="registreerlinks">Registreer als bezoeker</a>
+            <a href="<?php print $base_url . '/' . drupal_get_path_alias('user/register');?>" id="bezokerworden" class="registreerlinks">Registreer als gebruiker</a>
             <a href="<?php print $base_url . '/' . drupal_get_path_alias('guide/register');?>" id="gidsworden" class="registreerlinks">Registreer als gids</a>
             <div class="clearfix"></div>
         </div>
